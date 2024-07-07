@@ -79,12 +79,13 @@ article.home .home-parrafo span {
 article.home .home-parrafo h2 {
   color: white;
   font-size: 30px;
-  font-family: "Baskervville SC", serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 article.home .home-parrafo p {
   color: white;
+  font-family: "Bebas Neue", sans-serif;
 }
 article.home .home-parrafo button.btn-home {
   font-family: "Baskervville SC", serif;
@@ -224,12 +225,17 @@ section.envios h3 {
   font-size: 25px;
   font-weight: 500;
   color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  width: 80%;
+  margin: 0 10%;
 }
 section.envios h2 {
   font-size: 30px;
   font-weight: 600;
   padding: 20px 0;
   color: white;
+  font-family: "Bebas Neue", sans-serif;
 }
 section.envios p {
   width: 90%;
@@ -237,14 +243,17 @@ section.envios p {
   font-size: 20px;
   padding-bottom: 30px;
   color: white;
+  font-family: "Baskervville SC", serif;
 }
 section.envios button {
-  padding: 14px 15px;
-  width: 60%;
-  margin: 20px 20%;
+  padding: 15px;
+  width: 70%;
+  margin: 20px 15%;
   text-transform: uppercase;
   background-color: #5BC548;
   color: white;
+  font-family: "Baskervville SC", serif;
+  font-size: 16px;
 }
 section.envios img {
   padding: 50px 0;
@@ -252,4 +261,58 @@ section.envios img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 370px;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+section.opinion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+section.opinion section.opiniones {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.opinion section.opiniones div.card-opinion {
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 4px black;
+  margin: 15px 0;
+}
+section.opinion section.opiniones div.card-opinion svg {
+  margin: 7px;
+  color: rgba(255, 255, 0, 0.8);
+}
+section.opinion section.opiniones div.card-opinion p {
+  width: 90%;
+  margin: 7px;
+}
+section.opinion section.opiniones div.card-opinion .google {
+  color: black;
+  margin-left: 90%;
+}
+section.opinion section.opiniones div.userName {
+  width: 70%;
+  margin: 5px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.opinion section.opiniones div.userName .nameDate {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
