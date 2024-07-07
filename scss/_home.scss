@@ -1,0 +1,47 @@
+article.home{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 100px 0;
+        .img-home{
+            width: 100%;
+            object-fit: cover;
+            height: 400px;
+            
+        }
+        .home-parrafo{
+            padding-top: 50px;
+            padding-left: 7px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            span{
+                color: white;
+                font-size: 18px;
+            }
+            h2{
+                color: white;
+                font-size: 30px;
+                font-family: "Baskervville SC", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            p{
+                color: white;
+            }
+            button.btn-home{
+                padding: 7px;
+                background-color: transparent;
+                color: white;
+                border: 1px solid white;
+                width: 80%;
+                margin: 10px 10%;
+                transition: all 1s;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+}
