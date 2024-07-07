@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    padding-bottom: 50px;
     img{
         padding-bottom: 20px;
         width: 100%;
@@ -27,6 +28,8 @@
         color: white;
     }
     button.btn-home{
+        font-family: "Baskervville SC", serif;
+
         padding: 7px;
         background-color: transparent;
         color: white;
