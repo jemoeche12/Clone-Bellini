@@ -52,6 +52,29 @@ header .btn-uber {
   margin: 0 5px;
 }
 
+div.footer {
+  width: 320px;
+  background-color: black;
+  height: 70px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+div.footer span.copy {
+  width: 90%;
+  margin: 0px 5%;
+  font-size: 16px;
+}
+div.footer span.derechos {
+  width: 90%;
+  margin: 0 5%;
+  font-size: 16px;
+}
+
 article.home {
   width: 320px;
   display: flex;
@@ -218,6 +241,7 @@ section.envios {
   align-items: center;
   justify-content: center;
   background-color: black;
+  padding-bottom: 30px;
 }
 section.envios h3 {
   text-align: center;
@@ -274,6 +298,7 @@ h2 {
 }
 
 section.opinion {
+  width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -282,7 +307,7 @@ section.opinion {
   margin-bottom: 50px;
 }
 section.opinion section.opiniones {
-  width: 320px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
