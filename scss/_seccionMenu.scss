@@ -8,6 +8,7 @@
     background-size: contain;
 }
 .seccionMenu{
+    width: 320px;
     font-family: "Bebas Neue", sans-serif;
         h3{
             margin: 20px 0;
@@ -20,13 +21,15 @@
             font-size: 30px;
             margin-bottom: 40px;
             padding-left: 5px;
+            width: 100%;
         }
 }
 section.tarjetasMenu{
+
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin: 0 5%;
+    width: 310px;
+    margin: 0 5px;
     font-family: "Lora", serif;
     font-style: normal;
         .menu1{
@@ -92,6 +95,7 @@ section.tarjetasMenu{
             padding-bottom: 20px;
             h3{
                 text-transform: uppercase;
+                padding-left: 5px;
             }
         }
         .postres{
@@ -99,3 +103,4 @@ section.tarjetasMenu{
             margin: 25px 0;
         }      
 }
+
