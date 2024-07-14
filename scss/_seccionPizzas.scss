@@ -1,0 +1,92 @@
+.headerPizzas{
+    @extend .headerContacto;
+    .titleHeaderPizzas{
+        @extend .titleHeader;
+        span{
+            font-size: 20px;
+            padding: 10px 5px;
+        }
+        h1{
+            font-size: 28px;
+        }
+        button {
+            padding: 15px;
+            width: 80%;
+            margin: 20px 10%;
+            text-transform: uppercase;
+            background-color: #5bc548;
+            color: white;
+            font-family: "Baskervville SC", serif;
+            font-size: 16px;
+          }
+    }
+}
+section.variedadPizzas{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .pizzasRosas{
+        width: 100%;
+        
+        .titlePizzaRosa{
+            text-align: center;
+            background-color: rgb(166, 40, 40);
+            width: 100%;
+            color: black;
+            
+            h2{
+                font-family: "Bebas Neue", sans-serif;
+            }
+            p{
+                width: 90%;
+                text-align: center;
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 18px;
+                text-transform: uppercase;
+                padding: 5px 0;
+                margin: 20px 5%;
+            }
+        }
+       
+        .cardPizza{
+            width: 310px;
+            display: flex;
+            flex-direction: column;
+            margin: 15px 5px;
+            box-shadow: 0 0 4px black;
+            height: max-content;
+            img{
+                width: 100%;
+                margin: 5px 0;
+                object-fit: cover;
+            }
+            h3{
+                padding: 7px 5px;
+            }
+            span{
+                padding: 7px 5px;
+            }
+            p{
+                padding: 7px 5px;
+            }
+        }
+    }
+    .pizzasBlancas{
+        @extend .pizzasRosas;
+        .titlePizzaBlanca{
+            @extend .titlePizzaRosa;
+            background-color: black;
+            color: white;
+            
+        }
+    }
+    .panuozzo{
+        @extend .pizzasBlancas;
+        .titlePanuozzo{
+            @extend .titlePizzaBlanca;
+        }   
+    }
+}
