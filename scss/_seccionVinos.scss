@@ -119,5 +119,22 @@ section.seccionVinos{
     }
     .seccionBebidaFria{
         @extend .seccionBebidaCaliente;
+        div.titleCard{
+            img{
+                width: 15px;
+                margin-right: 17px;
+            }
+        }
+    }
+    .seccionAgua{
+        @extend .seccionBebidaCaliente;
+        div.titleCard{
+            img{
+                width: 15px;
+                margin-right: 17px;
+            }
+        }
+        
+
     }
 }

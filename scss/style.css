@@ -238,7 +238,7 @@ section.restaurante div.img-restaurante img {
   height: 547px;
 }
 
-section.envios {
+section.envios, section.enviosContacto {
   width: 320px;
   display: flex;
   flex-direction: column;
@@ -247,7 +247,7 @@ section.envios {
   background-color: black;
   padding-bottom: 30px;
 }
-section.envios h3 {
+section.envios h3, section.enviosContacto h3 {
   text-align: center;
   padding-top: 40px;
   font-size: 25px;
@@ -258,14 +258,14 @@ section.envios h3 {
   width: 80%;
   margin: 0 10%;
 }
-section.envios h2 {
+section.envios h2, section.enviosContacto h2 {
   font-size: 30px;
   font-weight: 600;
   padding: 20px 0;
   color: white;
   font-family: "Bebas Neue", sans-serif;
 }
-section.envios p {
+section.envios p, section.enviosContacto p {
   width: 90%;
   margin: 0 5%;
   font-size: 20px;
@@ -273,7 +273,7 @@ section.envios p {
   color: white;
   font-family: "Baskervville SC", serif;
 }
-section.envios button {
+section.envios button, section.enviosContacto button {
   padding: 15px;
   width: 70%;
   margin: 20px 15%;
@@ -283,7 +283,7 @@ section.envios button {
   font-family: "Baskervville SC", serif;
   font-size: 16px;
 }
-section.envios img {
+section.envios img, section.enviosContacto img {
   padding: 50px 0;
   width: 100%;
   -o-object-fit: cover;
@@ -346,7 +346,7 @@ section.opinion section.opiniones div.userName .nameDate {
   flex-direction: column;
 }
 
-.headerMenu {
+.headerMenu, .headerContacto {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoMenu.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -464,50 +464,50 @@ section.seccionVinos .titleVinos h1 {
   padding: 10px 5px;
   font-family: "Bebas Neue", sans-serif;
 }
-section.seccionVinos .cartaVinoTinto, section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
+section.seccionVinos .cartaVinoTinto, section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
   width: 90%;
   margin: 0 5%;
   background-color: #E8E8E8;
   border-radius: 5px;
 }
-section.seccionVinos .cartaVinoTinto h2, section.seccionVinos .cartaVinoBlanco h2, section.seccionVinos .seccionBebidaCaliente h2, section.seccionVinos .seccionBebidaFria h2, section.seccionVinos .cartaVinoRosado h2, section.seccionVinos .cartaVinoEfervescente h2 {
+section.seccionVinos .cartaVinoTinto h2, section.seccionVinos .cartaVinoBlanco h2, section.seccionVinos .seccionBebidaCaliente h2, section.seccionVinos .seccionAgua h2, section.seccionVinos .seccionBebidaFria h2, section.seccionVinos .cartaVinoRosado h2, section.seccionVinos .cartaVinoEfervescente h2 {
   text-align: start;
   font-size: 30px;
   padding: 15px 5px;
 }
-section.seccionVinos .cartaVinoTinto .titleCard, section.seccionVinos .cartaVinoBlanco .titleCard, section.seccionVinos .seccionBebidaCaliente .titleCard, section.seccionVinos .seccionBebidaFria .titleCard, section.seccionVinos .cartaVinoRosado .titleCard, section.seccionVinos .cartaVinoEfervescente .titleCard {
+section.seccionVinos .cartaVinoTinto .titleCard, section.seccionVinos .cartaVinoBlanco .titleCard, section.seccionVinos .seccionBebidaCaliente .titleCard, section.seccionVinos .seccionAgua .titleCard, section.seccionVinos .seccionBebidaFria .titleCard, section.seccionVinos .cartaVinoRosado .titleCard, section.seccionVinos .cartaVinoEfervescente .titleCard {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 10px 5%;
 }
-section.seccionVinos .cartaVinoTinto .titleCard span, section.seccionVinos .cartaVinoBlanco .titleCard span, section.seccionVinos .seccionBebidaCaliente .titleCard span, section.seccionVinos .seccionBebidaFria .titleCard span, section.seccionVinos .cartaVinoRosado .titleCard span, section.seccionVinos .cartaVinoEfervescente .titleCard span {
+section.seccionVinos .cartaVinoTinto .titleCard span, section.seccionVinos .cartaVinoBlanco .titleCard span, section.seccionVinos .seccionBebidaCaliente .titleCard span, section.seccionVinos .seccionAgua .titleCard span, section.seccionVinos .seccionBebidaFria .titleCard span, section.seccionVinos .cartaVinoRosado .titleCard span, section.seccionVinos .cartaVinoEfervescente .titleCard span {
   font-size: 18px;
   text-align: start;
 }
-section.seccionVinos .cartaVinoTinto .titleCard div img, section.seccionVinos .cartaVinoBlanco .titleCard div img, section.seccionVinos .seccionBebidaCaliente .titleCard div img, section.seccionVinos .seccionBebidaFria .titleCard div img, section.seccionVinos .cartaVinoRosado .titleCard div img, section.seccionVinos .cartaVinoEfervescente .titleCard div img {
+section.seccionVinos .cartaVinoTinto .titleCard div img, section.seccionVinos .cartaVinoBlanco .titleCard div img, section.seccionVinos .seccionBebidaCaliente .titleCard div img, section.seccionVinos .seccionAgua .titleCard div img, section.seccionVinos .seccionBebidaFria .titleCard div img, section.seccionVinos .cartaVinoRosado .titleCard div img, section.seccionVinos .cartaVinoEfervescente .titleCard div img {
   width: 40px;
   transform: scale(1.2);
   -o-object-fit: cover;
      object-fit: cover;
   padding: 0 10px;
 }
-section.seccionVinos .cartaVinoTinto .card, section.seccionVinos .cartaVinoBlanco .card, section.seccionVinos .seccionBebidaCaliente .card, section.seccionVinos .seccionBebidaFria .card, section.seccionVinos .cartaVinoRosado .card, section.seccionVinos .cartaVinoEfervescente .card {
+section.seccionVinos .cartaVinoTinto .card, section.seccionVinos .cartaVinoBlanco .card, section.seccionVinos .seccionBebidaCaliente .card, section.seccionVinos .seccionAgua .card, section.seccionVinos .seccionBebidaFria .card, section.seccionVinos .cartaVinoRosado .card, section.seccionVinos .cartaVinoEfervescente .card {
   display: flex;
   flex-direction: column;
   padding: 15px 0;
 }
-section.seccionVinos .cartaVinoTinto .card h3, section.seccionVinos .cartaVinoBlanco .card h3, section.seccionVinos .seccionBebidaCaliente .card h3, section.seccionVinos .seccionBebidaFria .card h3, section.seccionVinos .cartaVinoRosado .card h3, section.seccionVinos .cartaVinoEfervescente .card h3 {
+section.seccionVinos .cartaVinoTinto .card h3, section.seccionVinos .cartaVinoBlanco .card h3, section.seccionVinos .seccionBebidaCaliente .card h3, section.seccionVinos .seccionAgua .card h3, section.seccionVinos .seccionBebidaFria .card h3, section.seccionVinos .cartaVinoRosado .card h3, section.seccionVinos .cartaVinoEfervescente .card h3 {
   font-size: 22px;
   padding: 20px 5px;
 }
-section.seccionVinos .cartaVinoTinto .card h4, section.seccionVinos .cartaVinoBlanco .card h4, section.seccionVinos .seccionBebidaCaliente .card h4, section.seccionVinos .seccionBebidaFria .card h4, section.seccionVinos .cartaVinoRosado .card h4, section.seccionVinos .cartaVinoEfervescente .card h4 {
+section.seccionVinos .cartaVinoTinto .card h4, section.seccionVinos .cartaVinoBlanco .card h4, section.seccionVinos .seccionBebidaCaliente .card h4, section.seccionVinos .seccionAgua .card h4, section.seccionVinos .seccionBebidaFria .card h4, section.seccionVinos .cartaVinoRosado .card h4, section.seccionVinos .cartaVinoEfervescente .card h4 {
   font-size: 20px;
   padding-left: 5px;
   padding-bottom: 5px;
 }
-section.seccionVinos .cartaVinoTinto .card .flexCard, section.seccionVinos .cartaVinoBlanco .card .flexCard, section.seccionVinos .seccionBebidaCaliente .card .flexCard, section.seccionVinos .seccionBebidaFria .card .flexCard, section.seccionVinos .cartaVinoRosado .card .flexCard, section.seccionVinos .cartaVinoEfervescente .card .flexCard {
+section.seccionVinos .cartaVinoTinto .card .flexCard, section.seccionVinos .cartaVinoBlanco .card .flexCard, section.seccionVinos .seccionBebidaCaliente .card .flexCard, section.seccionVinos .seccionAgua .card .flexCard, section.seccionVinos .seccionBebidaFria .card .flexCard, section.seccionVinos .cartaVinoRosado .card .flexCard, section.seccionVinos .cartaVinoEfervescente .card .flexCard {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -515,31 +515,187 @@ section.seccionVinos .cartaVinoTinto .card .flexCard, section.seccionVinos .cart
   width: 90%;
   margin: 0 5%;
 }
-section.seccionVinos .cartaVinoTinto .card .flexCard img, section.seccionVinos .cartaVinoBlanco .card .flexCard img, section.seccionVinos .seccionBebidaCaliente .card .flexCard img, section.seccionVinos .seccionBebidaFria .card .flexCard img, section.seccionVinos .cartaVinoRosado .card .flexCard img, section.seccionVinos .cartaVinoEfervescente .card .flexCard img {
+section.seccionVinos .cartaVinoTinto .card .flexCard img, section.seccionVinos .cartaVinoBlanco .card .flexCard img, section.seccionVinos .seccionBebidaCaliente .card .flexCard img, section.seccionVinos .seccionAgua .card .flexCard img, section.seccionVinos .seccionBebidaFria .card .flexCard img, section.seccionVinos .cartaVinoRosado .card .flexCard img, section.seccionVinos .cartaVinoEfervescente .card .flexCard img {
   width: 40px;
   height: 27px;
 }
-section.seccionVinos .cartaVinoTinto .card .flexCard div span, section.seccionVinos .cartaVinoBlanco .card .flexCard div span, section.seccionVinos .seccionBebidaCaliente .card .flexCard div span, section.seccionVinos .seccionBebidaFria .card .flexCard div span, section.seccionVinos .cartaVinoRosado .card .flexCard div span, section.seccionVinos .cartaVinoEfervescente .card .flexCard div span {
+section.seccionVinos .cartaVinoTinto .card .flexCard div span, section.seccionVinos .cartaVinoBlanco .card .flexCard div span, section.seccionVinos .seccionBebidaCaliente .card .flexCard div span, section.seccionVinos .seccionAgua .card .flexCard div span, section.seccionVinos .seccionBebidaFria .card .flexCard div span, section.seccionVinos .cartaVinoRosado .card .flexCard div span, section.seccionVinos .cartaVinoEfervescente .card .flexCard div span {
   padding: 0 10px;
   font-size: 18px;
   width: 20px;
 }
-section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
+section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
   width: 90%;
   margin: 20px 5%;
   padding-bottom: 20px;
 }
-section.seccionVinos .seccionBebidaCaliente div.titleCard, section.seccionVinos .seccionBebidaFria div.titleCard {
+section.seccionVinos .seccionBebidaCaliente div.titleCard, section.seccionVinos .seccionAgua div.titleCard, section.seccionVinos .seccionBebidaFria div.titleCard {
   width: 90%;
 }
-section.seccionVinos .seccionBebidaCaliente div.titleCard img, section.seccionVinos .seccionBebidaFria div.titleCard img {
+section.seccionVinos .seccionBebidaCaliente div.titleCard img, section.seccionVinos .seccionAgua div.titleCard img, section.seccionVinos .seccionBebidaFria div.titleCard img {
   width: 40px;
 }
-section.seccionVinos .seccionBebidaCaliente div.flexCard, section.seccionVinos .seccionBebidaFria div.flexCard {
+section.seccionVinos .seccionBebidaCaliente div.flexCard, section.seccionVinos .seccionAgua div.flexCard, section.seccionVinos .seccionBebidaFria div.flexCard {
   font-size: 18px;
   width: 85%;
   margin: 7px 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+section.seccionVinos .seccionBebidaFria div.titleCard img {
+  width: 15px;
+  margin-right: 17px;
+}
+section.seccionVinos .seccionAgua div.titleCard img {
+  width: 15px;
+  margin-right: 17px;
+}
+
+.headerContacto section.titleHeader {
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.headerContacto section.titleHeader span.reservarPedir {
+  font-size: 20px;
+  padding-left: 5px;
+  font-family: "Lora", serif;
+}
+.headerContacto section.titleHeader h1 {
+  font-size: 30px;
+  padding-left: 5px;
+  font-family: "Lora", serif;
+}
+
+section.horariosyForm {
+  width: 320px;
+}
+section.horariosyForm article.horarios {
+  width: 90%;
+  margin: 10px 5%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.horariosyForm article.horarios img {
+  width: 90%;
+  padding: 20px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.horariosyForm article.horarios h2 {
+  color: white;
+}
+section.horariosyForm article.horarios div.separador {
+  width: 100%;
+  margin: 20px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+section.horariosyForm article.horarios div.separador span {
+  color: white;
+}
+section.horariosyForm article.horarios div.separador img {
+  width: 35px;
+  background: transparent;
+}
+section.horariosyForm article.horarios section.horarioServicio {
+  width: 90%;
+  margin: 15px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia, section.horariosyForm article.horarios section.horarioServicio .servicioTarde, section.horariosyForm article.horarios section.horarioServicio .servicioPizza {
+  width: 100%;
+  margin: 15px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia h3, section.horariosyForm article.horarios section.horarioServicio .servicioTarde h3, section.horariosyForm article.horarios section.horarioServicio .servicioPizza h3 {
+  text-transform: uppercase;
+  color: white;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia p, section.horariosyForm article.horarios section.horarioServicio .servicioTarde p, section.horariosyForm article.horarios section.horarioServicio .servicioPizza p {
+  width: 80%;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+}
+section.horariosyForm article.horarios section.horarioServicio h3 {
+  padding: 20px 0;
+  width: 90%;
+  color: white;
+  text-align: center;
+}
+section.horariosyForm article.horarios section.horarioServicio .iconsServicio {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.horariosyForm article.horarios section.horarioServicio .iconsServicio .iconFace {
+  width: 20%;
+}
+section.horariosyForm article.horarios section.horarioServicio .iconsServicio button {
+  padding: 15px;
+  width: 80%;
+  margin: 20px 15%;
+  text-transform: uppercase;
+  background-color: #5bc548;
+  color: white;
+  font-family: "Baskervville SC", serif;
+  font-size: 16px;
+}
+
+.contacto {
+  width: 310px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contacto .bg-input {
+  background-color: #E8E8E8;
+}
+.contacto .area {
+  resize: none;
+  width: 100%;
+  background-color: #E8E8E8;
+}
+.contacto button {
+  width: 30%;
+  padding: 7px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 3px black;
+  transition: ease-in-out 1s;
+}
+.contacto button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+section.enviosContacto h3 {
+  padding: 10px 0;
 }/*# sourceMappingURL=style.css.map */
