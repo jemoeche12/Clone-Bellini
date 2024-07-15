@@ -247,4 +247,20 @@
     }
     }
   }
+  /*------------------------------SECCION CONTACTOS --------------------*/
+  section.horariosyForm{
+    width: 100%;
+    .horarios{
+      width: 90%;
+      margin: 20px 5%;
+      .copaHorarios{
+        height: auto;
+        transform: scale(0.8);
+      }
+    }
+  }
+  .contacto{
+    width: 90%;
+    margin: 20px 5%;
+  }
 }

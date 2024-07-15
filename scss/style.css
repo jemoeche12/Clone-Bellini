@@ -562,6 +562,154 @@ section.seccionVinos .seccionAgua div.titleCard img {
   margin-right: 17px;
 }
 
+.headerContacto section.titleHeader, .headerPizzas section.titleHeader, .headerPizzas section.titleHeaderPizzas {
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.headerContacto section.titleHeader span.reservarPedir, .headerPizzas section.titleHeader span.reservarPedir, .headerPizzas section.titleHeaderPizzas span.reservarPedir {
+  font-size: 20px;
+  padding-left: 5px;
+  font-family: "Lora", serif;
+}
+.headerContacto section.titleHeader h1, .headerPizzas section.titleHeader h1, .headerPizzas section.titleHeaderPizzas h1 {
+  font-size: 30px;
+  padding-left: 5px;
+  font-family: "Lora", serif;
+}
+
+section.horariosyForm {
+  width: 320px;
+}
+section.horariosyForm article.horarios {
+  width: 90%;
+  margin: 10px 5%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.horariosyForm article.horarios img {
+  width: 90%;
+  padding: 20px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.horariosyForm article.horarios h2 {
+  color: white;
+}
+section.horariosyForm article.horarios div.separador {
+  width: 100%;
+  margin: 20px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+section.horariosyForm article.horarios div.separador span {
+  color: white;
+}
+section.horariosyForm article.horarios div.separador img {
+  width: 35px;
+  background: transparent;
+}
+section.horariosyForm article.horarios section.horarioServicio {
+  width: 90%;
+  margin: 15px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia, section.horariosyForm article.horarios section.horarioServicio .servicioTarde, section.horariosyForm article.horarios section.horarioServicio .servicioPizza {
+  width: 100%;
+  margin: 15px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia h3, section.horariosyForm article.horarios section.horarioServicio .servicioTarde h3, section.horariosyForm article.horarios section.horarioServicio .servicioPizza h3 {
+  text-transform: uppercase;
+  color: white;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia p, section.horariosyForm article.horarios section.horarioServicio .servicioTarde p, section.horariosyForm article.horarios section.horarioServicio .servicioPizza p {
+  width: 80%;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+}
+section.horariosyForm article.horarios section.horarioServicio h3 {
+  padding: 20px 0;
+  width: 90%;
+  color: white;
+  text-align: center;
+}
+section.horariosyForm article.horarios section.horarioServicio .iconsServicio {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.horariosyForm article.horarios section.horarioServicio .iconsServicio .iconFace {
+  width: 20%;
+}
+section.horariosyForm article.horarios section.horarioServicio .iconsServicio button {
+  padding: 15px;
+  width: 80%;
+  margin: 20px 15%;
+  text-transform: uppercase;
+  background-color: #5bc548;
+  color: white;
+  font-family: "Baskervville SC", serif;
+  font-size: 16px;
+}
+
+.contacto {
+  width: 310px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contacto .bg-input {
+  background-color: #E8E8E8;
+}
+.contacto .area {
+  resize: none;
+  width: 100%;
+  background-color: #E8E8E8;
+}
+.contacto button {
+  width: 30%;
+  padding: 7px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 3px black;
+  transition: ease-in-out 1s;
+}
+.contacto button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+section.enviosContacto h3 {
+  padding: 10px 0;
+}
+
 @media (min-width: 321px) and (max-width: 768px) {
   /* --------------------------- SECCION INDEX -------------------*/
   header {
@@ -805,6 +953,22 @@ section.seccionVinos .seccionAgua div.titleCard img {
   section.seccionVinos .seccionBebidaCaliente div.titleCard, section.seccionVinos .seccionBebidaFria div.titleCard, section.seccionVinos .seccionAgua div.titleCard {
     width: 87%;
   }
+  /*------------------------------SECCION CONTACTOS --------------------*/
+  section.horariosyForm {
+    width: 100%;
+  }
+  section.horariosyForm .horarios {
+    width: 90%;
+    margin: 20px 5%;
+  }
+  section.horariosyForm .horarios .copaHorarios {
+    height: auto;
+    transform: scale(0.8);
+  }
+  .contacto {
+    width: 90%;
+    margin: 20px 5%;
+  }
 }
 .seccionVideo {
   width: 320px;
@@ -874,152 +1038,4 @@ section.seccionVinos .seccionAgua div.titleCard img {
 .nuestrosProductos button.btn-home:hover {
   background-color: white;
   color: black;
-}
-
-.headerContacto section.titleHeader, .headerPizzas section.titleHeader, .headerPizzas section.titleHeaderPizzas {
-  color: white;
-  padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-.headerContacto section.titleHeader span.reservarPedir, .headerPizzas section.titleHeader span.reservarPedir, .headerPizzas section.titleHeaderPizzas span.reservarPedir {
-  font-size: 20px;
-  padding-left: 5px;
-  font-family: "Lora", serif;
-}
-.headerContacto section.titleHeader h1, .headerPizzas section.titleHeader h1, .headerPizzas section.titleHeaderPizzas h1 {
-  font-size: 30px;
-  padding-left: 5px;
-  font-family: "Lora", serif;
-}
-
-section.horariosyForm {
-  width: 320px;
-}
-section.horariosyForm article.horarios {
-  width: 90%;
-  margin: 10px 5%;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-section.horariosyForm article.horarios img {
-  width: 90%;
-  padding: 20px 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-section.horariosyForm article.horarios h2 {
-  color: white;
-}
-section.horariosyForm article.horarios div.separador {
-  width: 100%;
-  margin: 20px 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-section.horariosyForm article.horarios div.separador span {
-  color: white;
-}
-section.horariosyForm article.horarios div.separador img {
-  width: 35px;
-  background: transparent;
-}
-section.horariosyForm article.horarios section.horarioServicio {
-  width: 90%;
-  margin: 15px 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-section.horariosyForm article.horarios section.horarioServicio .servicioMediodia, section.horariosyForm article.horarios section.horarioServicio .servicioTarde, section.horariosyForm article.horarios section.horarioServicio .servicioPizza {
-  width: 100%;
-  margin: 15px 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-section.horariosyForm article.horarios section.horarioServicio .servicioMediodia h3, section.horariosyForm article.horarios section.horarioServicio .servicioTarde h3, section.horariosyForm article.horarios section.horarioServicio .servicioPizza h3 {
-  text-transform: uppercase;
-  color: white;
-}
-section.horariosyForm article.horarios section.horarioServicio .servicioMediodia p, section.horariosyForm article.horarios section.horarioServicio .servicioTarde p, section.horariosyForm article.horarios section.horarioServicio .servicioPizza p {
-  width: 80%;
-  font-size: 18px;
-  text-align: center;
-  padding: 10px 0;
-}
-section.horariosyForm article.horarios section.horarioServicio h3 {
-  padding: 20px 0;
-  width: 90%;
-  color: white;
-  text-align: center;
-}
-section.horariosyForm article.horarios section.horarioServicio .iconsServicio {
-  padding: 20px 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-section.horariosyForm article.horarios section.horarioServicio .iconsServicio .iconFace {
-  width: 20%;
-}
-section.horariosyForm article.horarios section.horarioServicio .iconsServicio button {
-  padding: 15px;
-  width: 80%;
-  margin: 20px 15%;
-  text-transform: uppercase;
-  background-color: #5bc548;
-  color: white;
-  font-family: "Baskervville SC", serif;
-  font-size: 16px;
-}
-
-.contacto {
-  width: 310px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 18px;
-  font-weight: 500;
-}
-.contacto .bg-input {
-  background-color: #E8E8E8;
-}
-.contacto .area {
-  resize: none;
-  width: 100%;
-  background-color: #E8E8E8;
-}
-.contacto button {
-  width: 30%;
-  padding: 7px;
-  color: black;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 0 3px black;
-  transition: ease-in-out 1s;
-}
-.contacto button:hover {
-  background-color: black;
-  color: white;
-  transform: scale(1.1);
-}
-
-section.enviosContacto h3 {
-  padding: 10px 0;
 }/*# sourceMappingURL=style.css.map */
