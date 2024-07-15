@@ -144,42 +144,86 @@
       }
     }
   }
-  section.variedadPizzas{
+  section.variedadPizzas {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .pizzasRosas{
+    .pizzasRosas {
+      width: 100%;
+      .titlePizzaRosa {
         width: 100%;
-        .titlePizzaRosa{
-            width: 100%;
+      }
+      .cardPizza {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 10%;
+        height: 100%;
+        img {
+          width: 100%;
+          margin: 5px 0;
+          object-fit: cover;
+          height: 10%;
         }
-        .cardPizza{
-            width: 80%;
-            display: flex;
-            flex-direction: column;
-            margin: 15px 10%;
-            height: 100%;
-            img{
-                width: 100%;
-                margin: 5px 0;
-                object-fit: cover;
-                height: 10%;
-            }
-            h3{
-                padding: 7px;
-                font-size: 22px;
-            }
-            span{
-                padding: 7px;
-                font-size: 20px;
-            }
-            p{
-                padding: 7px;
-                font-size: 18px;
-            }
+        h3 {
+          padding: 7px;
+          font-size: 22px;
         }
+        span {
+          padding: 7px;
+          font-size: 20px;
+        }
+        p {
+          padding: 7px;
+          font-size: 18px;
+        }
+      }
     }
-}
+  }
+  /*---------------------------SECCION MENU TABLET -------------*/
+  section.seccionMenu {
+    width: 90%;
+    text-align: center;
+    margin: 20px 5%;
+  }
+  section.tarjetasMenu {
+    width: 90%;
+    margin: 0 5%;
+    .menu1 {
+      background-color: #e8e8e8;
+      padding: 5px;
+      width: 100%;
+
+      h2 {
+        padding: 5px;
+        margin-bottom: 30px;
+      }
+      div h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 7px 5px;
+      }
+      div span {
+        padding: 7px 5px;
+        font-size: 18px;
+      }
+      div p {
+        padding: 7px 5px;
+        font-size: 18px;
+      }
+      div.separador {
+        width: 90%;
+        margin: 20px 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 35px;
+          background: transparent;
+        }
+      }
+    }
+  }
 }

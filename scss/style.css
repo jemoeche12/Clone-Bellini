@@ -354,6 +354,100 @@ section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas 
   background-color: black;
   color: white;
 }
+.headerMenu, .headerContacto, .headerPizzas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoMenu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.seccionMenu {
+  width: 320px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.seccionMenu span {
+  margin: 20px 0;
+  font-size: 25px;
+  padding-left: 5px;
+}
+.seccionMenu h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 40px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+section.tarjetasMenu {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  margin: 0 5px;
+  font-family: "Lora", serif;
+  font-style: normal;
+}
+section.tarjetasMenu .menu1, section.tarjetasMenu .menuNiño, section.tarjetasMenu .menu4, section.tarjetasMenu .postres, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
+  background-color: #E8E8E8;
+  padding: 5px;
+}
+section.tarjetasMenu .menu1 h2, section.tarjetasMenu .menuNiño h2, section.tarjetasMenu .menu4 h2, section.tarjetasMenu .postres h2, section.tarjetasMenu .menu2 h2, section.tarjetasMenu .menu3 h2 {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+section.tarjetasMenu .menu1 div h3, section.tarjetasMenu .menuNiño div h3, section.tarjetasMenu .menu4 div h3, section.tarjetasMenu .postres div h3, section.tarjetasMenu .menu2 div h3, section.tarjetasMenu .menu3 div h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 7px 5px;
+}
+section.tarjetasMenu .menu1 div span, section.tarjetasMenu .menuNiño div span, section.tarjetasMenu .menu4 div span, section.tarjetasMenu .postres div span, section.tarjetasMenu .menu2 div span, section.tarjetasMenu .menu3 div span {
+  padding: 7px 5px;
+  font-size: 18px;
+}
+section.tarjetasMenu .menu1 div p, section.tarjetasMenu .menuNiño div p, section.tarjetasMenu .menu4 div p, section.tarjetasMenu .postres div p, section.tarjetasMenu .menu2 div p, section.tarjetasMenu .menu3 div p {
+  padding: 7px 5px;
+  font-size: 18px;
+}
+section.tarjetasMenu .menu1 div.separador, section.tarjetasMenu .menuNiño div.separador, section.tarjetasMenu .menu4 div.separador, section.tarjetasMenu .postres div.separador, section.tarjetasMenu .menu2 div.separador, section.tarjetasMenu .menu3 div.separador {
+  width: 90%;
+  margin: 20px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.tarjetasMenu .menu1 div.separador img, section.tarjetasMenu .menuNiño div.separador img, section.tarjetasMenu .menu4 div.separador img, section.tarjetasMenu .postres div.separador img, section.tarjetasMenu .menu2 div.separador img, section.tarjetasMenu .menu3 div.separador img {
+  width: 35px;
+  background: transparent;
+}
+section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/burrata-fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 1 1 3px white;
+  margin-bottom: 20px;
+}
+section.tarjetasMenu .menu3 {
+  margin-top: 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/tataki.jpeg);
+  margin-bottom: 0;
+}
+section.tarjetasMenu .menu4 div.sinGluten, section.tarjetasMenu .postres div.sinGluten {
+  text-align: center;
+  padding: 30px 0;
+}
+section.tarjetasMenu .menuNiño {
+  padding-bottom: 20px;
+}
+section.tarjetasMenu .menuNiño h3 {
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+section.tarjetasMenu .postres {
+  margin: 25px 0;
+}
+
 @media (min-width: 321px) and (max-width: 768px) {
   header {
     width: 100%;
@@ -538,6 +632,49 @@ section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas 
     padding: 7px;
     font-size: 18px;
   }
+  /*---------------------------SECCION MENU TABLET -------------*/
+  section.seccionMenu {
+    width: 90%;
+    text-align: center;
+    margin: 20px 5%;
+  }
+  section.tarjetasMenu {
+    width: 90%;
+    margin: 0 5%;
+  }
+  section.tarjetasMenu .menu1, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3, section.tarjetasMenu .menu4, section.tarjetasMenu .menuNiño, section.tarjetasMenu .postres {
+    background-color: #e8e8e8;
+    padding: 5px;
+    width: 100%;
+  }
+  section.tarjetasMenu .menu1 h2, section.tarjetasMenu .menu2 h2, section.tarjetasMenu .menu3 h2, section.tarjetasMenu .menu4 h2, section.tarjetasMenu .menuNiño h2, section.tarjetasMenu .postres h2 {
+    padding: 5px;
+    margin-bottom: 30px;
+  }
+  section.tarjetasMenu .menu1 div h3, section.tarjetasMenu .menu2 div h3, section.tarjetasMenu .menu3 div h3, section.tarjetasMenu .menu4 div h3, section.tarjetasMenu .menuNiño div h3, section.tarjetasMenu .postres div h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 5px;
+  }
+  section.tarjetasMenu .menu1 div span, section.tarjetasMenu .menu2 div span, section.tarjetasMenu .menu3 div span, section.tarjetasMenu .menu4 div span, section.tarjetasMenu .menuNiño div span, section.tarjetasMenu .postres div span {
+    padding: 7px 5px;
+    font-size: 18px;
+  }
+  section.tarjetasMenu .menu1 div p, section.tarjetasMenu .menu2 div p, section.tarjetasMenu .menu3 div p, section.tarjetasMenu .menu4 div p, section.tarjetasMenu .menuNiño div p, section.tarjetasMenu .postres div p {
+    padding: 7px 5px;
+    font-size: 18px;
+  }
+  section.tarjetasMenu .menu1 div.separador, section.tarjetasMenu .menu2 div.separador, section.tarjetasMenu .menu3 div.separador, section.tarjetasMenu .menu4 div.separador, section.tarjetasMenu .menuNiño div.separador, section.tarjetasMenu .postres div.separador {
+    width: 90%;
+    margin: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section.tarjetasMenu .menu1 div.separador img, section.tarjetasMenu .menu2 div.separador img, section.tarjetasMenu .menu3 div.separador img, section.tarjetasMenu .menu4 div.separador img, section.tarjetasMenu .menuNiño div.separador img, section.tarjetasMenu .postres div.separador img {
+    width: 35px;
+    background: transparent;
+  }
 }
 .seccionVideo {
   width: 320px;
@@ -607,98 +744,6 @@ section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas 
 .nuestrosProductos button.btn-home:hover {
   background-color: white;
   color: black;
-}
-
-.headerMenu, .headerContacto, .headerPizzas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoMenu.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.seccionMenu {
-  width: 320px;
-  font-family: "Bebas Neue", sans-serif;
-}
-.seccionMenu h3 {
-  margin: 20px 0;
-  font-size: 25px;
-  padding-left: 5px;
-}
-.seccionMenu h1 {
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 30px;
-  margin-bottom: 40px;
-  padding-left: 5px;
-  width: 100%;
-}
-
-section.tarjetasMenu {
-  display: flex;
-  flex-direction: column;
-  width: 310px;
-  margin: 0 5px;
-  font-family: "Lora", serif;
-  font-style: normal;
-}
-section.tarjetasMenu .menu1, section.tarjetasMenu .menuNiño, section.tarjetasMenu .menu4, section.tarjetasMenu .postres, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
-  background-color: #E8E8E8;
-  padding: 5px;
-}
-section.tarjetasMenu .menu1 h2, section.tarjetasMenu .menuNiño h2, section.tarjetasMenu .menu4 h2, section.tarjetasMenu .postres h2, section.tarjetasMenu .menu2 h2, section.tarjetasMenu .menu3 h2 {
-  padding: 5px;
-  margin-bottom: 30px;
-}
-section.tarjetasMenu .menu1 div h3, section.tarjetasMenu .menuNiño div h3, section.tarjetasMenu .menu4 div h3, section.tarjetasMenu .postres div h3, section.tarjetasMenu .menu2 div h3, section.tarjetasMenu .menu3 div h3 {
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 7px 5px;
-}
-section.tarjetasMenu .menu1 div span, section.tarjetasMenu .menuNiño div span, section.tarjetasMenu .menu4 div span, section.tarjetasMenu .postres div span, section.tarjetasMenu .menu2 div span, section.tarjetasMenu .menu3 div span {
-  padding: 7px 5px;
-  font-size: 18px;
-}
-section.tarjetasMenu .menu1 div p, section.tarjetasMenu .menuNiño div p, section.tarjetasMenu .menu4 div p, section.tarjetasMenu .postres div p, section.tarjetasMenu .menu2 div p, section.tarjetasMenu .menu3 div p {
-  padding: 7px 5px;
-  font-size: 18px;
-}
-section.tarjetasMenu .menu1 div.separador, section.tarjetasMenu .menuNiño div.separador, section.tarjetasMenu .menu4 div.separador, section.tarjetasMenu .postres div.separador, section.tarjetasMenu .menu2 div.separador, section.tarjetasMenu .menu3 div.separador {
-  width: 90%;
-  margin: 20px 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-section.tarjetasMenu .menu1 div.separador img, section.tarjetasMenu .menuNiño div.separador img, section.tarjetasMenu .menu4 div.separador img, section.tarjetasMenu .postres div.separador img, section.tarjetasMenu .menu2 div.separador img, section.tarjetasMenu .menu3 div.separador img {
-  width: 35px;
-  background: transparent;
-}
-section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/burrata-fondo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: white;
-  text-shadow: 1 1 3px white;
-}
-section.tarjetasMenu .menu3 {
-  margin-top: 15px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/tataki.jpeg);
-}
-section.tarjetasMenu .menu4 div.sinGluten, section.tarjetasMenu .postres div.sinGluten {
-  text-align: center;
-  padding: 30px 0;
-}
-section.tarjetasMenu .menuNiño {
-  padding-bottom: 20px;
-}
-section.tarjetasMenu .menuNiño h3 {
-  text-transform: uppercase;
-  padding-left: 5px;
-}
-section.tarjetasMenu .postres {
-  margin: 25px 0;
 }
 
 .headerVinos {
