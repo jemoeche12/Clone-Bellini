@@ -448,7 +448,122 @@ section.tarjetasMenu .postres {
   margin: 25px 0;
 }
 
+.headerVinos {
+  width: 320px;
+  background-image: url(../assets/img/fondos/pexels-pixabay-33265.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.seccionVinos {
+  width: 320px;
+  background-color: black;
+  padding: 50px 0;
+}
+section.seccionVinos .titleVinos span {
+  color: white;
+  padding: 7px 5px;
+  font-size: 22px;
+  font-family: "Bebas Neue", sans-serif;
+}
+section.seccionVinos .titleVinos h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 26px;
+  padding: 10px 5px;
+  font-family: "Bebas Neue", sans-serif;
+}
+section.seccionVinos .cartaVinoTinto, section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
+  width: 90%;
+  margin: 0 5%;
+  background-color: #E8E8E8;
+  border-radius: 5px;
+}
+section.seccionVinos .cartaVinoTinto h2, section.seccionVinos .cartaVinoBlanco h2, section.seccionVinos .seccionBebidaCaliente h2, section.seccionVinos .seccionAgua h2, section.seccionVinos .seccionBebidaFria h2, section.seccionVinos .cartaVinoRosado h2, section.seccionVinos .cartaVinoEfervescente h2 {
+  text-align: start;
+  font-size: 30px;
+  padding: 15px 5px;
+}
+section.seccionVinos .cartaVinoTinto .titleCard, section.seccionVinos .cartaVinoBlanco .titleCard, section.seccionVinos .seccionBebidaCaliente .titleCard, section.seccionVinos .seccionAgua .titleCard, section.seccionVinos .seccionBebidaFria .titleCard, section.seccionVinos .cartaVinoRosado .titleCard, section.seccionVinos .cartaVinoEfervescente .titleCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 10px 5%;
+}
+section.seccionVinos .cartaVinoTinto .titleCard span, section.seccionVinos .cartaVinoBlanco .titleCard span, section.seccionVinos .seccionBebidaCaliente .titleCard span, section.seccionVinos .seccionAgua .titleCard span, section.seccionVinos .seccionBebidaFria .titleCard span, section.seccionVinos .cartaVinoRosado .titleCard span, section.seccionVinos .cartaVinoEfervescente .titleCard span {
+  font-size: 18px;
+  text-align: start;
+}
+section.seccionVinos .cartaVinoTinto .titleCard div img, section.seccionVinos .cartaVinoBlanco .titleCard div img, section.seccionVinos .seccionBebidaCaliente .titleCard div img, section.seccionVinos .seccionAgua .titleCard div img, section.seccionVinos .seccionBebidaFria .titleCard div img, section.seccionVinos .cartaVinoRosado .titleCard div img, section.seccionVinos .cartaVinoEfervescente .titleCard div img {
+  width: 40px;
+  transform: scale(1.2);
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0 10px;
+}
+section.seccionVinos .cartaVinoTinto .card, section.seccionVinos .cartaVinoBlanco .card, section.seccionVinos .seccionBebidaCaliente .card, section.seccionVinos .seccionAgua .card, section.seccionVinos .seccionBebidaFria .card, section.seccionVinos .cartaVinoRosado .card, section.seccionVinos .cartaVinoEfervescente .card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+section.seccionVinos .cartaVinoTinto .card h3, section.seccionVinos .cartaVinoBlanco .card h3, section.seccionVinos .seccionBebidaCaliente .card h3, section.seccionVinos .seccionAgua .card h3, section.seccionVinos .seccionBebidaFria .card h3, section.seccionVinos .cartaVinoRosado .card h3, section.seccionVinos .cartaVinoEfervescente .card h3 {
+  font-size: 22px;
+  padding: 20px 5px;
+}
+section.seccionVinos .cartaVinoTinto .card h4, section.seccionVinos .cartaVinoBlanco .card h4, section.seccionVinos .seccionBebidaCaliente .card h4, section.seccionVinos .seccionAgua .card h4, section.seccionVinos .seccionBebidaFria .card h4, section.seccionVinos .cartaVinoRosado .card h4, section.seccionVinos .cartaVinoEfervescente .card h4 {
+  font-size: 20px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+section.seccionVinos .cartaVinoTinto .card .flexCard, section.seccionVinos .cartaVinoBlanco .card .flexCard, section.seccionVinos .seccionBebidaCaliente .card .flexCard, section.seccionVinos .seccionAgua .card .flexCard, section.seccionVinos .seccionBebidaFria .card .flexCard, section.seccionVinos .cartaVinoRosado .card .flexCard, section.seccionVinos .cartaVinoEfervescente .card .flexCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 5%;
+}
+section.seccionVinos .cartaVinoTinto .card .flexCard img, section.seccionVinos .cartaVinoBlanco .card .flexCard img, section.seccionVinos .seccionBebidaCaliente .card .flexCard img, section.seccionVinos .seccionAgua .card .flexCard img, section.seccionVinos .seccionBebidaFria .card .flexCard img, section.seccionVinos .cartaVinoRosado .card .flexCard img, section.seccionVinos .cartaVinoEfervescente .card .flexCard img {
+  width: 40px;
+  height: 27px;
+}
+section.seccionVinos .cartaVinoTinto .card .flexCard div span, section.seccionVinos .cartaVinoBlanco .card .flexCard div span, section.seccionVinos .seccionBebidaCaliente .card .flexCard div span, section.seccionVinos .seccionAgua .card .flexCard div span, section.seccionVinos .seccionBebidaFria .card .flexCard div span, section.seccionVinos .cartaVinoRosado .card .flexCard div span, section.seccionVinos .cartaVinoEfervescente .card .flexCard div span {
+  padding: 0 10px;
+  font-size: 18px;
+  width: 20px;
+}
+section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
+  width: 90%;
+  margin: 20px 5%;
+  padding-bottom: 20px;
+}
+section.seccionVinos .seccionBebidaCaliente div.titleCard, section.seccionVinos .seccionAgua div.titleCard, section.seccionVinos .seccionBebidaFria div.titleCard {
+  width: 90%;
+}
+section.seccionVinos .seccionBebidaCaliente div.titleCard img, section.seccionVinos .seccionAgua div.titleCard img, section.seccionVinos .seccionBebidaFria div.titleCard img {
+  width: 40px;
+}
+section.seccionVinos .seccionBebidaCaliente div.flexCard, section.seccionVinos .seccionAgua div.flexCard, section.seccionVinos .seccionBebidaFria div.flexCard {
+  font-size: 18px;
+  width: 85%;
+  margin: 7px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.seccionVinos .seccionBebidaFria div.titleCard img {
+  width: 15px;
+  margin-right: 17px;
+}
+section.seccionVinos .seccionAgua div.titleCard img {
+  width: 15px;
+  margin-right: 17px;
+}
+
 @media (min-width: 321px) and (max-width: 768px) {
+  /* --------------------------- SECCION INDEX -------------------*/
   header {
     width: 100%;
     padding-top: 15px;
@@ -589,6 +704,7 @@ section.tarjetasMenu .postres {
     margin: 0 10%;
     font-size: 18px;
   }
+  /*-------------------- SECCION PIZZAS -----------------*/
   .headerPizzas .titleHeaderPizzas button {
     width: 50%;
     margin: 20px 25%;
@@ -675,6 +791,20 @@ section.tarjetasMenu .postres {
     width: 35px;
     background: transparent;
   }
+  /*----------------------------------- SECCION VINOS -------------------------*/
+  .headerVinos {
+    width: 100%;
+    background-size: cover;
+  }
+  section.seccionVinos {
+    width: 100%;
+  }
+  section.seccionVinos .titleVinos span {
+    width: 50%;
+  }
+  section.seccionVinos .seccionBebidaCaliente div.titleCard, section.seccionVinos .seccionBebidaFria div.titleCard, section.seccionVinos .seccionAgua div.titleCard {
+    width: 87%;
+  }
 }
 .seccionVideo {
   width: 320px;
@@ -744,120 +874,6 @@ section.tarjetasMenu .postres {
 .nuestrosProductos button.btn-home:hover {
   background-color: white;
   color: black;
-}
-
-.headerVinos {
-  width: 320px;
-  background-image: url(../assets/img/fondos/pexels-pixabay-33265.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-section.seccionVinos {
-  width: 320px;
-  background-color: black;
-  padding: 50px 0;
-}
-section.seccionVinos .titleVinos h3 {
-  color: white;
-  padding: 7px 5px;
-  font-size: 22px;
-  font-family: "Bebas Neue", sans-serif;
-}
-section.seccionVinos .titleVinos h1 {
-  color: white;
-  text-transform: uppercase;
-  font-size: 26px;
-  padding: 10px 5px;
-  font-family: "Bebas Neue", sans-serif;
-}
-section.seccionVinos .cartaVinoTinto, section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
-  width: 90%;
-  margin: 0 5%;
-  background-color: #E8E8E8;
-  border-radius: 5px;
-}
-section.seccionVinos .cartaVinoTinto h2, section.seccionVinos .cartaVinoBlanco h2, section.seccionVinos .seccionBebidaCaliente h2, section.seccionVinos .seccionAgua h2, section.seccionVinos .seccionBebidaFria h2, section.seccionVinos .cartaVinoRosado h2, section.seccionVinos .cartaVinoEfervescente h2 {
-  text-align: start;
-  font-size: 30px;
-  padding: 15px 5px;
-}
-section.seccionVinos .cartaVinoTinto .titleCard, section.seccionVinos .cartaVinoBlanco .titleCard, section.seccionVinos .seccionBebidaCaliente .titleCard, section.seccionVinos .seccionAgua .titleCard, section.seccionVinos .seccionBebidaFria .titleCard, section.seccionVinos .cartaVinoRosado .titleCard, section.seccionVinos .cartaVinoEfervescente .titleCard {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 10px 5%;
-}
-section.seccionVinos .cartaVinoTinto .titleCard span, section.seccionVinos .cartaVinoBlanco .titleCard span, section.seccionVinos .seccionBebidaCaliente .titleCard span, section.seccionVinos .seccionAgua .titleCard span, section.seccionVinos .seccionBebidaFria .titleCard span, section.seccionVinos .cartaVinoRosado .titleCard span, section.seccionVinos .cartaVinoEfervescente .titleCard span {
-  font-size: 18px;
-  text-align: start;
-}
-section.seccionVinos .cartaVinoTinto .titleCard div img, section.seccionVinos .cartaVinoBlanco .titleCard div img, section.seccionVinos .seccionBebidaCaliente .titleCard div img, section.seccionVinos .seccionAgua .titleCard div img, section.seccionVinos .seccionBebidaFria .titleCard div img, section.seccionVinos .cartaVinoRosado .titleCard div img, section.seccionVinos .cartaVinoEfervescente .titleCard div img {
-  width: 40px;
-  transform: scale(1.2);
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding: 0 10px;
-}
-section.seccionVinos .cartaVinoTinto .card, section.seccionVinos .cartaVinoBlanco .card, section.seccionVinos .seccionBebidaCaliente .card, section.seccionVinos .seccionAgua .card, section.seccionVinos .seccionBebidaFria .card, section.seccionVinos .cartaVinoRosado .card, section.seccionVinos .cartaVinoEfervescente .card {
-  display: flex;
-  flex-direction: column;
-  padding: 15px 0;
-}
-section.seccionVinos .cartaVinoTinto .card h3, section.seccionVinos .cartaVinoBlanco .card h3, section.seccionVinos .seccionBebidaCaliente .card h3, section.seccionVinos .seccionAgua .card h3, section.seccionVinos .seccionBebidaFria .card h3, section.seccionVinos .cartaVinoRosado .card h3, section.seccionVinos .cartaVinoEfervescente .card h3 {
-  font-size: 22px;
-  padding: 20px 5px;
-}
-section.seccionVinos .cartaVinoTinto .card h4, section.seccionVinos .cartaVinoBlanco .card h4, section.seccionVinos .seccionBebidaCaliente .card h4, section.seccionVinos .seccionAgua .card h4, section.seccionVinos .seccionBebidaFria .card h4, section.seccionVinos .cartaVinoRosado .card h4, section.seccionVinos .cartaVinoEfervescente .card h4 {
-  font-size: 20px;
-  padding-left: 5px;
-  padding-bottom: 5px;
-}
-section.seccionVinos .cartaVinoTinto .card .flexCard, section.seccionVinos .cartaVinoBlanco .card .flexCard, section.seccionVinos .seccionBebidaCaliente .card .flexCard, section.seccionVinos .seccionAgua .card .flexCard, section.seccionVinos .seccionBebidaFria .card .flexCard, section.seccionVinos .cartaVinoRosado .card .flexCard, section.seccionVinos .cartaVinoEfervescente .card .flexCard {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 0 5%;
-}
-section.seccionVinos .cartaVinoTinto .card .flexCard img, section.seccionVinos .cartaVinoBlanco .card .flexCard img, section.seccionVinos .seccionBebidaCaliente .card .flexCard img, section.seccionVinos .seccionAgua .card .flexCard img, section.seccionVinos .seccionBebidaFria .card .flexCard img, section.seccionVinos .cartaVinoRosado .card .flexCard img, section.seccionVinos .cartaVinoEfervescente .card .flexCard img {
-  width: 40px;
-  height: 27px;
-}
-section.seccionVinos .cartaVinoTinto .card .flexCard div span, section.seccionVinos .cartaVinoBlanco .card .flexCard div span, section.seccionVinos .seccionBebidaCaliente .card .flexCard div span, section.seccionVinos .seccionAgua .card .flexCard div span, section.seccionVinos .seccionBebidaFria .card .flexCard div span, section.seccionVinos .cartaVinoRosado .card .flexCard div span, section.seccionVinos .cartaVinoEfervescente .card .flexCard div span {
-  padding: 0 10px;
-  font-size: 18px;
-  width: 20px;
-}
-section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
-  width: 90%;
-  margin: 20px 5%;
-  padding-bottom: 20px;
-}
-section.seccionVinos .seccionBebidaCaliente div.titleCard, section.seccionVinos .seccionAgua div.titleCard, section.seccionVinos .seccionBebidaFria div.titleCard {
-  width: 90%;
-}
-section.seccionVinos .seccionBebidaCaliente div.titleCard img, section.seccionVinos .seccionAgua div.titleCard img, section.seccionVinos .seccionBebidaFria div.titleCard img {
-  width: 40px;
-}
-section.seccionVinos .seccionBebidaCaliente div.flexCard, section.seccionVinos .seccionAgua div.flexCard, section.seccionVinos .seccionBebidaFria div.flexCard {
-  font-size: 18px;
-  width: 85%;
-  margin: 7px 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-section.seccionVinos .seccionBebidaFria div.titleCard img {
-  width: 15px;
-  margin-right: 17px;
-}
-section.seccionVinos .seccionAgua div.titleCard img {
-  width: 15px;
-  margin-right: 17px;
 }
 
 .headerContacto section.titleHeader, .headerPizzas section.titleHeader, .headerPizzas section.titleHeaderPizzas {

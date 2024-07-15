@@ -1,4 +1,5 @@
 @media (min-width: 321px) and (max-width: 768px) {
+  /* --------------------------- SECCION INDEX -------------------*/
   header {
     width: 100%;
     padding-top: 15px;
@@ -136,6 +137,8 @@
       font-size: 18px;
     }
   }
+
+  /*-------------------- SECCION PIZZAS -----------------*/
   .headerPizzas {
     .titleHeaderPizzas {
       button {
@@ -224,6 +227,24 @@
           background: transparent;
         }
       }
+    }
+  }
+  /*----------------------------------- SECCION VINOS -------------------------*/
+  .headerVinos {
+    width: 100%;
+    background-size: cover;
+  }
+  section.seccionVinos {
+    width: 100%;
+    .titleVinos {
+      span {
+        width: 50%;
+      }
+    }
+    .seccionBebidaCaliente{
+      div.titleCard{
+        width: 87%;
+    }
     }
   }
 }
