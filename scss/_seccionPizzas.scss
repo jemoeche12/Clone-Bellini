@@ -36,7 +36,6 @@ section.variedadPizzas{
             background-color: rgb(166, 40, 40);
             width: 100%;
             color: black;
-            
             h2{
                 font-family: "Bebas Neue", sans-serif;
             }
@@ -62,15 +61,19 @@ section.variedadPizzas{
                 width: 100%;
                 margin: 5px 0;
                 object-fit: cover;
+                height: 210px;
             }
             h3{
                 padding: 7px 5px;
+                height: 10%;
             }
             span{
                 padding: 7px 5px;
+                height: 10%;
             }
             p{
                 padding: 7px 5px;
+                height: 10%;
             }
         }
     }

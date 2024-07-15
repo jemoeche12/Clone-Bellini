@@ -1,0 +1,139 @@
+@media (min-width: 321px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    padding-top: 15px;
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: 0 5%;
+    }
+    img.logo-nav {
+      width: 150px;
+      padding-bottom: 10px;
+    }
+    div.link-contenedor {
+      display: flex;
+      flex-direction: row;
+      width: max-content;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 0;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 10px;
+    }
+    a {
+      text-align: center;
+      padding: 15px;
+    }
+  }
+  article.home {
+    width: 100%;
+    .img-home {
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+    .home-parrafo {
+      font-size: 22px;
+      width: 80%;
+      margin: 0 10%;
+    }
+  }
+  section.seccionVideo {
+    width: 100%;
+    h1 {
+      text-align: center;
+    }
+    video {
+      width: 90%;
+      margin: 20px 5%;
+    }
+  }
+  section.nuestrosProductos {
+    width: 100%;
+    img {
+      height: auto;
+    }
+    button.btn-home {
+      width: 60%;
+      margin: 10px 20%;
+    }
+  }
+  section.restaurante {
+    width: 100%;
+    div.p-restaurante {
+      width: 80%;
+      p {
+        font-size: 25px;
+      }
+      img {
+        width: 5%;
+      }
+    }
+    div.img-restaurante {
+      width: 100%;
+    }
+  }
+  section.envios {
+    width: 100%;
+    p {
+      width: 80%;
+      margin: 0 10%;
+      font-size: 25px;
+    } 
+    button {
+      padding: 15px;
+      width: 50%;
+      margin: 20px 25%;
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+  }
+  section.opinion{
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 50px;
+    section.opiniones{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        div.card-opinion{
+            width: 60%;
+        }
+        div.userName{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            .nameDate{
+                gap: 20%;
+            }
+        }
+    }
+  }
+  div.footer{
+    width: 100%;
+    span.copy{
+        width: 80%;
+        margin: 0px 10%;
+        font-size: 18px;
+    }
+    span.derechos{
+        width: 80%;
+        margin: 0 10%;
+        font-size: 18px;
+    }
+}
+}

@@ -129,76 +129,6 @@ article.home .home-parrafo button.btn-home:hover {
   color: black;
 }
 
-.seccionVideo {
-  width: 320px;
-}
-.seccionVideo h1 {
-  font-family: "Baskervville SC", serif;
-  padding: 25px 5px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  font-style: normal;
-}
-.seccionVideo p {
-  font-family: "Baskervville SC", serif;
-  width: 92%;
-  margin: 15px 0;
-  margin-left: 5%;
-  margin-right: 3%;
-  font-size: 22px;
-}
-.seccionVideo video {
-  width: 310px;
-  margin: 20px 5px;
-}
-
-.nuestrosProductos {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  padding-bottom: 50px;
-}
-.nuestrosProductos img {
-  padding-bottom: 20px;
-  width: 100%;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.nuestrosProductos h2 {
-  text-transform: uppercase;
-  font-size: 25px;
-  padding: 25px 0;
-  font-family: "Baskervville SC", serif;
-  font-weight: 600;
-  color: white;
-}
-.nuestrosProductos p {
-  width: 90%;
-  font-size: 18px;
-  padding: 25px 0;
-  font-family: "Baskervville SC", serif;
-  color: white;
-}
-.nuestrosProductos button.btn-home {
-  font-family: "Baskervville SC", serif;
-  padding: 7px;
-  background-color: transparent;
-  color: white;
-  border: 1px solid white;
-  width: 80%;
-  margin: 10px 10%;
-  transition: all 1s;
-}
-.nuestrosProductos button.btn-home:hover {
-  background-color: white;
-  color: black;
-}
-
 section.restaurante {
   width: 320px;
   display: flex;
@@ -344,6 +274,218 @@ section.opinion section.opiniones div.userName {
 section.opinion section.opiniones div.userName .nameDate {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    padding-top: 15px;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 5%;
+  }
+  header img.logo-nav {
+    width: 150px;
+    padding-bottom: 10px;
+  }
+  header div.link-contenedor {
+    display: flex;
+    flex-direction: row;
+    width: -moz-max-content;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+  }
+  header a {
+    text-align: center;
+    padding: 15px;
+  }
+  article.home {
+    width: 100%;
+  }
+  article.home .img-home {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: auto;
+  }
+  article.home .home-parrafo {
+    font-size: 22px;
+    width: 80%;
+    margin: 0 10%;
+  }
+  section.seccionVideo {
+    width: 100%;
+  }
+  section.seccionVideo h1 {
+    text-align: center;
+  }
+  section.seccionVideo video {
+    width: 90%;
+    margin: 20px 5%;
+  }
+  section.nuestrosProductos {
+    width: 100%;
+  }
+  section.nuestrosProductos img {
+    height: auto;
+  }
+  section.nuestrosProductos button.btn-home {
+    width: 60%;
+    margin: 10px 20%;
+  }
+  section.restaurante {
+    width: 100%;
+  }
+  section.restaurante div.p-restaurante {
+    width: 80%;
+  }
+  section.restaurante div.p-restaurante p {
+    font-size: 25px;
+  }
+  section.restaurante div.p-restaurante img {
+    width: 5%;
+  }
+  section.restaurante div.img-restaurante {
+    width: 100%;
+  }
+  section.envios, section.enviosContacto {
+    width: 100%;
+  }
+  section.envios p, section.enviosContacto p {
+    width: 80%;
+    margin: 0 10%;
+    font-size: 25px;
+  }
+  section.envios button, section.enviosContacto button {
+    padding: 15px;
+    width: 50%;
+    margin: 20px 25%;
+  }
+  section.envios img, section.enviosContacto img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: auto;
+  }
+  section.opinion {
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  section.opinion section.opiniones {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  section.opinion section.opiniones div.card-opinion {
+    width: 60%;
+  }
+  section.opinion section.opiniones div.userName {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  section.opinion section.opiniones div.userName .nameDate {
+    gap: 20%;
+  }
+  div.footer {
+    width: 100%;
+  }
+  div.footer span.copy {
+    width: 80%;
+    margin: 0px 10%;
+    font-size: 18px;
+  }
+  div.footer span.derechos {
+    width: 80%;
+    margin: 0 10%;
+    font-size: 18px;
+  }
+}
+.seccionVideo {
+  width: 320px;
+}
+.seccionVideo h1 {
+  font-family: "Baskervville SC", serif;
+  padding: 25px 5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+}
+.seccionVideo p {
+  font-family: "Baskervville SC", serif;
+  width: 92%;
+  margin: 15px 0;
+  margin-left: 5%;
+  margin-right: 3%;
+  font-size: 22px;
+}
+.seccionVideo video {
+  width: 310px;
+  margin: 20px 5px;
+}
+
+.nuestrosProductos {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 50px;
+}
+.nuestrosProductos img {
+  padding-bottom: 20px;
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.nuestrosProductos h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 25px 0;
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  color: white;
+}
+.nuestrosProductos p {
+  width: 90%;
+  font-size: 18px;
+  padding: 25px 0;
+  font-family: "Baskervville SC", serif;
+  color: white;
+}
+.nuestrosProductos button.btn-home {
+  font-family: "Baskervville SC", serif;
+  padding: 7px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: 80%;
+  margin: 10px 10%;
+  transition: all 1s;
+}
+.nuestrosProductos button.btn-home:hover {
+  background-color: white;
+  color: black;
 }
 
 .headerMenu, .headerContacto, .headerPizzas {
@@ -760,15 +902,19 @@ section.variedadPizzas .pizzasRosas .cardPizza img, section.variedadPizzas .pizz
   margin: 5px 0;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 210px;
 }
 section.variedadPizzas .pizzasRosas .cardPizza h3, section.variedadPizzas .pizzasBlancas .cardPizza h3, section.variedadPizzas .panuozzo .cardPizza h3 {
   padding: 7px 5px;
+  height: 10%;
 }
 section.variedadPizzas .pizzasRosas .cardPizza span, section.variedadPizzas .pizzasBlancas .cardPizza span, section.variedadPizzas .panuozzo .cardPizza span {
   padding: 7px 5px;
+  height: 10%;
 }
 section.variedadPizzas .pizzasRosas .cardPizza p, section.variedadPizzas .pizzasBlancas .cardPizza p, section.variedadPizzas .panuozzo .cardPizza p {
   padding: 7px 5px;
+  height: 10%;
 }
 section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
   background-color: black;
