@@ -276,6 +276,84 @@ section.opinion section.opiniones div.userName .nameDate {
   flex-direction: column;
 }
 
+.headerPizzas .titleHeaderPizzas span {
+  font-size: 20px;
+  padding: 10px 5px;
+}
+.headerPizzas .titleHeaderPizzas h1 {
+  font-size: 28px;
+}
+.headerPizzas .titleHeaderPizzas button {
+  padding: 15px;
+  width: 80%;
+  margin: 20px 10%;
+  text-transform: uppercase;
+  background-color: #5bc548;
+  color: white;
+  font-family: "Baskervville SC", serif;
+  font-size: 16px;
+}
+
+section.variedadPizzas {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
+  width: 100%;
+}
+section.variedadPizzas .pizzasRosas .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaRosa, section.variedadPizzas .panuozzo .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
+  text-align: center;
+  background-color: rgb(166, 40, 40);
+  width: 100%;
+  color: black;
+}
+section.variedadPizzas .pizzasRosas .titlePizzaRosa h2, section.variedadPizzas .pizzasBlancas .titlePizzaRosa h2, section.variedadPizzas .panuozzo .titlePizzaRosa h2, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca h2, section.variedadPizzas .panuozzo .titlePizzaBlanca h2, section.variedadPizzas .panuozzo .titlePanuozzo h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+section.variedadPizzas .pizzasRosas .titlePizzaRosa p, section.variedadPizzas .pizzasBlancas .titlePizzaRosa p, section.variedadPizzas .panuozzo .titlePizzaRosa p, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca p, section.variedadPizzas .panuozzo .titlePizzaBlanca p, section.variedadPizzas .panuozzo .titlePanuozzo p {
+  width: 90%;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 5px 0;
+  margin: 20px 5%;
+}
+section.variedadPizzas .pizzasRosas .cardPizza, section.variedadPizzas .pizzasBlancas .cardPizza, section.variedadPizzas .panuozzo .cardPizza {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 5px;
+  box-shadow: 0 0 4px black;
+  height: -moz-max-content;
+  height: max-content;
+}
+section.variedadPizzas .pizzasRosas .cardPizza img, section.variedadPizzas .pizzasBlancas .cardPizza img, section.variedadPizzas .panuozzo .cardPizza img {
+  width: 100%;
+  margin: 5px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 210px;
+}
+section.variedadPizzas .pizzasRosas .cardPizza h3, section.variedadPizzas .pizzasBlancas .cardPizza h3, section.variedadPizzas .panuozzo .cardPizza h3 {
+  padding: 7px 5px;
+  height: 10%;
+}
+section.variedadPizzas .pizzasRosas .cardPizza span, section.variedadPizzas .pizzasBlancas .cardPizza span, section.variedadPizzas .panuozzo .cardPizza span {
+  padding: 7px 5px;
+  height: 10%;
+}
+section.variedadPizzas .pizzasRosas .cardPizza p, section.variedadPizzas .pizzasBlancas .cardPizza p, section.variedadPizzas .panuozzo .cardPizza p {
+  padding: 7px 5px;
+  height: 10%;
+}
+section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
+  background-color: black;
+  color: white;
+}
 @media (min-width: 321px) and (max-width: 768px) {
   header {
     width: 100%;
@@ -415,6 +493,49 @@ section.opinion section.opiniones div.userName .nameDate {
   div.footer span.derechos {
     width: 80%;
     margin: 0 10%;
+    font-size: 18px;
+  }
+  .headerPizzas .titleHeaderPizzas button {
+    width: 50%;
+    margin: 20px 25%;
+  }
+  section.variedadPizzas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
+    width: 100%;
+  }
+  section.variedadPizzas .pizzasRosas .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaRosa, section.variedadPizzas .panuozzo .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
+    width: 100%;
+  }
+  section.variedadPizzas .pizzasRosas .cardPizza, section.variedadPizzas .pizzasBlancas .cardPizza, section.variedadPizzas .panuozzo .cardPizza {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10%;
+    height: 100%;
+  }
+  section.variedadPizzas .pizzasRosas .cardPizza img, section.variedadPizzas .pizzasBlancas .cardPizza img, section.variedadPizzas .panuozzo .cardPizza img {
+    width: 100%;
+    margin: 5px 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 10%;
+  }
+  section.variedadPizzas .pizzasRosas .cardPizza h3, section.variedadPizzas .pizzasBlancas .cardPizza h3, section.variedadPizzas .panuozzo .cardPizza h3 {
+    padding: 7px;
+    font-size: 22px;
+  }
+  section.variedadPizzas .pizzasRosas .cardPizza span, section.variedadPizzas .pizzasBlancas .cardPizza span, section.variedadPizzas .panuozzo .cardPizza span {
+    padding: 7px;
+    font-size: 20px;
+  }
+  section.variedadPizzas .pizzasRosas .cardPizza p, section.variedadPizzas .pizzasBlancas .cardPizza p, section.variedadPizzas .panuozzo .cardPizza p {
+    padding: 7px;
     font-size: 18px;
   }
 }
@@ -840,83 +961,4 @@ section.horariosyForm article.horarios section.horarioServicio .iconsServicio bu
 
 section.enviosContacto h3 {
   padding: 10px 0;
-}
-
-.headerPizzas .titleHeaderPizzas span {
-  font-size: 20px;
-  padding: 10px 5px;
-}
-.headerPizzas .titleHeaderPizzas h1 {
-  font-size: 28px;
-}
-.headerPizzas .titleHeaderPizzas button {
-  padding: 15px;
-  width: 80%;
-  margin: 20px 10%;
-  text-transform: uppercase;
-  background-color: #5bc548;
-  color: white;
-  font-family: "Baskervville SC", serif;
-  font-size: 16px;
-}
-
-section.variedadPizzas {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
-  width: 100%;
-}
-section.variedadPizzas .pizzasRosas .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaRosa, section.variedadPizzas .panuozzo .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
-  text-align: center;
-  background-color: rgb(166, 40, 40);
-  width: 100%;
-  color: black;
-}
-section.variedadPizzas .pizzasRosas .titlePizzaRosa h2, section.variedadPizzas .pizzasBlancas .titlePizzaRosa h2, section.variedadPizzas .panuozzo .titlePizzaRosa h2, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca h2, section.variedadPizzas .panuozzo .titlePizzaBlanca h2, section.variedadPizzas .panuozzo .titlePanuozzo h2 {
-  font-family: "Bebas Neue", sans-serif;
-}
-section.variedadPizzas .pizzasRosas .titlePizzaRosa p, section.variedadPizzas .pizzasBlancas .titlePizzaRosa p, section.variedadPizzas .panuozzo .titlePizzaRosa p, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca p, section.variedadPizzas .panuozzo .titlePizzaBlanca p, section.variedadPizzas .panuozzo .titlePanuozzo p {
-  width: 90%;
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  padding: 5px 0;
-  margin: 20px 5%;
-}
-section.variedadPizzas .pizzasRosas .cardPizza, section.variedadPizzas .pizzasBlancas .cardPizza, section.variedadPizzas .panuozzo .cardPizza {
-  width: 310px;
-  display: flex;
-  flex-direction: column;
-  margin: 15px 5px;
-  box-shadow: 0 0 4px black;
-  height: -moz-max-content;
-  height: max-content;
-}
-section.variedadPizzas .pizzasRosas .cardPizza img, section.variedadPizzas .pizzasBlancas .cardPizza img, section.variedadPizzas .panuozzo .cardPizza img {
-  width: 100%;
-  margin: 5px 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 210px;
-}
-section.variedadPizzas .pizzasRosas .cardPizza h3, section.variedadPizzas .pizzasBlancas .cardPizza h3, section.variedadPizzas .panuozzo .cardPizza h3 {
-  padding: 7px 5px;
-  height: 10%;
-}
-section.variedadPizzas .pizzasRosas .cardPizza span, section.variedadPizzas .pizzasBlancas .cardPizza span, section.variedadPizzas .panuozzo .cardPizza span {
-  padding: 7px 5px;
-  height: 10%;
-}
-section.variedadPizzas .pizzasRosas .cardPizza p, section.variedadPizzas .pizzasBlancas .cardPizza p, section.variedadPizzas .panuozzo .cardPizza p {
-  padding: 7px 5px;
-  height: 10%;
-}
-section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
-  background-color: black;
-  color: white;
 }/*# sourceMappingURL=style.css.map */

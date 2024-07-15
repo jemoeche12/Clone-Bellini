@@ -84,7 +84,7 @@
       width: 80%;
       margin: 0 10%;
       font-size: 25px;
-    } 
+    }
     button {
       padding: 15px;
       width: 50%;
@@ -96,44 +96,90 @@
       height: auto;
     }
   }
-  section.opinion{
+  section.opinion {
     width: 100%;
     gap: 50px;
     margin-bottom: 50px;
-    section.opiniones{
-        width: 90%;
+    section.opiniones {
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      div.card-opinion {
+        width: 60%;
+      }
+      div.userName {
+        width: 30%;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-        div.card-opinion{
-            width: 60%;
+        align-items: center;
+        gap: 30px;
+        .nameDate {
+          gap: 20%;
         }
-        div.userName{
-            width: 30%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 30px;
-            .nameDate{
-                gap: 20%;
-            }
-        }
+      }
     }
   }
-  div.footer{
+  div.footer {
     width: 100%;
-    span.copy{
-        width: 80%;
-        margin: 0px 10%;
-        font-size: 18px;
+    span.copy {
+      width: 80%;
+      margin: 0px 10%;
+      font-size: 18px;
     }
-    span.derechos{
-        width: 80%;
-        margin: 0 10%;
-        font-size: 18px;
+    span.derechos {
+      width: 80%;
+      margin: 0 10%;
+      font-size: 18px;
+    }
+  }
+  .headerPizzas {
+    .titleHeaderPizzas {
+      button {
+        width: 50%;
+        margin: 20px 25%;
+      }
+    }
+  }
+  section.variedadPizzas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .pizzasRosas{
+        width: 100%;
+        .titlePizzaRosa{
+            width: 100%;
+        }
+        .cardPizza{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            margin: 15px 10%;
+            height: 100%;
+            img{
+                width: 100%;
+                margin: 5px 0;
+                object-fit: cover;
+                height: 10%;
+            }
+            h3{
+                padding: 7px;
+                font-size: 22px;
+            }
+            span{
+                padding: 7px;
+                font-size: 20px;
+            }
+            p{
+                padding: 7px;
+                font-size: 18px;
+            }
+        }
     }
 }
 }
