@@ -1,0 +1,228 @@
+@media (min-width: 769px) {
+  /*---------------------------------INDEX DESKTOP ---------------------*/
+  header {
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    div.link-contenedor {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      width: 70%;
+    }
+    a {
+      padding: 15px;
+      width: max-content;
+    }
+  }
+  article.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    .img-home {
+      width: 90%;
+      object-fit: cover;
+      height: 100%;
+    }
+    .home-parrafo {
+      width: 50%;
+      padding-top: 50px;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      span {
+        width: 80%;
+        padding-left: 10px;
+      }
+      h2 {
+        padding-right: 10px;
+      }
+      p {
+        font-family: "Bebas Neue", sans-serif;
+        width: 90%;
+        font-size: 22px;
+        padding-left: 10px;
+      }
+    }
+  }
+  .seccionVideo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "title title"
+      "parrafo video";
+    padding-bottom: 50px;
+    h1 {
+      grid-area: title;
+      width: 80%;
+      margin: 50px 10%;
+      font-size: 40px;
+    }
+    p {
+      grid-area: parrafo;
+      width: 90%;
+    }
+    video {
+      grid-area: video;
+      width: 90%;
+    }
+  }
+  .nuestrosProductos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "img title"
+      "img p"
+      "img button1"
+      "img button2";
+    padding-bottom: 0px;
+    img {
+      width: 100%;
+      grid-area: img;
+      height: 100%;
+      object-fit: cover;
+      padding-bottom: 0;
+    }
+    h2 {
+      grid-area: title;
+      padding-top: 10px;
+    }
+    p {
+      grid-area: p;
+      width: 90%;
+      margin: 0 5%;
+      padding: 20px 0;
+    }
+    .bt1 {
+      grid-area: button1;
+      padding-top: 5xp;
+      
+    }
+    .bt2 {
+      grid-area: button2;
+      margin-bottom: 20px;
+    }
+  }
+  section.restaurante{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    div.p-restaurante{
+        height: 100%;
+        width: 50%;
+        h2{
+            width: 50%;
+        }
+        p{
+            width: 50%;
+        }
+        img.cubiertos{
+            width: 30px;
+        }
+    }
+    div.img-restaurante{
+        width: 50%;
+        object-fit: contain;
+        height: 100%;
+        margin-bottom: 0;
+    }
+  }
+  section.envios{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "img h2"
+                         "img h3"
+                         "img p"
+                         "img btn";
+    padding-bottom: 0;
+    h2{
+        grid-area: h2;
+        width: 80%;
+        margin: 20px 10%;
+    }
+    img{
+        grid-area: img;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        padding: 0;
+    }
+    h3{
+        grid-area: h3;
+        width: 80%;
+        margin: 20px 10%;
+        text-align: center;
+    }
+    p{
+        grid-area: p;
+        width: 80%;
+        margin: 0 10%;
+        font-size: 22px;
+    }
+    button{
+        grid-area: btn;
+        width: 40%;
+        margin: 5px 30%;
+        margin-bottom: 20px;
+    }
+  }
+  section.opinion{
+    display: grid;
+    grid-template-areas: "title title"
+                         "card1 card2"
+                         "card3 card4"
+                         "card5 .";
+    width: 90%;
+    margin: 0 5%;
+    h2{
+        grid-area: title;
+    }
+    section.opiniones{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 10%;
+        .card1{
+            grid-area: card1;
+        }
+        .card2{
+            grid-area: card2;
+        }
+        .card3{
+            grid-area: card3;
+        }
+        .card4{
+            grid-area: card4;
+        }
+        .card5{
+            grid-area: card5;
+        }
+        div.card-opinion{
+            width: 80%;
+            margin: 0 10%;
+        }
+        div.userName{
+            width: 70%;
+        }
+    }
+  }
+  div.footer{
+    width: 100%;
+  }
+}

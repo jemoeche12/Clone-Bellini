@@ -177,7 +177,7 @@ section.envios, section.enviosContacto {
   background-color: black;
   padding-bottom: 30px;
 }
-section.envios h3, section.enviosContacto h3 {
+section.envios h2, section.enviosContacto h2 {
   text-align: center;
   padding-top: 40px;
   font-size: 25px;
@@ -188,7 +188,7 @@ section.envios h3, section.enviosContacto h3 {
   width: 80%;
   margin: 0 10%;
 }
-section.envios h2, section.enviosContacto h2 {
+section.envios h3, section.enviosContacto h3 {
   font-size: 30px;
   font-weight: 600;
   padding: 20px 0;
@@ -1038,4 +1038,224 @@ section.enviosContacto h3 {
 .nuestrosProductos button.btn-home:hover {
   background-color: white;
   color: black;
+}
+
+@media (min-width: 769px) {
+  /*---------------------------------INDEX DESKTOP ---------------------*/
+  header {
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header div.link-contenedor {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 70%;
+  }
+  header a {
+    padding: 15px;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  article.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+  }
+  article.home .img-home {
+    width: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+  }
+  article.home .home-parrafo {
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  article.home .home-parrafo span {
+    width: 80%;
+    padding-left: 10px;
+  }
+  article.home .home-parrafo h2 {
+    padding-right: 10px;
+  }
+  article.home .home-parrafo p {
+    font-family: "Bebas Neue", sans-serif;
+    width: 90%;
+    font-size: 22px;
+    padding-left: 10px;
+  }
+  .seccionVideo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "title title" "parrafo video";
+    padding-bottom: 50px;
+  }
+  .seccionVideo h1 {
+    grid-area: title;
+    width: 80%;
+    margin: 50px 10%;
+    font-size: 40px;
+  }
+  .seccionVideo p {
+    grid-area: parrafo;
+    width: 90%;
+  }
+  .seccionVideo video {
+    grid-area: video;
+    width: 90%;
+  }
+  .nuestrosProductos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "img title" "img p" "img button1" "img button2";
+    padding-bottom: 0px;
+  }
+  .nuestrosProductos img {
+    width: 100%;
+    grid-area: img;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-bottom: 0;
+  }
+  .nuestrosProductos h2 {
+    grid-area: title;
+    padding-top: 10px;
+  }
+  .nuestrosProductos p {
+    grid-area: p;
+    width: 90%;
+    margin: 0 5%;
+    padding: 20px 0;
+  }
+  .nuestrosProductos .bt1 {
+    grid-area: button1;
+    padding-top: 5xp;
+  }
+  .nuestrosProductos .bt2 {
+    grid-area: button2;
+    margin-bottom: 20px;
+  }
+  section.restaurante {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  section.restaurante div.p-restaurante {
+    height: 100%;
+    width: 50%;
+  }
+  section.restaurante div.p-restaurante h2 {
+    width: 50%;
+  }
+  section.restaurante div.p-restaurante p {
+    width: 50%;
+  }
+  section.restaurante div.p-restaurante img.cubiertos {
+    width: 30px;
+  }
+  section.restaurante div.img-restaurante {
+    width: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+    margin-bottom: 0;
+  }
+  section.envios, section.enviosContacto {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "img h2" "img h3" "img p" "img btn";
+    padding-bottom: 0;
+  }
+  section.envios h2, section.enviosContacto h2 {
+    grid-area: h2;
+    width: 80%;
+    margin: 20px 10%;
+  }
+  section.envios img, section.enviosContacto img {
+    grid-area: img;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    padding: 0;
+  }
+  section.envios h3, section.enviosContacto h3 {
+    grid-area: h3;
+    width: 80%;
+    margin: 20px 10%;
+    text-align: center;
+  }
+  section.envios p, section.enviosContacto p {
+    grid-area: p;
+    width: 80%;
+    margin: 0 10%;
+    font-size: 22px;
+  }
+  section.envios button, section.enviosContacto button {
+    grid-area: btn;
+    width: 40%;
+    margin: 5px 30%;
+    margin-bottom: 20px;
+  }
+  section.opinion {
+    display: grid;
+    grid-template-areas: "title title" "card1 card2" "card3 card4" "card5 .";
+    width: 90%;
+    margin: 0 5%;
+  }
+  section.opinion h2 {
+    grid-area: title;
+  }
+  section.opinion section.opiniones {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 10%;
+  }
+  section.opinion section.opiniones .card1 {
+    grid-area: card1;
+  }
+  section.opinion section.opiniones .card2 {
+    grid-area: card2;
+  }
+  section.opinion section.opiniones .card3 {
+    grid-area: card3;
+  }
+  section.opinion section.opiniones .card4 {
+    grid-area: card4;
+  }
+  section.opinion section.opiniones .card5 {
+    grid-area: card5;
+  }
+  section.opinion section.opiniones div.card-opinion {
+    width: 80%;
+    margin: 0 10%;
+  }
+  section.opinion section.opiniones div.userName {
+    width: 70%;
+  }
+  div.footer {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
