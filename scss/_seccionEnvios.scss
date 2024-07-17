@@ -12,7 +12,7 @@ section.envios{
             font-size: 25px;
             font-weight: 500;
             color: white;
-            font-family: "Bebas Neue", sans-serif;
+            font-family: $fontSecundaria;
             font-weight: 400;
             width: 80%;
             margin: 0 10%;
@@ -22,7 +22,7 @@ section.envios{
             font-weight: 600;
             padding: 20px 0;
             color: white;
-            font-family: "Bebas Neue", sans-serif;
+            font-family: $fontSecundaria;
          }
         p{
             width: 90%;
@@ -30,17 +30,10 @@ section.envios{
             font-size: 20px;
             padding-bottom: 30px;
             color: white;
-            font-family: "Baskervville SC", serif;
+            font-family: $fontPrincipal;
         }
         button{
-            padding: 15px;
-            width: 70%;
-            margin: 20px 15%;
-            text-transform: uppercase;
-            background-color: #5BC548;
-            color: white;
-            font-family: "Baskervville SC", serif;
-            font-size: 16px;
+            @include buttonUber;
         }
         img{
             padding: 50px 0;

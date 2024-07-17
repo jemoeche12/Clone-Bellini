@@ -9,12 +9,12 @@
     span.reservarPedir {
       font-size: 20px;
       padding-left: 5px;
-      font-family: "Lora", serif;
+      font-family: $fontTarjetas;
     }
     h1 {
       font-size: 30px;
       padding-left: 5px;
-      font-family: "Lora", serif;
+      font-family: $fontTarjetas;
     }
   }
 }
@@ -101,14 +101,7 @@ section.horariosyForm {
           width: 20%;
         }
         button {
-          padding: 15px;
-          width: 80%;
-          margin: 20px 15%;
-          text-transform: uppercase;
-          background-color: #5bc548;
-          color: white;
-          font-family: "Baskervville SC", serif;
-          font-size: 16px;
+          @include buttonUber;
         }
       }
     }
@@ -125,12 +118,12 @@ section.horariosyForm {
     font-size: 18px;
     font-weight: 500;
     .bg-input{
-        background-color: #E8E8E8;
+        background-color: $bgPrincipal;
     }
     .area{
         resize: none;
         width: 100%;
-        background-color: #E8E8E8
+        background-color: $bgPrincipal;
     }
     button{
         width: 30%;
@@ -139,7 +132,7 @@ section.horariosyForm {
         background-color: white;
         border: none;
         border-radius: 5px;
-        box-shadow: 0 0 3px black;
+        box-shadow: 0 0 3px $bgPrincipal;
         transition: ease-in-out 1s;
         &:hover{
             background-color: black;

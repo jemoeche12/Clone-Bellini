@@ -2,7 +2,7 @@
     width: 320px;
 
     h1{
-        font-family: "Baskervville SC", serif;
+        font-family: $fontPrincipal;
         padding: 25px 5px;
         text-align: center;
         font-size: 40px;
@@ -10,7 +10,7 @@
         font-style: normal;
     }
     p{
-        font-family: "Baskervville SC", serif;
+        font-family: $fontPrincipal;
         width: 92%;
         margin: 15px 0;
         margin-left: 5%;

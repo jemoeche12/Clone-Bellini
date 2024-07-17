@@ -9,7 +9,7 @@
 }
 .seccionMenu{
     width: 320px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: $fontSecundaria;
         span{
             margin: 20px 0;
             font-size: 25px;
@@ -30,10 +30,10 @@ section.tarjetasMenu{
     flex-direction: column;
     width: 310px;
     margin: 0 5px;
-    font-family: "Lora", serif;
+    font-family: $fontTarjetas;
     font-style: normal;
         .menu1{
-            background-color: #E8E8E8;
+            background-color: $bgPrincipal;
             padding: 5px;
             
                 h2{

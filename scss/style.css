@@ -144,7 +144,7 @@ section.restaurante div.p-restaurante {
   justify-content: center;
 }
 section.restaurante div.p-restaurante h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Baskervville SC", serif;
   padding: 80px 0;
   text-align: center;
   font-size: 30px;
@@ -153,6 +153,7 @@ section.restaurante div.p-restaurante p {
   text-align: center;
   font-size: 20px;
   padding-bottom: 20px;
+  font-family: "Baskervville SC", serif;
 }
 section.restaurante div.p-restaurante img {
   width: 10%;
@@ -285,10 +286,10 @@ section.opinion section.opiniones div.userName .nameDate {
 }
 .headerPizzas .titleHeaderPizzas button {
   padding: 15px;
-  width: 80%;
-  margin: 20px 10%;
+  width: 70%;
+  margin: 20px 15%;
   text-transform: uppercase;
-  background-color: #5bc548;
+  background-color: #5BC548;
   color: white;
   font-family: "Baskervville SC", serif;
   font-size: 16px;
@@ -388,7 +389,7 @@ section.tarjetasMenu {
   font-style: normal;
 }
 section.tarjetasMenu .menu1, section.tarjetasMenu .menuNiño, section.tarjetasMenu .menu4, section.tarjetasMenu .postres, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   padding: 5px;
 }
 section.tarjetasMenu .menu1 h2, section.tarjetasMenu .menuNiño h2, section.tarjetasMenu .menu4 h2, section.tarjetasMenu .postres h2, section.tarjetasMenu .menu2 h2, section.tarjetasMenu .menu3 h2 {
@@ -477,7 +478,7 @@ section.seccionVinos .titleVinos h1 {
 section.seccionVinos .cartaVinoTinto, section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
   width: 90%;
   margin: 0 5%;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   border-radius: 5px;
 }
 section.seccionVinos .cartaVinoTinto h2, section.seccionVinos .cartaVinoBlanco h2, section.seccionVinos .seccionBebidaCaliente h2, section.seccionVinos .seccionAgua h2, section.seccionVinos .seccionBebidaFria h2, section.seccionVinos .cartaVinoRosado h2, section.seccionVinos .cartaVinoEfervescente h2 {
@@ -662,10 +663,10 @@ section.horariosyForm article.horarios section.horarioServicio .iconsServicio .i
 }
 section.horariosyForm article.horarios section.horarioServicio .iconsServicio button {
   padding: 15px;
-  width: 80%;
+  width: 70%;
   margin: 20px 15%;
   text-transform: uppercase;
-  background-color: #5bc548;
+  background-color: #5BC548;
   color: white;
   font-family: "Baskervville SC", serif;
   font-size: 16px;
@@ -683,12 +684,12 @@ section.horariosyForm article.horarios section.horarioServicio .iconsServicio bu
   font-weight: 500;
 }
 .contacto .bg-input {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
 }
 .contacto .area {
   resize: none;
   width: 100%;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
 }
 .contacto button {
   width: 30%;
@@ -697,7 +698,7 @@ section.horariosyForm article.horarios section.horarioServicio .iconsServicio bu
   background-color: white;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 3px black;
+  box-shadow: 0 0 3px #e8e8e8;
   transition: ease-in-out 1s;
 }
 .contacto button:hover {
@@ -769,8 +770,8 @@ section.enviosContacto h3 {
   }
   article.home .home-parrafo p {
     font-family: "Bebas Neue", sans-serif;
-    width: 95%;
-    font-size: 18px;
+    width: 90%;
+    font-size: 22px;
     padding-left: 10px;
   }
   section.seccionVideo {

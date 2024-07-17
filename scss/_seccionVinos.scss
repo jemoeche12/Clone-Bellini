@@ -15,7 +15,7 @@ section.seccionVinos{
             color: white;
             padding: 7px 5px;
             font-size: 22px;
-            font-family:"Bebas Neue", sans-serif;
+            font-family: $fontSecundaria;
             
         }
         h1{
@@ -23,13 +23,13 @@ section.seccionVinos{
             text-transform: uppercase;
             font-size: 26px;
             padding: 10px 5px;
-            font-family:"Bebas Neue", sans-serif;
+            font-family:$fontSecundaria;
         }
     }
     .cartaVinoTinto{
         width: 90%;
         margin: 0 5%;
-        background-color: #E8E8E8;
+        background-color: $bgPrincipal;
         border-radius: 5px;
         h2{
             text-align: start;

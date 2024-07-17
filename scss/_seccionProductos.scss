@@ -16,7 +16,7 @@
         text-transform: uppercase;
         font-size: 25px;
         padding: 25px 0;
-        font-family: "Baskervville SC", serif;
+        font-family: $fontPrincipal;
         font-weight: 600;
         color: white;
     }
@@ -24,23 +24,10 @@
         width: 90%;
         font-size: 18px;
         padding: 25px 0;
-        font-family: "Baskervville SC", serif;
+        font-family: $fontPrincipal;
         color: white;
     }
     button.btn-home{
-        font-family: "Baskervville SC", serif;
-
-        padding: 7px;
-        background-color: transparent;
-        color: white;
-        border: 1px solid white;
-        width: 80%;
-        margin: 10px 10%;
-        transition: all 1s;
-        &:hover{
-            background-color: white;
-            color: black;
-        }
-    }
-
+        @include buttonTrasparent;
+}
 }
