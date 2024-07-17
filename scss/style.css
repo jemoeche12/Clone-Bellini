@@ -41,19 +41,33 @@ header div.link-contenedor {
 header a {
   color: white;
   padding: 15px 0;
-  transition: all 1s;
+  transition: all 0.5s;
   font-family: "Baskervville SC", serif;
 }
 header a:hover {
   background-color: white;
   color: black;
+  padding: 5px;
   border-radius: 5px;
 }
 header div.link-btn {
   display: flex;
+  margin: 5px;
 }
 header .btn-uber {
-  margin: 0 5px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+header .btn-uber:hover {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+header .btn-uber a {
+  padding: 0px;
 }
 
 div.footer {
@@ -122,11 +136,21 @@ article.home .home-parrafo button.btn-home {
   border: 1px solid white;
   width: 80%;
   margin: 10px 10%;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 article.home .home-parrafo button.btn-home:hover {
   background-color: white;
   color: black;
+}
+article.home .home-parrafo button.btn-home a {
+  color: white;
+  transition: 0.5s;
+}
+article.home .home-parrafo button.btn-home a:hover {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 section.restaurante {
@@ -214,6 +238,9 @@ section.envios button, section.enviosContacto button {
   font-family: "Baskervville SC", serif;
   font-size: 16px;
 }
+section.envios button a, section.enviosContacto button a {
+  color: white;
+}
 section.envios img, section.enviosContacto img {
   padding: 50px 0;
   width: 100%;
@@ -293,6 +320,9 @@ section.opinion section.opiniones div.userName .nameDate {
   color: white;
   font-family: "Baskervville SC", serif;
   font-size: 16px;
+}
+.headerPizzas .titleHeaderPizzas button a {
+  color: white;
 }
 
 section.variedadPizzas {
@@ -670,6 +700,9 @@ section.horariosyForm article.horarios section.horarioServicio .iconsServicio bu
   color: white;
   font-family: "Baskervville SC", serif;
   font-size: 16px;
+}
+section.horariosyForm article.horarios section.horarioServicio .iconsServicio button a {
+  color: white;
 }
 
 .contacto {
@@ -1516,9 +1549,19 @@ section.enviosContacto h3 {
   border: 1px solid white;
   width: 80%;
   margin: 10px 10%;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 .nuestrosProductos button.btn-home:hover {
   background-color: white;
   color: black;
+}
+.nuestrosProductos button.btn-home a {
+  color: white;
+  transition: 0.5s;
+}
+.nuestrosProductos button.btn-home a:hover {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */

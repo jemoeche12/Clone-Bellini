@@ -1,33 +1,43 @@
-.nuestrosProductos{
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    padding-bottom: 50px;
-    img{
-        padding-bottom: 20px;
-        width: 100%;
-        height: 100vh;
-        object-fit: cover;
+.nuestrosProductos {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 50px;
+  img {
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 25px 0;
+    font-family: $fontPrincipal;
+    font-weight: 600;
+    color: white;
+  }
+  p {
+    width: 90%;
+    font-size: 18px;
+    padding: 25px 0;
+    font-family: $fontPrincipal;
+    color: white;
+  }
+  button.btn-home {
+    @include buttonTrasparent;
+    a {
+      color: white;
+      transition: 0.5s;
+      &:hover {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+      }
     }
-    h2{
-        text-transform: uppercase;
-        font-size: 25px;
-        padding: 25px 0;
-        font-family: $fontPrincipal;
-        font-weight: 600;
-        color: white;
-    }
-    p{
-        width: 90%;
-        font-size: 18px;
-        padding: 25px 0;
-        font-family: $fontPrincipal;
-        color: white;
-    }
-    button.btn-home{
-        @include buttonTrasparent;
-}
+  }
 }

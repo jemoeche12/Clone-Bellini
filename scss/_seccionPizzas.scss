@@ -11,6 +11,9 @@
         }
         button {
             @include buttonUber;
+            a{
+                color: white;
+            }
           }
     }
 }
