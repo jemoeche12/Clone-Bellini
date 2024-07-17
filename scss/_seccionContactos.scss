@@ -31,7 +31,7 @@ section.horariosyForm {
     justify-content: center;
     img {
       width: 90%;
-      padding: 20px 0;
+      padding: 10px 0;
       object-fit: cover;
     }
     h2 {
@@ -39,7 +39,7 @@ section.horariosyForm {
     }
     div.separador {
       width: 100%;
-      margin: 20px 5%;
+      margin: 10px 5%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -54,14 +54,14 @@ section.horariosyForm {
     }
     section.horarioServicio {
       width: 90%;
-      margin: 15px 5%;
+      margin: 7px 5%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       .servicioMediodia {
         width: 100%;
-        margin: 15px 5%;
+        margin: 7px 5%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -146,6 +146,9 @@ section.horariosyForm {
             color: white;
             transform: scale(1.1);
         }
+    }
+    .numero-direccion{
+      padding: 20px 0;
     }
 
 }

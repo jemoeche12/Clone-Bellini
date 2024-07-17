@@ -594,7 +594,7 @@ section.horariosyForm article.horarios {
 }
 section.horariosyForm article.horarios img {
   width: 90%;
-  padding: 20px 0;
+  padding: 10px 0;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -603,7 +603,7 @@ section.horariosyForm article.horarios h2 {
 }
 section.horariosyForm article.horarios div.separador {
   width: 100%;
-  margin: 20px 5%;
+  margin: 10px 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -618,7 +618,7 @@ section.horariosyForm article.horarios div.separador img {
 }
 section.horariosyForm article.horarios section.horarioServicio {
   width: 90%;
-  margin: 15px 5%;
+  margin: 7px 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -626,7 +626,7 @@ section.horariosyForm article.horarios section.horarioServicio {
 }
 section.horariosyForm article.horarios section.horarioServicio .servicioMediodia, section.horariosyForm article.horarios section.horarioServicio .servicioTarde, section.horariosyForm article.horarios section.horarioServicio .servicioPizza {
   width: 100%;
-  margin: 15px 5%;
+  margin: 7px 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -705,11 +705,493 @@ section.horariosyForm article.horarios section.horarioServicio .iconsServicio bu
   color: white;
   transform: scale(1.1);
 }
+.contacto .numero-direccion {
+  padding: 20px 0;
+}
 
 section.enviosContacto h3 {
   padding: 10px 0;
 }
 
+@media (min-width: 769px) {
+  /*---------------------------------INDEX DESKTOP ---------------------*/
+  header {
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header div.link-contenedor {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 70%;
+  }
+  header a {
+    padding: 15px;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  article.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+  }
+  article.home .img-home {
+    width: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+  }
+  article.home .home-parrafo {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  article.home .home-parrafo span {
+    width: 80%;
+    padding-left: 10px;
+  }
+  article.home .home-parrafo h2 {
+    padding-right: 10px;
+  }
+  article.home .home-parrafo p {
+    font-family: "Bebas Neue", sans-serif;
+    width: 95%;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  section.seccionVideo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "title title" "parrafo video";
+    padding-bottom: 50px;
+  }
+  section.seccionVideo h1 {
+    grid-area: title;
+    width: 80%;
+    margin: 50px 10%;
+    font-size: 40px;
+  }
+  section.seccionVideo p {
+    grid-area: parrafo;
+    width: 90%;
+  }
+  section.seccionVideo video {
+    grid-area: video;
+    width: 90%;
+  }
+  section.nuestrosProductos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "img title" "img p" "img button1" "img button2";
+    padding-bottom: 0px;
+  }
+  section.nuestrosProductos img {
+    width: 100%;
+    grid-area: img;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-bottom: 0;
+  }
+  section.nuestrosProductos h2 {
+    grid-area: title;
+    padding-top: 10px;
+  }
+  section.nuestrosProductos p {
+    grid-area: p;
+    width: 90%;
+    margin: 0 5%;
+    padding: 20px 0;
+  }
+  section.nuestrosProductos .bt1 {
+    grid-area: button1;
+    padding-top: 5xp;
+  }
+  section.nuestrosProductos .bt2 {
+    grid-area: button2;
+    margin-bottom: 20px;
+  }
+  section.restaurante {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  section.restaurante div.p-restaurante {
+    height: 100%;
+    width: 50%;
+  }
+  section.restaurante div.p-restaurante h2 {
+    width: 50%;
+  }
+  section.restaurante div.p-restaurante p {
+    width: 50%;
+  }
+  section.restaurante div.p-restaurante img.cubiertos {
+    width: 30px;
+  }
+  section.restaurante div.img-restaurante {
+    width: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+    margin-bottom: 0;
+  }
+  section.envios, section.enviosContacto {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "img h2" "img h3" "img p" "img btn";
+    padding-bottom: 0;
+  }
+  section.envios h2, section.enviosContacto h2 {
+    grid-area: h2;
+    width: 80%;
+    margin: 20px 10%;
+  }
+  section.envios img, section.enviosContacto img {
+    grid-area: img;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    padding: 0;
+  }
+  section.envios h3, section.enviosContacto h3 {
+    grid-area: h3;
+    width: 80%;
+    margin: 20px 10%;
+    text-align: center;
+  }
+  section.envios p, section.enviosContacto p {
+    grid-area: p;
+    width: 80%;
+    margin: 0 10%;
+    font-size: 22px;
+  }
+  section.envios button, section.enviosContacto button {
+    grid-area: btn;
+    width: 40%;
+    margin: 5px 30%;
+    margin-bottom: 20px;
+  }
+  section.opinion {
+    display: grid;
+    grid-template-areas: "title title" "card1 card2" "card3 card4" "card5 .";
+    width: 90%;
+    margin: 0 5%;
+  }
+  section.opinion h2 {
+    grid-area: title;
+  }
+  section.opinion section.opiniones {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 10%;
+  }
+  section.opinion section.opiniones .card1 {
+    grid-area: card1;
+  }
+  section.opinion section.opiniones .card2 {
+    grid-area: card2;
+  }
+  section.opinion section.opiniones .card3 {
+    grid-area: card3;
+  }
+  section.opinion section.opiniones .card4 {
+    grid-area: card4;
+  }
+  section.opinion section.opiniones .card5 {
+    grid-area: card5;
+  }
+  section.opinion section.opiniones div.card-opinion {
+    width: 80%;
+    margin: 0 10%;
+  }
+  section.opinion section.opiniones div.userName {
+    width: 70%;
+  }
+  div.footer {
+    width: 100%;
+  }
+  /*-------------------------- seccion pizzas --------------------*/
+  .headerPizzas {
+    width: 100%;
+  }
+  .headerPizzas .titleHeaderPizzas {
+    width: 100%;
+  }
+  .headerPizzas .titleHeaderPizzas span {
+    padding: 0px 25px;
+  }
+  .headerPizzas .titleHeaderPizzas h1 {
+    margin: 0px 25px;
+  }
+  .headerPizzas .titleHeaderPizzas button {
+    width: 20%;
+    margin: 0px 40%;
+  }
+  section.variedadPizzas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15% 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: "title title title" "pizza1 pizza2 pizza3" "pizza4 pizza5 pizza6" "pizza7 pizza8 pizza9";
+  }
+  section.variedadPizzas .pizzasRosas .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaRosa, section.variedadPizzas .panuozzo .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
+    width: 100%;
+    grid-area: title;
+  }
+  section.variedadPizzas .pizzasRosas .margarita, section.variedadPizzas .pizzasBlancas .margarita, section.variedadPizzas .panuozzo .margarita {
+    grid-area: pizza1;
+  }
+  section.variedadPizzas .pizzasRosas .vegetariana, section.variedadPizzas .pizzasBlancas .vegetariana, section.variedadPizzas .panuozzo .vegetariana {
+    grid-area: pizza2;
+  }
+  section.variedadPizzas .pizzasRosas .regina, section.variedadPizzas .pizzasBlancas .regina, section.variedadPizzas .panuozzo .regina {
+    grid-area: pizza3;
+  }
+  section.variedadPizzas .pizzasRosas .calzone, section.variedadPizzas .pizzasBlancas .calzone, section.variedadPizzas .panuozzo .calzone {
+    grid-area: pizza4;
+  }
+  section.variedadPizzas .pizzasRosas .frioul, section.variedadPizzas .pizzasBlancas .frioul, section.variedadPizzas .panuozzo .frioul {
+    grid-area: pizza5;
+  }
+  section.variedadPizzas .pizzasRosas .siciliana, section.variedadPizzas .pizzasBlancas .siciliana, section.variedadPizzas .panuozzo .siciliana {
+    grid-area: pizza6;
+  }
+  section.variedadPizzas .pizzasRosas .spianata, section.variedadPizzas .pizzasBlancas .spianata, section.variedadPizzas .panuozzo .spianata {
+    grid-area: pizza7;
+  }
+  section.variedadPizzas .pizzasRosas .marinara, section.variedadPizzas .pizzasBlancas .marinara, section.variedadPizzas .panuozzo .marinara {
+    grid-area: pizza8;
+  }
+  section.variedadPizzas .pizzasRosas .burrata, section.variedadPizzas .pizzasBlancas .burrata, section.variedadPizzas .panuozzo .burrata {
+    grid-area: pizza9;
+  }
+  section.variedadPizzas .pizzasRosas .cardPizza, section.variedadPizzas .pizzasBlancas .cardPizza, section.variedadPizzas .panuozzo .cardPizza {
+    width: 310px;
+    margin: 35px 5px;
+  }
+  section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 15% 1fr 1fr;
+    grid-template-areas: "title title title" "pizza1 pizza2 pizza3" "pizza4 pizza5 pizza6";
+  }
+  section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
+    margin-top: 25px;
+    grid-area: title;
+  }
+  section.variedadPizzas .pizzasBlancas .jamon, section.variedadPizzas .panuozzo .jamon {
+    grid-area: pizza1;
+  }
+  section.variedadPizzas .pizzasBlancas .salmon, section.variedadPizzas .panuozzo .salmon {
+    grid-area: pizza2;
+  }
+  section.variedadPizzas .pizzasBlancas .carbonara, section.variedadPizzas .panuozzo .carbonara {
+    grid-area: pizza3;
+  }
+  section.variedadPizzas .pizzasBlancas .cuatroQuesos, section.variedadPizzas .panuozzo .cuatroQuesos {
+    grid-area: pizza4;
+  }
+  section.variedadPizzas .pizzasBlancas .pistacho, section.variedadPizzas .panuozzo .pistacho {
+    grid-area: pizza5;
+  }
+  section.variedadPizzas .panuozzo {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 1fr;
+    grid-template-areas: "title title" "panuozzo1 panuozzo2";
+  }
+  section.variedadPizzas .panuozzo .titlePanuozzo {
+    grid-area: title;
+  }
+  section.variedadPizzas .panuozzo .pan1 {
+    grid-area: panuozzo1;
+  }
+  section.variedadPizzas .panuozzo .pan2 {
+    grid-area: panuozzo2;
+  }
+  /*---------------------seccion Contactos--------------*/
+  section.horarioContacto {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+  }
+  section.horarioContacto section.horariosyForm {
+    width: 80%;
+    margin: 0 5px;
+  }
+  section.horarioContacto section.horariosyForm .horarios {
+    width: 70%;
+    margin: 10px 15%;
+    font-size: 18px;
+    padding: 5px;
+  }
+  section.horarioContacto section.horariosyForm .horarios .copaHorarios {
+    padding: 5px 0;
+    width: 50%;
+  }
+  section.horarioContacto section.horariosyForm .horarios h2,
+  section.horarioContacto section.horariosyForm .horarios h3 {
+    font-size: 20px;
+  }
+  section.horarioContacto section.horariosyForm .horarios .iconsServicio img.iconFace {
+    width: 40px;
+  }
+  section.horarioContacto .contacto {
+    width: 90%;
+    margin: 50px 5%;
+    padding: 25px 0;
+    font-size: 24px;
+  }
+  section.horarioContacto .contacto textarea {
+    height: 350px;
+    padding-bottom: 25px;
+  }
+  section.horarioContacto .contacto .numero-direccion h3 {
+    font-size: 24px;
+    padding: 20px 10px;
+  }
+  section.horarioContacto .contacto .numero-direccion span {
+    padding: 20px 10px;
+  }
+  /*----------------------------seccion Vinos--------------------*/
+  header.headerVinos {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/botellas_vino..jpg);
+    background-size: cover;
+  }
+  section.seccionVinos {
+    display: grid;
+    grid-template-areas: "title ." "vinoT vinoB" "vinoE vinoR" "bFria bCal" "bFria agua";
+    grid-row: 20px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    height: -moz-max-content;
+    height: max-content;
+    align-items: start;
+    justify-items: center;
+  }
+  section.seccionVinos .titleVinos {
+    margin: 25px 0;
+    grid-area: title;
+  }
+  section.seccionVinos .titleVinos span {
+    width: 50%;
+  }
+  section.seccionVinos section.cartaVinoTinto, section.seccionVinos section.cartaVinoBlanco, section.seccionVinos section.cartaVinoEfervescente, section.seccionVinos section.cartaVinoRosado, section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
+    height: -moz-max-content;
+    height: max-content;
+    grid-area: vinoT;
+  }
+  section.seccionVinos section.cartaVinoBlanco, section.seccionVinos section.cartaVinoEfervescente, section.seccionVinos section.cartaVinoRosado, section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
+    grid-area: vinoB;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  section.seccionVinos section.cartaVinoEfervescente {
+    grid-area: vinoE;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  section.seccionVinos section.cartaVinoRosado {
+    grid-area: vinoR;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
+    grid-area: bCal;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  section.seccionVinos section.seccionBebidaCaliente div.titleCard, section.seccionVinos section.seccionBebidaFria div.titleCard, section.seccionVinos section.seccionAgua div.titleCard {
+    width: 87%;
+  }
+  section.seccionVinos section.seccionBebidaFria {
+    grid-area: bFria;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  section.seccionVinos section.seccionAgua {
+    grid-area: agua;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  /*-----------------------------seccion menu -------------------------------*/
+  .seccionMenu {
+    width: 100%;
+  }
+  section.tarjetasMenu {
+    width: 90%;
+    margin: 20px 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "menu1 menu2" "menu3 menu4" "menu3 menuNiño" "postres postres";
+  }
+  section.tarjetasMenu .menu1, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3, section.tarjetasMenu .menu4, section.tarjetasMenu .menuNiño, section.tarjetasMenu .postres {
+    grid-area: menu1;
+    padding-bottom: 0;
+  }
+  section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
+    grid-area: menu2;
+    height: 100%;
+  }
+  section.tarjetasMenu .menu3 {
+    grid-area: menu3;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  section.tarjetasMenu .menu4, section.tarjetasMenu .postres {
+    grid-area: menu4;
+  }
+  section.tarjetasMenu .menuNiño {
+    grid-area: menuNiño;
+    padding: 0;
+  }
+  section.tarjetasMenu .menuNiño h3 {
+    padding-bottom: 15px;
+  }
+  section.tarjetasMenu .postres {
+    grid-area: postres;
+    width: 50%;
+    margin: 25px 25%;
+  }
+}
 @media (min-width: 321px) and (max-width: 768px) {
   /* --------------------------- SECCION INDEX -------------------*/
   header {
@@ -1038,224 +1520,4 @@ section.enviosContacto h3 {
 .nuestrosProductos button.btn-home:hover {
   background-color: white;
   color: black;
-}
-
-@media (min-width: 769px) {
-  /*---------------------------------INDEX DESKTOP ---------------------*/
-  header {
-    width: 100%;
-    background-color: black;
-    padding-top: 20px;
-  }
-  header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header div.link-contenedor {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    width: 70%;
-  }
-  header a {
-    padding: 15px;
-    width: -moz-max-content;
-    width: max-content;
-  }
-  article.home {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    padding: 10px 0;
-  }
-  article.home .img-home {
-    width: 90%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    height: 100%;
-  }
-  article.home .home-parrafo {
-    width: 50%;
-    padding-top: 50px;
-    padding-left: 7px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  article.home .home-parrafo span {
-    width: 80%;
-    padding-left: 10px;
-  }
-  article.home .home-parrafo h2 {
-    padding-right: 10px;
-  }
-  article.home .home-parrafo p {
-    font-family: "Bebas Neue", sans-serif;
-    width: 90%;
-    font-size: 22px;
-    padding-left: 10px;
-  }
-  .seccionVideo {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "title title" "parrafo video";
-    padding-bottom: 50px;
-  }
-  .seccionVideo h1 {
-    grid-area: title;
-    width: 80%;
-    margin: 50px 10%;
-    font-size: 40px;
-  }
-  .seccionVideo p {
-    grid-area: parrafo;
-    width: 90%;
-  }
-  .seccionVideo video {
-    grid-area: video;
-    width: 90%;
-  }
-  .nuestrosProductos {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "img title" "img p" "img button1" "img button2";
-    padding-bottom: 0px;
-  }
-  .nuestrosProductos img {
-    width: 100%;
-    grid-area: img;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    padding-bottom: 0;
-  }
-  .nuestrosProductos h2 {
-    grid-area: title;
-    padding-top: 10px;
-  }
-  .nuestrosProductos p {
-    grid-area: p;
-    width: 90%;
-    margin: 0 5%;
-    padding: 20px 0;
-  }
-  .nuestrosProductos .bt1 {
-    grid-area: button1;
-    padding-top: 5xp;
-  }
-  .nuestrosProductos .bt2 {
-    grid-area: button2;
-    margin-bottom: 20px;
-  }
-  section.restaurante {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  section.restaurante div.p-restaurante {
-    height: 100%;
-    width: 50%;
-  }
-  section.restaurante div.p-restaurante h2 {
-    width: 50%;
-  }
-  section.restaurante div.p-restaurante p {
-    width: 50%;
-  }
-  section.restaurante div.p-restaurante img.cubiertos {
-    width: 30px;
-  }
-  section.restaurante div.img-restaurante {
-    width: 50%;
-    -o-object-fit: contain;
-       object-fit: contain;
-    height: 100%;
-    margin-bottom: 0;
-  }
-  section.envios, section.enviosContacto {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "img h2" "img h3" "img p" "img btn";
-    padding-bottom: 0;
-  }
-  section.envios h2, section.enviosContacto h2 {
-    grid-area: h2;
-    width: 80%;
-    margin: 20px 10%;
-  }
-  section.envios img, section.enviosContacto img {
-    grid-area: img;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    height: 100%;
-    padding: 0;
-  }
-  section.envios h3, section.enviosContacto h3 {
-    grid-area: h3;
-    width: 80%;
-    margin: 20px 10%;
-    text-align: center;
-  }
-  section.envios p, section.enviosContacto p {
-    grid-area: p;
-    width: 80%;
-    margin: 0 10%;
-    font-size: 22px;
-  }
-  section.envios button, section.enviosContacto button {
-    grid-area: btn;
-    width: 40%;
-    margin: 5px 30%;
-    margin-bottom: 20px;
-  }
-  section.opinion {
-    display: grid;
-    grid-template-areas: "title title" "card1 card2" "card3 card4" "card5 .";
-    width: 90%;
-    margin: 0 5%;
-  }
-  section.opinion h2 {
-    grid-area: title;
-  }
-  section.opinion section.opiniones {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 10%;
-  }
-  section.opinion section.opiniones .card1 {
-    grid-area: card1;
-  }
-  section.opinion section.opiniones .card2 {
-    grid-area: card2;
-  }
-  section.opinion section.opiniones .card3 {
-    grid-area: card3;
-  }
-  section.opinion section.opiniones .card4 {
-    grid-area: card4;
-  }
-  section.opinion section.opiniones .card5 {
-    grid-area: card5;
-  }
-  section.opinion section.opiniones div.card-opinion {
-    width: 80%;
-    margin: 0 10%;
-  }
-  section.opinion section.opiniones div.userName {
-    width: 70%;
-  }
-  div.footer {
-    width: 100%;
-  }
 }/*# sourceMappingURL=style.css.map */
