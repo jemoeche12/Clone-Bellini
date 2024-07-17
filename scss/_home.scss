@@ -1,38 +1,48 @@
-article.home{
-    width: 320px;
+article.home {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 100px 0;
+  .img-home {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+  }
+  .home-parrafo {
+    padding-top: 50px;
+    padding-left: 7px;
     display: flex;
     flex-direction: column;
-    background-color: black;
-    padding: 100px 0;
-        .img-home{
-            width: 100%;
-            object-fit: cover;
-            height: 400px;
-            
+    gap: 15px;
+    span {
+      color: white;
+      font-size: 18px;
+    }
+    h2 {
+      color: white;
+      font-size: 30px;
+      font-family: $fontSecundaria;
+      font-weight: 400;
+      font-style: normal;
+    }
+    p {
+      color: white;
+      font-family: $fontSecundaria;
+    }
+    button.btn-home {
+      @include buttonTrasparent;
+
+      a {
+        color: white;
+        transition: 0.5s;
+        &:hover {
+          background-color: white;
+          color: black;
+          padding: 5px;
+          border-radius: 5px;
         }
-        .home-parrafo{
-            padding-top: 50px;
-            padding-left: 7px;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            span{
-                color: white;
-                font-size: 18px;
-            }
-            h2{
-                color: white;
-                font-size: 30px;
-                font-family: $fontSecundaria;
-                font-weight: 400;
-                font-style: normal;
-            }
-            p{
-                color: white;
-                font-family: $fontSecundaria;
-            }
-            button.btn-home{
-                @include buttonTrasparent;
-            }
-        }
+      }
+    }
+  }
 }
