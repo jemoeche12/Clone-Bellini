@@ -1,0 +1,54 @@
+h2{
+    font-family: $fontSecundaria;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    margin-top: 30px;
+   
+}
+section.opinion{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    section.opiniones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div.card-opinion{
+            width: 80%;
+            border: 1px solid rgba(0, 0, 0, 0.7);
+            box-shadow: 0 0 4px black;
+            margin: 15px 0;
+            svg{
+                margin: 7px;
+                color: rgba(255, 255, 0, 0.8);
+            }
+            p{
+                width: 90%;
+                margin: 7px;
+            }
+            .google{
+                color: black;
+                margin-left: 90%;
+            }
+        }
+        div.userName{
+            width: 70%;
+            margin: 5px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .nameDate{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

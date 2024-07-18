@@ -1,0 +1,87 @@
+.headerPizzas {
+  @extend .headerContacto;
+  .titleHeaderPizzas {
+    @extend .titleHeader;
+    span {
+      font-size: 20px;
+      padding: 10px 5px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    button {
+      @include buttonUber;
+      a {
+        color: white;
+      }
+    }
+  }
+}
+section.variedadPizzas {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .pizzasRosas {
+    width: 100%;
+    .titlePizzaRosa {
+      text-align: center;
+      background-color: rgb(166, 40, 40);
+      width: 100%;
+      color: black;
+      h2 {
+        font-family: $fontSecundaria;
+      }
+      p {
+        width: 90%;
+        text-align: center;
+        font-family: $fontSecundaria;
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 5px 0;
+        margin: 20px 5%;
+      }
+    }
+    .cardPizza {
+      width: 310px;
+      display: flex;
+      flex-direction: column;
+      margin: 15px 5px;
+      box-shadow: 0 0 4px black;
+      height: max-content;
+      img {
+        width: 100%;
+        margin: 5px 0;
+        object-fit: cover;
+        height: 210px;
+      }
+      h3 {
+        padding: 7px 5px;
+        height: 10%;
+      }
+      span {
+        padding: 7px 5px;
+        height: 10%;
+      }
+      p {
+        padding: 7px 5px;
+        height: 10%;
+      }
+    }
+  }
+  .pizzasBlancas {
+    @extend .pizzasRosas;
+    .titlePizzaBlanca {
+      @extend .titlePizzaRosa;
+      background-color: black;
+      color: white;
+    }
+  }
+  .panuozzo {
+    @extend .pizzasBlancas;
+    .titlePanuozzo {
+      @extend .titlePizzaBlanca;
+    }
+  }
+}

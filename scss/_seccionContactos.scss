@@ -1,0 +1,159 @@
+.headerContacto {
+  @extend .headerMenu;
+  section.titleHeader {
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    span.reservarPedir {
+      font-size: 20px;
+      padding-left: 5px;
+      font-family: $fontTarjetas;
+    }
+    h1 {
+      font-size: 30px;
+      padding-left: 5px;
+      font-family: $fontTarjetas;
+    }
+  }
+}
+/*-----------------------seccion tarjeta horarios Formulario---------------------*/
+
+section.horariosyForm {
+  width: 320px;
+
+  article.horarios {
+    width: 90%;
+    margin: 10px 5%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 90%;
+      padding: 10px 0;
+      object-fit: cover;
+    }
+    h2 {
+      color: white;
+    }
+    div.separador {
+      width: 100%;
+      margin: 10px 5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      span {
+        color: white;
+      }
+      img {
+        width: 35px;
+        background: transparent;
+      }
+    }
+    section.horarioServicio {
+      width: 90%;
+      margin: 7px 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .servicioMediodia {
+        width: 100%;
+        margin: 7px 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h3 {
+          text-transform: uppercase;
+          color: white;
+        }
+        p {
+          width: 80%;
+          font-size: 18px;
+          text-align: center;
+          padding: 10px 0;
+        }
+      }
+      .servicioTarde {
+        @extend .servicioMediodia;
+      }
+      .servicioPizza {
+        @extend .servicioTarde;
+      }
+      h3 {
+        padding: 20px 0;
+        width: 90%;
+        color: white;
+        text-align: center;
+      }
+      .iconsServicio {
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .iconFace {
+          width: 20%;
+        }
+        button {
+          @include buttonUber;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+/*-----------------------seccion contacto---------------------*/
+
+.contacto {
+  width: 310px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  .bg-input {
+    background-color: $bgPrincipal;
+  }
+  .area {
+    resize: none;
+    width: 100%;
+    background-color: $bgPrincipal;
+  }
+  button {
+    width: 30%;
+    padding: 7px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px $bgPrincipal;
+    transition: ease-in-out 1s;
+    &:hover {
+      background-color: black;
+      color: white;
+      transform: scale(1.1);
+    }
+  }
+  .numero-direccion {
+    padding: 20px 0;
+  }
+}
+section.enviosContacto {
+  @extend .envios;
+  h3 {
+    padding: 10px 0;
+  }
+}

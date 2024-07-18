@@ -1,0 +1,137 @@
+.headerVinos {
+  width: 320px;
+  background-image: url(../assets/img/fondos/pexels-pixabay-33265.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section.seccionVinos {
+  width: 320px;
+  background-color: black;
+  padding: 50px 0;
+  .titleVinos {
+    span {
+      color: white;
+      padding: 7px 5px;
+      font-size: 22px;
+      font-family: $fontSecundaria;
+    }
+    h1 {
+      color: white;
+      text-transform: uppercase;
+      font-size: 26px;
+      padding: 10px 5px;
+      font-family: $fontSecundaria;
+    }
+  }
+  /*-----------------------seccion vino tinto---------------------*/
+
+  .cartaVinoTinto {
+    width: 90%;
+    margin: 0 5%;
+    background-color: $bgPrincipal;
+    border-radius: 5px;
+    h2 {
+      text-align: start;
+      font-size: 30px;
+      padding: 15px 5px;
+    }
+    .titleCard {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: 10px 5%;
+      span {
+        font-size: 18px;
+        text-align: start;
+      }
+      div img {
+        width: 40px;
+        transform: scale(1.2);
+        object-fit: cover;
+        padding: 0 10px;
+      }
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      padding: 15px 0;
+      h3 {
+        font-size: 22px;
+        padding: 20px 5px;
+      }
+      h4 {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+      }
+      .flexCard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 5%;
+        img {
+          width: 40px;
+          height: 27px;
+        }
+        div span {
+          padding: 0 10px;
+          font-size: 18px;
+          width: 20px;
+        }
+      }
+    }
+  }
+  /*-----------------------seccion vino blanco y bebidas---------------------*/
+
+  .cartaVinoBlanco {
+    @extend .cartaVinoTinto;
+    width: 90%;
+    margin: 20px 5%;
+    padding-bottom: 20px;
+  }
+  .cartaVinoEfervescente {
+    @extend .cartaVinoBlanco;
+  }
+  .cartaVinoRosado {
+    @extend .cartaVinoBlanco;
+  }
+  .seccionBebidaCaliente {
+    @extend .cartaVinoBlanco;
+    div.titleCard {
+      width: 90%;
+      img {
+        width: 40px;
+      }
+    }
+    div.flexCard {
+      font-size: 18px;
+      width: 85%;
+      margin: 7px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .seccionBebidaFria {
+    @extend .seccionBebidaCaliente;
+    div.titleCard {
+      img {
+        width: 15px;
+        margin-right: 17px;
+      }
+    }
+  }
+  .seccionAgua {
+    @extend .seccionBebidaCaliente;
+    div.titleCard {
+      img {
+        width: 15px;
+        margin-right: 17px;
+      }
+    }
+  }
+}

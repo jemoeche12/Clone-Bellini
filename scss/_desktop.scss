@@ -1,0 +1,542 @@
+@media (min-width: 769px) {
+  /*---------------------------------INDEX DESKTOP ---------------------*/
+  header {
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    div.link-contenedor {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      width: 70%;
+    }
+    a {
+      padding: 15px;
+      width: max-content;
+    }
+  }
+  /*-----------------------seccion home---------------------*/
+  article.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    .img-home {
+      width: 90%;
+      object-fit: cover;
+      height: 100%;
+    }
+    .home-parrafo {
+      width: 50%;
+      padding-top: 20px;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      span {
+        width: 80%;
+        padding-left: 10px;
+      }
+      h2 {
+        animation: cambiarColor 5s infinite;
+        animation-timing-function: ease;
+        transform: scale(0);
+        padding: 10px;
+      }
+      @keyframes cambiarColor {
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1.4);
+          color: white;
+          animation-delay: 3s;
+        }
+        100% {
+          transform: scale(0.5);
+          color: black;
+        }
+      }
+      p {
+        font-family: $fontSecundaria;
+        width: 90%;
+        font-size: 22px;
+        padding-left: 10px;
+      }
+    }
+  }
+  /*-----------------------seccion video---------------------*/
+
+  section.seccionVideo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "title title"
+      "parrafo video";
+    padding-bottom: 50px;
+    h1 {
+      grid-area: title;
+      width: 80%;
+      margin: 50px 10%;
+      font-size: 40px;
+    }
+    p {
+      grid-area: parrafo;
+      width: 90%;
+    }
+    video {
+      grid-area: video;
+      width: 90%;
+    }
+  }
+  /*-----------------------seccion productos---------------------*/
+
+  section.nuestrosProductos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "img title"
+      "img p"
+      "img button1"
+      "img button2";
+    padding-bottom: 0px;
+    img {
+      width: 100%;
+      grid-area: img;
+      height: 100%;
+      object-fit: cover;
+      padding-bottom: 0;
+    }
+    h2 {
+      grid-area: title;
+      padding-top: 10px;
+    }
+    p {
+      grid-area: p;
+      width: 90%;
+      margin: 0 5%;
+      padding: 20px 0;
+    }
+    .bt1 {
+      grid-area: button1;
+      padding-top: 5xp;
+    }
+    .bt2 {
+      grid-area: button2;
+      margin-bottom: 20px;
+    }
+  }
+  /*-----------------------seccion restaurante--------------------*/
+
+  section.restaurante {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    div.p-restaurante {
+      height: 100%;
+      width: 50%;
+      h2 {
+        width: 50%;
+      }
+      p {
+        width: 50%;
+      }
+      img.cubiertos {
+        width: 30px;
+      }
+    }
+    div.img-restaurante {
+      width: 50%;
+      object-fit: contain;
+      height: 100%;
+      margin-bottom: 0;
+    }
+  }
+  /*-----------------------seccion envios--------------------*/
+
+  section.envios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "img h2"
+      "img h3"
+      "img p"
+      "img btn";
+    padding-bottom: 0;
+    h2 {
+      grid-area: h2;
+      width: 80%;
+      margin: 20px 10%;
+    }
+    img {
+      grid-area: img;
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+      padding: 0;
+    }
+    h3 {
+      grid-area: h3;
+      width: 80%;
+      margin: 20px 10%;
+      text-align: center;
+    }
+    p {
+      grid-area: p;
+      width: 80%;
+      margin: 0 10%;
+      font-size: 22px;
+    }
+    button {
+      grid-area: btn;
+      width: 40%;
+      margin: 5px 30%;
+      margin-bottom: 20px;
+    }
+  }
+  /*-----------------------seccion opiniones---------------------*/
+
+  section.opinion {
+    display: grid;
+    grid-template-areas:
+      "title title"
+      "card1 card2"
+      "card3 card4"
+      "card5 .";
+    width: 90%;
+    margin: 0 5%;
+    h2 {
+      grid-area: title;
+    }
+    section.opiniones {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: 0 10%;
+      .card1 {
+        grid-area: card1;
+      }
+      .card2 {
+        grid-area: card2;
+      }
+      .card3 {
+        grid-area: card3;
+      }
+      .card4 {
+        grid-area: card4;
+      }
+      .card5 {
+        grid-area: card5;
+      }
+      div.card-opinion {
+        width: 80%;
+        margin: 0 10%;
+      }
+      div.userName {
+        width: 70%;
+      }
+    }
+  }
+  div.footer {
+    width: 100%;
+  }
+  /*-------------------------- seccion pizzas --------------------*/
+  .headerPizzas {
+    width: 100%;
+    .titleHeaderPizzas {
+      width: 100%;
+      span {
+        padding: 0px 25px;
+      }
+      h1 {
+        margin: 0px 25px;
+      }
+      button {
+        width: 20%;
+        margin: 0px 40%;
+      }
+    }
+  }
+  section.variedadPizzas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*-----------------------seccion pizzas rosas---------------------*/
+
+    .pizzasRosas {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 15% 1fr 1fr 1fr;
+      justify-items: center;
+      align-items: center;
+      grid-template-areas:
+        "title title title"
+        "pizza1 pizza2 pizza3"
+        "pizza4 pizza5 pizza6"
+        "pizza7 pizza8 pizza9";
+      .titlePizzaRosa {
+        width: 100%;
+        grid-area: title;
+      }
+      .margarita {
+        grid-area: pizza1;
+      }
+      .vegetariana {
+        grid-area: pizza2;
+      }
+      .regina {
+        grid-area: pizza3;
+      }
+      .calzone {
+        grid-area: pizza4;
+      }
+      .frioul {
+        grid-area: pizza5;
+      }
+      .siciliana {
+        grid-area: pizza6;
+      }
+      .spianata {
+        grid-area: pizza7;
+      }
+      .marinara {
+        grid-area: pizza8;
+      }
+      .burrata {
+        grid-area: pizza9;
+      }
+
+      .cardPizza {
+        width: 310px;
+        margin: 35px 5px;
+      }
+    }
+    /*-----------------------seccion pizzas blancas---------------------*/
+
+    .pizzasBlancas {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      align-items: center;
+      grid-template-rows: 15% 1fr 1fr;
+      grid-template-areas:
+        "title title title"
+        "pizza1 pizza2 pizza3"
+        "pizza4 pizza5 pizza6";
+
+      .titlePizzaBlanca {
+        margin-top: 25px;
+        grid-area: title;
+      }
+      .jamon {
+        grid-area: pizza1;
+      }
+      .salmon {
+        grid-area: pizza2;
+      }
+      .carbonara {
+        grid-area: pizza3;
+      }
+      .cuatroQuesos {
+        grid-area: pizza4;
+      }
+      .pistacho {
+        grid-area: pizza5;
+      }
+    }
+    /*-----------------------seccion panuzzos---------------------*/
+
+    .panuozzo {
+      width: 100%;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 25% 1fr;
+      grid-template-areas:
+        "title title"
+        "panuozzo1 panuozzo2";
+      .titlePanuozzo {
+        grid-area: title;
+      }
+      .pan1 {
+        grid-area: panuozzo1;
+      }
+      .pan2 {
+        grid-area: panuozzo2;
+      }
+    }
+  }
+  /*---------------------seccion Contactos--------------*/
+  section.horarioContacto {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    section.horariosyForm {
+      width: 80%;
+      margin: 0 5px;
+      .horarios {
+        width: 70%;
+        margin: 10px 15%;
+        font-size: 18px;
+        padding: 5px;
+        .copaHorarios {
+          padding: 5px 0;
+          width: 50%;
+        }
+        h2,
+        h3 {
+          font-size: 20px;
+        }
+        .iconsServicio {
+          img.iconFace {
+            width: 40px;
+          }
+        }
+      }
+    }
+    .contacto {
+      width: 90%;
+      margin: 50px 5%;
+      padding: 25px 0;
+      font-size: 24px;
+      textarea {
+        height: 350px;
+        padding-bottom: 25px;
+      }
+      .numero-direccion {
+        h3 {
+          font-size: 24px;
+          padding: 20px 10px;
+        }
+        span {
+          padding: 20px 10px;
+        }
+      }
+    }
+  }
+  /*----------------------------seccion Vinos--------------------*/
+  header.headerVinos {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/botellas_vino..jpg);
+    background-size: cover;
+  }
+  section.seccionVinos {
+    display: grid;
+    grid-template-areas:
+      "title ."
+      "vinoT vinoB"
+      "vinoE vinoR"
+      "bFria bCal"
+      "bFria agua";
+    grid-row: 20px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+
+    height: max-content;
+    align-items: start;
+    justify-items: center;
+    .titleVinos {
+      margin: 25px 0;
+      grid-area: title;
+      span {
+        width: 50%;
+      }
+    }
+    section.cartaVinoTinto {
+      height: max-content;
+      grid-area: vinoT;
+    }
+    section.cartaVinoBlanco {
+      grid-area: vinoB;
+      height: max-content;
+    }
+    section.cartaVinoEfervescente {
+      grid-area: vinoE;
+      height: max-content;
+    }
+    section.cartaVinoRosado {
+      grid-area: vinoR;
+      height: max-content;
+    }
+
+    section.seccionBebidaCaliente {
+      grid-area: bCal;
+      height: max-content;
+      div.titleCard {
+        width: 87%;
+      }
+    }
+    section.seccionBebidaFria {
+      grid-area: bFria;
+      height: max-content;
+    }
+    section.seccionAgua {
+      grid-area: agua;
+      height: max-content;
+    }
+  }
+  /*-----------------------------seccion menu -------------------------------*/
+  .seccionMenu {
+    width: 100%;
+  }
+  section.tarjetasMenu {
+    width: 90%;
+    margin: 20px 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "menu1 menu2"
+      "menu3 menu4"
+      "menu3 menuNiño"
+      "postres postres";
+    .menu1 {
+      grid-area: menu1;
+      padding-bottom: 0;
+    }
+    .menu2 {
+      grid-area: menu2;
+      height: 100%;
+    }
+    .menu3 {
+      grid-area: menu3;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .menu4 {
+      grid-area: menu4;
+    }
+    .menuNiño {
+      grid-area: menuNiño;
+      padding: 0;
+      h3 {
+        padding-bottom: 15px;
+      }
+    }
+    .postres {
+      grid-area: postres;
+      width: 50%;
+      margin: 25px 25%;
+    }
+  }
+}

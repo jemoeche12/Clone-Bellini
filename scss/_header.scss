@@ -1,0 +1,44 @@
+header {
+  width: 320px;
+  background-color: black;
+  padding-top: 50px;
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img.logo-nav {
+    transform: scale(0.8);
+    padding-bottom: 15px;
+  }
+  div.link-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  a {
+    color: white;
+    padding: 15px 0;
+    transition: all 0.5s;
+    font-family: $fontPrincipal;
+    
+  }
+  div.link-btn {
+    display: flex;
+    margin: 5px;
+  }
+  .btn-uber {
+   @include buttonHeader;
+   a.enlaceNav{
+    &:hover {
+      background-color: white;
+      color: black;
+      padding: 5px;
+      border-radius: 5px;
+    }
+   }
+  }
+}
