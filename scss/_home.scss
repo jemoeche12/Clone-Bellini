@@ -25,6 +25,26 @@ article.home {
       font-family: $fontSecundaria;
       font-weight: 400;
       font-style: normal;
+      animation: cambiarColor 5s infinite;
+      animation-timing-function: ease;
+      transform: scale(0);
+      padding: 10px;
+        
+      }
+      @keyframes cambiarColor {
+        0%{
+          transform: scale(0);
+        }
+        50%{
+          transform: scale(1.2);
+          color: white;
+          animation-delay: 3s;
+        }
+        100%{
+          transform: scale(0.5);
+          color: black;
+        }
+      }
     }
     p {
       color: white;
@@ -45,4 +65,4 @@ article.home {
       }
     }
   }
-}
+

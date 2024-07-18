@@ -31,6 +31,8 @@
       padding: 15px;
     }
   }
+  /*-----------------------seccion home---------------------*/
+
   article.home {
     width: 100%;
     .img-home {
@@ -42,8 +44,30 @@
       font-size: 22px;
       width: 80%;
       margin: 0 10%;
+      h2 {
+        animation: cambiarColor 5s infinite;
+        animation-timing-function: ease;
+        transform: scale(0);
+        padding: 10px;
+      }
+      @keyframes cambiarColor {
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1.4);
+          color: white;
+          animation-delay: 3s;
+        }
+        100% {
+          transform: scale(0.5);
+          color: black;
+        }
+      }
     }
   }
+  /*-----------------------seccion video---------------------*/
+
   section.seccionVideo {
     width: 100%;
     h1 {
@@ -54,6 +78,8 @@
       margin: 20px 5%;
     }
   }
+  /*-----------------------seccion productos---------------------*/
+
   section.nuestrosProductos {
     width: 100%;
     img {
@@ -64,6 +90,8 @@
       margin: 10px 20%;
     }
   }
+  /*-----------------------seccion restaurante---------------------*/
+
   section.restaurante {
     width: 100%;
     div.p-restaurante {
@@ -79,6 +107,8 @@
       width: 100%;
     }
   }
+  /*-----------------------seccion envios---------------------*/
+
   section.envios {
     width: 100%;
     p {
@@ -97,6 +127,8 @@
       height: auto;
     }
   }
+  /*-----------------------seccion opiniones---------------------*/
+
   section.opinion {
     width: 100%;
     gap: 50px;
@@ -124,6 +156,8 @@
       }
     }
   }
+  /*-----------------------seccion footer---------------------*/
+
   div.footer {
     width: 100%;
     span.copy {
@@ -241,25 +275,25 @@
         width: 50%;
       }
     }
-    .seccionBebidaCaliente{
-      div.titleCard{
+    .seccionBebidaCaliente {
+      div.titleCard {
         width: 87%;
-    }
+      }
     }
   }
   /*------------------------------SECCION CONTACTOS --------------------*/
-  section.horariosyForm{
+  section.horariosyForm {
     width: 100%;
-    .horarios{
+    .horarios {
       width: 90%;
       margin: 20px 5%;
-      .copaHorarios{
+      .copaHorarios {
         height: auto;
         transform: scale(0.8);
       }
     }
   }
-  .contacto{
+  .contacto {
     width: 90%;
     margin: 20px 5%;
   }

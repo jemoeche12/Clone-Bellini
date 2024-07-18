@@ -24,6 +24,7 @@
       width: max-content;
     }
   }
+  /*-----------------------seccion home---------------------*/
   article.home {
     width: 100%;
     height: 100vh;
@@ -47,7 +48,24 @@
         padding-left: 10px;
       }
       h2 {
-        padding-right: 10px;
+        animation: cambiarColor 5s infinite;
+        animation-timing-function: ease;
+        transform: scale(0);
+        padding: 10px;
+      }
+      @keyframes cambiarColor {
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1.4);
+          color: white;
+          animation-delay: 3s;
+        }
+        100% {
+          transform: scale(0.5);
+          color: black;
+        }
       }
       p {
         font-family: $fontSecundaria;
@@ -57,6 +75,8 @@
       }
     }
   }
+  /*-----------------------seccion video---------------------*/
+
   section.seccionVideo {
     width: 100%;
     display: grid;
@@ -80,6 +100,8 @@
       width: 90%;
     }
   }
+  /*-----------------------seccion productos---------------------*/
+
   section.nuestrosProductos {
     width: 100%;
     display: grid;
@@ -116,6 +138,8 @@
       margin-bottom: 20px;
     }
   }
+  /*-----------------------seccion restaurante--------------------*/
+
   section.restaurante {
     height: 100%;
     width: 100%;
@@ -141,6 +165,8 @@
       margin-bottom: 0;
     }
   }
+  /*-----------------------seccion envios--------------------*/
+
   section.envios {
     width: 100%;
     display: grid;
@@ -182,6 +208,8 @@
       margin-bottom: 20px;
     }
   }
+  /*-----------------------seccion opiniones---------------------*/
+
   section.opinion {
     display: grid;
     grid-template-areas:
@@ -249,6 +277,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*-----------------------seccion pizzas rosas---------------------*/
+
     .pizzasRosas {
       width: 100%;
       display: grid;
@@ -298,6 +328,8 @@
         margin: 35px 5px;
       }
     }
+    /*-----------------------seccion pizzas blancas---------------------*/
+
     .pizzasBlancas {
       width: 100%;
       display: grid;
@@ -330,6 +362,8 @@
         grid-area: pizza5;
       }
     }
+    /*-----------------------seccion panuzzos---------------------*/
+
     .panuozzo {
       width: 100%;
       display: grid;
@@ -495,7 +529,7 @@
     .menuNiño {
       grid-area: menuNiño;
       padding: 0;
-      h3{
+      h3 {
         padding-bottom: 15px;
       }
     }

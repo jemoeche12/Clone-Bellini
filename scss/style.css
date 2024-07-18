@@ -44,12 +44,6 @@ header a {
   transition: all 0.5s;
   font-family: "Baskervville SC", serif;
 }
-header a:hover {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
-}
 header div.link-btn {
   display: flex;
   margin: 5px;
@@ -60,14 +54,17 @@ header .btn-uber {
   border: 1px solid white;
   transition: 0.5s;
 }
-header .btn-uber:hover {
+header .btn-uber a.enlaceNav:hover {
   background-color: white;
   color: black;
   padding: 5px;
   border-radius: 5px;
 }
-header .btn-uber a {
-  padding: 0px;
+header .btn-uber a.enlaceNav:hover {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 div.footer {
@@ -123,12 +120,30 @@ article.home .home-parrafo h2 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  animation: cambiarColor 5s infinite;
+  animation-timing-function: ease;
+  transform: scale(0);
+  padding: 10px;
 }
-article.home .home-parrafo p {
+@keyframes cambiarColor {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+    color: white;
+    animation-delay: 3s;
+  }
+  100% {
+    transform: scale(0.5);
+    color: black;
+  }
+}
+article.home p {
   color: white;
   font-family: "Bebas Neue", sans-serif;
 }
-article.home .home-parrafo button.btn-home {
+article.home button.btn-home {
   font-family: "Baskervville SC", serif;
   padding: 7px;
   background-color: transparent;
@@ -138,15 +153,15 @@ article.home .home-parrafo button.btn-home {
   margin: 10px 10%;
   transition: all 0.5s;
 }
-article.home .home-parrafo button.btn-home:hover {
+article.home button.btn-home:hover {
   background-color: white;
   color: black;
 }
-article.home .home-parrafo button.btn-home a {
+article.home button.btn-home a {
   color: white;
   transition: 0.5s;
 }
-article.home .home-parrafo button.btn-home a:hover {
+article.home button.btn-home a:hover {
   background-color: white;
   color: black;
   padding: 5px;
@@ -410,6 +425,7 @@ section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas 
   width: 100%;
 }
 
+/*-----------------------seccion tarjeta restaurante---------------------*/
 section.tarjetasMenu {
   display: flex;
   flex-direction: column;
@@ -491,6 +507,8 @@ section.seccionVinos {
   width: 320px;
   background-color: black;
   padding: 50px 0;
+  /*-----------------------seccion vino tinto---------------------*/
+  /*-----------------------seccion vino blanco y bebidas---------------------*/
 }
 section.seccionVinos .titleVinos span {
   color: white;
@@ -611,6 +629,7 @@ section.seccionVinos .seccionAgua div.titleCard img {
   font-family: "Lora", serif;
 }
 
+/*-----------------------seccion tarjeta horarios Formulario---------------------*/
 section.horariosyForm {
   width: 320px;
 }
@@ -705,6 +724,7 @@ section.horariosyForm article.horarios section.horarioServicio .iconsServicio bu
   color: white;
 }
 
+/*-----------------------seccion contacto---------------------*/
 .contacto {
   width: 310px;
   margin: 5px;
@@ -773,6 +793,7 @@ section.enviosContacto h3 {
     width: -moz-max-content;
     width: max-content;
   }
+  /*-----------------------seccion home---------------------*/
   article.home {
     width: 100%;
     height: 100vh;
@@ -799,7 +820,24 @@ section.enviosContacto h3 {
     padding-left: 10px;
   }
   article.home .home-parrafo h2 {
-    padding-right: 10px;
+    animation: cambiarColor 5s infinite;
+    animation-timing-function: ease;
+    transform: scale(0);
+    padding: 10px;
+  }
+  @keyframes cambiarColor {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.4);
+      color: white;
+      animation-delay: 3s;
+    }
+    100% {
+      transform: scale(0.5);
+      color: black;
+    }
   }
   article.home .home-parrafo p {
     font-family: "Bebas Neue", sans-serif;
@@ -807,6 +845,7 @@ section.enviosContacto h3 {
     font-size: 22px;
     padding-left: 10px;
   }
+  /*-----------------------seccion video---------------------*/
   section.seccionVideo {
     width: 100%;
     display: grid;
@@ -828,6 +867,7 @@ section.enviosContacto h3 {
     grid-area: video;
     width: 90%;
   }
+  /*-----------------------seccion productos---------------------*/
   section.nuestrosProductos {
     width: 100%;
     display: grid;
@@ -861,6 +901,7 @@ section.enviosContacto h3 {
     grid-area: button2;
     margin-bottom: 20px;
   }
+  /*-----------------------seccion restaurante--------------------*/
   section.restaurante {
     height: 100%;
     width: 100%;
@@ -887,6 +928,7 @@ section.enviosContacto h3 {
     height: 100%;
     margin-bottom: 0;
   }
+  /*-----------------------seccion envios--------------------*/
   section.envios, section.enviosContacto {
     width: 100%;
     display: grid;
@@ -925,6 +967,7 @@ section.enviosContacto h3 {
     margin: 5px 30%;
     margin-bottom: 20px;
   }
+  /*-----------------------seccion opiniones---------------------*/
   section.opinion {
     display: grid;
     grid-template-areas: "title title" "card1 card2" "card3 card4" "card5 .";
@@ -988,6 +1031,9 @@ section.enviosContacto h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*-----------------------seccion pizzas rosas---------------------*/
+    /*-----------------------seccion pizzas blancas---------------------*/
+    /*-----------------------seccion panuzzos---------------------*/
   }
   section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
     width: 100%;
@@ -1260,6 +1306,7 @@ section.enviosContacto h3 {
     text-align: center;
     padding: 15px;
   }
+  /*-----------------------seccion home---------------------*/
   article.home {
     width: 100%;
   }
@@ -1274,6 +1321,27 @@ section.enviosContacto h3 {
     width: 80%;
     margin: 0 10%;
   }
+  article.home .home-parrafo h2 {
+    animation: cambiarColor 5s infinite;
+    animation-timing-function: ease;
+    transform: scale(0);
+    padding: 10px;
+  }
+  @keyframes cambiarColor {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.4);
+      color: white;
+      animation-delay: 3s;
+    }
+    100% {
+      transform: scale(0.5);
+      color: black;
+    }
+  }
+  /*-----------------------seccion video---------------------*/
   section.seccionVideo {
     width: 100%;
   }
@@ -1284,6 +1352,7 @@ section.enviosContacto h3 {
     width: 90%;
     margin: 20px 5%;
   }
+  /*-----------------------seccion productos---------------------*/
   section.nuestrosProductos {
     width: 100%;
   }
@@ -1294,6 +1363,7 @@ section.enviosContacto h3 {
     width: 60%;
     margin: 10px 20%;
   }
+  /*-----------------------seccion restaurante---------------------*/
   section.restaurante {
     width: 100%;
   }
@@ -1309,6 +1379,7 @@ section.enviosContacto h3 {
   section.restaurante div.img-restaurante {
     width: 100%;
   }
+  /*-----------------------seccion envios---------------------*/
   section.envios, section.enviosContacto {
     width: 100%;
   }
@@ -1328,6 +1399,7 @@ section.enviosContacto h3 {
        object-fit: cover;
     height: auto;
   }
+  /*-----------------------seccion opiniones---------------------*/
   section.opinion {
     width: 100%;
     gap: 50px;
@@ -1355,6 +1427,7 @@ section.enviosContacto h3 {
   section.opinion section.opiniones div.userName .nameDate {
     gap: 20%;
   }
+  /*-----------------------seccion footer---------------------*/
   div.footer {
     width: 100%;
   }

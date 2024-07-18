@@ -24,12 +24,7 @@ header {
     padding: 15px 0;
     transition: all 0.5s;
     font-family: $fontPrincipal;
-    &:hover {
-      background-color: white;
-      color: black;
-      padding: 5px;
-      border-radius: 5px;
-    }
+    
   }
   div.link-btn {
     display: flex;
@@ -37,5 +32,13 @@ header {
   }
   .btn-uber {
    @include buttonHeader;
+   a.enlaceNav{
+    &:hover {
+      background-color: white;
+      color: black;
+      padding: 5px;
+      border-radius: 5px;
+    }
+   }
   }
 }

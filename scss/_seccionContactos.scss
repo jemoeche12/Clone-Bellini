@@ -18,6 +18,8 @@
     }
   }
 }
+/*-----------------------seccion tarjeta horarios Formulario---------------------*/
+
 section.horariosyForm {
   width: 320px;
 
@@ -102,7 +104,7 @@ section.horariosyForm {
         }
         button {
           @include buttonUber;
-          a{
+          a {
             color: white;
           }
         }
@@ -110,47 +112,48 @@ section.horariosyForm {
     }
   }
 }
-.contacto{
-    width: 310px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 18px;
-    font-weight: 500;
-    .bg-input{
-        background-color: $bgPrincipal;
-    }
-    .area{
-        resize: none;
-        width: 100%;
-        background-color: $bgPrincipal;
-    }
-    button{
-        width: 30%;
-        padding: 7px;
-        color: black;
-        background-color: white;
-        border: none;
-        border-radius: 5px;
-        box-shadow: 0 0 3px $bgPrincipal;
-        transition: ease-in-out 1s;
-        &:hover{
-            background-color: black;
-            color: white;
-            transform: scale(1.1);
-        }
-    }
-    .numero-direccion{
-      padding: 20px 0;
-    }
+/*-----------------------seccion contacto---------------------*/
 
-}
-section.enviosContacto{
-    @extend .envios;
-    h3{
-        padding: 10px 0;
+.contacto {
+  width: 310px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  .bg-input {
+    background-color: $bgPrincipal;
+  }
+  .area {
+    resize: none;
+    width: 100%;
+    background-color: $bgPrincipal;
+  }
+  button {
+    width: 30%;
+    padding: 7px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px $bgPrincipal;
+    transition: ease-in-out 1s;
+    &:hover {
+      background-color: black;
+      color: white;
+      transform: scale(1.1);
     }
+  }
+  .numero-direccion {
+    padding: 20px 0;
+  }
+}
+section.enviosContacto {
+  @extend .envios;
+  h3 {
+    padding: 10px 0;
+  }
 }
