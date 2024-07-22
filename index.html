@@ -19,7 +19,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="./scss/style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>RESTAURANTE BELLINI ST JEAN DE LUZ</title>
   </head>
   <body>
@@ -29,10 +29,10 @@
           class="logo-nav"
           src="./assets/icons/logo-bellini.png"
           alt="logo-bellini" />
-        <div class="link-contenedor">
-          <a href="./pages/menu.html">MENÚ TEMPORADA</a>
-          <a href="./pages/vinos.html">CARTA DE VINOS & BEBIDAS</a>
-          <div class="link-btn">
+        <ul class="link-contenedor">
+          <li><a href="./pages/menu.html">MENÚ TEMPORADA</a></li>
+          <li><a href="./pages/vinos.html">CARTA DE VINOS Y BEBIDAS</a></li>
+          <li class="link-btn">
             <a href="./pages/pizzas.html"
               >PIZZAS
               <button class="btn-uber">
@@ -43,9 +43,9 @@
                 >
               </button>
             </a>
-          </div>
-          <a href="./pages/contacto.html">CONTACTO</a>
-        </div>
+          </li>
+          <li><a href="./pages/contacto.html">CONTACTO</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -59,7 +59,7 @@
       </div>
       <div class="home-parrafo">
         <span>Rue Sopite, Sainte Jean de Luz</span>
-        <h2 class="baskervville-sc-regular">COCINA ITALIANA</h2>
+        <h2 class="cocina">COCINA ITALIANA</h2>
         <p>
           Nuestro concepto es simple, Nosotros le proponemos una cocina italiana
           auténtica, respetuosa del patrimonio culinario italiano.
@@ -222,12 +222,11 @@
             estresado pero la pizza sabía muy bien"
           </p>
           <svg
-            class="google"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-google"
+            class="bi bi-google google"
             viewBox="0 0 16 16">
             <path
               d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
@@ -235,12 +234,11 @@
         </div>
         <div class="userName">
           <svg
-            class="user"
             xmlns="http://www.w3.org/2000/svg"
             width="40"
             height="40"
             fill="currentColor"
-            class="bi bi-person-bounding-box"
+            class="bi bi-person-bounding-box user"
             viewBox="0 0 16 16">
             <path
               d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
@@ -323,12 +321,12 @@
         </div>
         <div class="userName">
           <svg
-            class="user"
+            
             xmlns="http://www.w3.org/2000/svg"
             width="40"
             height="40"
             fill="currentColor"
-            class="bi bi-person-bounding-box"
+            class="bi bi-person-bounding-box user"
             viewBox="0 0 16 16">
             <path
               d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
@@ -399,12 +397,11 @@
             Very friendly service"
           </p>
           <svg
-            class="google"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-google"
+            class="bi bi-google google"
             viewBox="0 0 16 16">
             <path
               d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
@@ -412,12 +409,12 @@
         </div>
         <div class="userName">
           <svg
-            class="user"
+            
             xmlns="http://www.w3.org/2000/svg"
             width="40"
             height="40"
             fill="currentColor"
-            class="bi bi-person-bounding-box"
+            class="bi bi-person-bounding-box user"
             viewBox="0 0 16 16">
             <path
               d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
@@ -488,12 +485,11 @@
             l’écoute."
           </p>
           <svg
-            class="google"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-google"
+            class="bi bi-google google"
             viewBox="0 0 16 16">
             <path
               d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
@@ -501,12 +497,11 @@
         </div>
         <div class="userName">
           <svg
-            class="user"
             xmlns="http://www.w3.org/2000/svg"
             width="40"
             height="40"
             fill="currentColor"
-            class="bi bi-person-bounding-box"
+            class="bi bi-person-bounding-box user"
             viewBox="0 0 16 16">
             <path
               d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
@@ -577,12 +572,12 @@
             je recommande !"
           </p>
           <svg
-            class="google"
+            
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-google"
+            class="bi bi-google google"
             viewBox="0 0 16 16">
             <path
               d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
@@ -590,12 +585,12 @@
         </div>
         <div class="userName">
           <svg
-            class="user"
+            
             xmlns="http://www.w3.org/2000/svg"
             width="40"
             height="40"
             fill="currentColor"
-            class="bi bi-person-bounding-box"
+            class="bi bi-person-bounding-box user"
             viewBox="0 0 16 16">
             <path
               d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
