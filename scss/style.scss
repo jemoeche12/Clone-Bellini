@@ -1,19 +1,19 @@
-@import "generales";
-@import "variables";
-@import "mixins";
-@import "header";
-@import "footer";
-@import "home";
-@import "seccionRestaurante";
-@import "seccionEnvios";
-@import "seccionOpiniones";
-@import "seccionPizzas";
-@import "seccionMenu";
-@import "seccionVinos";
-@import "seccionContactos";
-@import "desktop";
-@import "tablet768";
-@import "seccionVideo";
-@import "seccionProductos";
+@import "./reset/generales";
+@import "./mixinsYvariables/variables";
+@import "./mixinsYvariables/mixins";
+@import "./generales/header";
+@import "./generales/footer";
+@import "./pagesIndex/home";
+@import "./pagesIndex/seccionRestaurante";
+@import "./pagesIndex/seccionEnvios";
+@import "./pagesIndex/seccionOpiniones";
+@import "./pagePizza/seccionPizzas";
+@import "./pageMenu/seccionMenu";
+@import "./pageVinos/seccionVinos";
+@import "./pageContacto/seccionContactos";
+@import "./mediaQuery/desktop";
+@import "./mediaQuery/tablet768";
+@import "./pagesIndex/seccionVideo";
+@import "./pagesIndex/seccionProductos";
 
 
