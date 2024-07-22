@@ -135,7 +135,7 @@ article.home .home-parrafo h2 {
     transform: scale(0);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(0.8);
     color: white;
     animation-delay: 3s;
   }
