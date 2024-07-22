@@ -1,6 +1,6 @@
 .headerMenu {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../assets/img/fondos/fondoMenu.jpg);
+    url(../assets/img/fondos/fondoMenu.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -80,7 +80,7 @@ section.tarjetasMenu {
     @extend .menu2;
     margin-top: 15px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../assets/img/fondos/tataki.jpeg);
+      url(../assets/img/fondos/tataki.jpg);
     margin-bottom: 0;
   }
   .menu4 {

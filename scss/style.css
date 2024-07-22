@@ -407,7 +407,7 @@ section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas 
   color: white;
 }
 .headerMenu, .headerContacto, .headerPizzas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoMenu.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoMenu.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -483,7 +483,7 @@ section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
 }
 section.tarjetasMenu .menu3 {
   margin-top: 15px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/tataki.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/tataki.jpg);
   margin-bottom: 0;
 }
 section.tarjetasMenu .menu4 div.sinGluten, section.tarjetasMenu .postres div.sinGluten {
@@ -503,7 +503,7 @@ section.tarjetasMenu .postres {
 
 .headerVinos {
   width: 320px;
-  background-image: url(../assets/img/fondos/pexels-pixabay-33265.jpg);
+  background-image: url(../assets/img/fondos/pexels-pixabay-33265.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1187,7 +1187,7 @@ section.enviosContacto h3 {
   /*----------------------------seccion Vinos--------------------*/
   header.headerVinos {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/botellas_vino..jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/botellas_vino..webp);
     background-size: cover;
   }
   section.seccionVinos {
@@ -1319,7 +1319,7 @@ section.enviosContacto h3 {
   }
   header a {
     text-align: center;
-    padding: 15px;
+    padding: 15px 0;
     transition: all 1s ease-in-out;
   }
   header a:hover {
