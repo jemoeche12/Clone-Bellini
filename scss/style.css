@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 header {
   width: 320px;
   background-color: black;
@@ -31,20 +35,27 @@ header img.logo-nav {
   transform: scale(0.8);
   padding-bottom: 15px;
 }
-header div.link-contenedor {
+header ul.link-contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 10px 0;
+  gap: 20px;
 }
 header a {
   color: white;
   padding: 15px 0;
-  transition: all 0.5s;
+  transition: all 1s;
   font-family: "Baskervville SC", serif;
 }
-header div.link-btn {
+header a:hover {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+header li.link-btn {
   display: flex;
   margin: 5px;
 }
@@ -53,12 +64,6 @@ header .btn-uber {
   background-color: transparent;
   border: 1px solid white;
   transition: 0.5s;
-}
-header .btn-uber a.enlaceNav:hover {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
 }
 header .btn-uber a.enlaceNav:hover {
   background-color: white;
@@ -343,6 +348,7 @@ section.opinion section.opiniones div.userName .nameDate {
 section.variedadPizzas {
   width: 320px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -780,7 +786,7 @@ section.enviosContacto h3 {
     justify-content: space-between;
     align-items: center;
   }
-  header div.link-contenedor {
+  header ul.link-contenedor {
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -792,6 +798,13 @@ section.enviosContacto h3 {
     padding: 15px;
     width: -moz-max-content;
     width: max-content;
+    transition: all ease-in-out 1s;
+  }
+  header a:hover {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
   }
   /*-----------------------seccion home---------------------*/
   article.home {
@@ -830,7 +843,7 @@ section.enviosContacto h3 {
       transform: scale(0);
     }
     50% {
-      transform: scale(1.4);
+      transform: scale(1);
       color: white;
       animation-delay: 3s;
     }
@@ -1028,6 +1041,7 @@ section.enviosContacto h3 {
   section.variedadPizzas {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1038,11 +1052,11 @@ section.enviosContacto h3 {
   section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 15% 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    grid-template-areas: "title title title" "pizza1 pizza2 pizza3" "pizza4 pizza5 pizza6" "pizza7 pizza8 pizza9";
+    grid-template-areas: "title title" "pizza1 pizza2" "pizza3 pizza4" "pizza5 pizza6" "pizza7 pizza8" "pizza9 pizza9";
   }
   section.variedadPizzas .pizzasRosas .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaRosa, section.variedadPizzas .panuozzo .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
     width: 100%;
@@ -1081,12 +1095,13 @@ section.enviosContacto h3 {
   }
   section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
     width: 100%;
+    margin-top: 150px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
     grid-template-rows: 15% 1fr 1fr;
-    grid-template-areas: "title title title" "pizza1 pizza2 pizza3" "pizza4 pizza5 pizza6";
+    grid-template-areas: "title title" "pizza1 pizza2" "pizza4 pizza3" "pizza5 pizza6";
   }
   section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
     margin-top: 25px;
@@ -1290,7 +1305,7 @@ section.enviosContacto h3 {
     width: 150px;
     padding-bottom: 10px;
   }
-  header div.link-contenedor {
+  header ul.link-contenedor {
     display: flex;
     flex-direction: row;
     width: -moz-max-content;
@@ -1305,6 +1320,13 @@ section.enviosContacto h3 {
   header a {
     text-align: center;
     padding: 15px;
+    transition: all 1s ease-in-out;
+  }
+  header a:hover {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
   }
   /*-----------------------seccion home---------------------*/
   article.home {

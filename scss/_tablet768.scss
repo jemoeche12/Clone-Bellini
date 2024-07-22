@@ -15,7 +15,7 @@
       width: 150px;
       padding-bottom: 10px;
     }
-    div.link-contenedor {
+    ul.link-contenedor {
       display: flex;
       flex-direction: row;
       width: max-content;
@@ -29,6 +29,13 @@
     a {
       text-align: center;
       padding: 15px;
+      transition: all 1s ease-in-out;
+      &:hover {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+      }
     }
   }
   /*-----------------------seccion home---------------------*/
