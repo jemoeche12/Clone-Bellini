@@ -796,7 +796,7 @@ section.enviosContacto h3 {
   }
   header a {
     padding: 15px;
-    width: -moz-max-content;
+    
     width: max-content;
     transition: all ease-in-out 1s;
   }
@@ -1308,7 +1308,6 @@ section.enviosContacto h3 {
   header ul.link-contenedor {
     display: flex;
     flex-direction: row;
-    width: -moz-max-content;
     width: max-content;
     align-items: center;
     justify-content: center;

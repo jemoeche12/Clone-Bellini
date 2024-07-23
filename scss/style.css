@@ -796,7 +796,6 @@ section.enviosContacto h3 {
   }
   header a {
     padding: 15px;
-    width: -moz-max-content;
     width: max-content;
     transition: all ease-in-out 1s;
   }
