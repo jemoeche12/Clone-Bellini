@@ -103,7 +103,7 @@ section.seccionVinos {
     margin: 20px 5%;
     padding-bottom: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../assets/img/fondos/vinoBlanco.webp);
+      url(../assets/img/fondos/fondo3.webp);
     object-fit: cover;
   }
   .cartaVinoEfervescente {
@@ -121,7 +121,7 @@ section.seccionVinos {
   .seccionBebidaCaliente {
     @extend .cartaVinoBlanco;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../assets/img/fondos/cafeFondo.webp);
+      url(../assets/img/fondos/cafeFondo.jpeg);
     object-fit: cover;
     div.titleCard {
       width: 90%;

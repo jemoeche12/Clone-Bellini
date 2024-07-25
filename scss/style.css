@@ -603,7 +603,7 @@ section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCalien
   width: 90%;
   margin: 20px 5%;
   padding-bottom: 20px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoBlanco.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondo3.webp);
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -618,7 +618,7 @@ section.seccionVinos .cartaVinoRosado {
      object-fit: cover;
 }
 section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/cafeFondo.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/cafeFondo.jpeg);
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1251,7 +1251,7 @@ section.enviosContacto h3 {
     grid-area: vinoB;
     height: -moz-max-content;
     height: max-content;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoBlanco.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondo3.webp);
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1643,7 +1643,7 @@ section.enviosContacto h3 {
     grid-area: vinoB;
     height: -moz-max-content;
     height: max-content;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoBlanco.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondo3.webp);
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1669,7 +1669,7 @@ section.enviosContacto h3 {
     grid-area: bCal;
     height: -moz-max-content;
     height: max-content;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/cafeFondo.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/cafeFondo.jpeg);
     -o-object-fit: cover;
        object-fit: cover;
   }
