@@ -277,17 +277,83 @@
     width: 100%;
     background-size: cover;
   }
+  
   section.seccionVinos {
     width: 100%;
+    height: max-content;
+    align-items: start;
+    justify-items: center;
+    background-color: $bgPrincipal;
     .titleVinos {
+      margin: 25px 0;
+      grid-area: title;
       span {
         width: 50%;
+        color:black;
+        padding-left: 5px;
+      }
+      h1 {
+        color: black;
+        padding-left: 5px;
       }
     }
-    .seccionBebidaCaliente {
+    section.cartaVinoTinto {
+      height: max-content;
+      color: white;
+      text-shadow: 5px 5px 3px black;
+      grid-area: vinoT;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../assets/img/fondos/fondo4.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    section.cartaVinoBlanco {
+      grid-area: vinoB;
+      height: max-content;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../assets/img/fondos/vinoBlanco.webp);
+      object-fit: cover;
+    }
+    section.cartaVinoEfervescente {
+      grid-area: vinoE;
+      height: max-content;
+    }
+    section.cartaVinoRosado {
+      grid-area: vinoR;
+      height: max-content;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../assets/img/fondos/vinoRosado.webp);
+      object-fit: cover;
+    }
+    section.cartaVinoEfervescente {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+       url(../assets/img/fondos/vinoEfervescente.webp);
+      object-fit: cover;
+    }
+    section.seccionBebidaCaliente {
+      grid-area: bCal;
+      height: max-content;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+       url(../assets/img/fondos/cafeFondo.webp);
+      object-fit: cover;
       div.titleCard {
         width: 87%;
       }
+    }
+    section.seccionBebidaFria {
+      grid-area: bFria;
+      height: max-content;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+       url(../assets/img/fondos/jugoFrutas.jpeg);
+      object-fit: cover;
+    }
+    section.seccionAgua {
+      grid-area: agua;
+      height: max-content;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/fondoAgua.webp);
+     object-fit: cover;
     }
   }
   /*------------------------------SECCION CONTACTOS --------------------*/

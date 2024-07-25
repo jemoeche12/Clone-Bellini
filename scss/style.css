@@ -511,7 +511,7 @@ section.tarjetasMenu .postres {
 
 section.seccionVinos {
   width: 320px;
-  background-color: black;
+  background-color: #e8e8e8;
   padding: 50px 0;
   /*-----------------------seccion vino tinto---------------------*/
   /*-----------------------seccion vino blanco y bebidas---------------------*/
@@ -521,14 +521,14 @@ section.seccionVinos .titleVinos {
   margin: 0 5%;
 }
 section.seccionVinos .titleVinos span {
-  color: white;
+  color: black;
   width: 100%;
   padding: 7px 0;
   font-size: 22px;
   font-family: "Bebas Neue", sans-serif;
 }
 section.seccionVinos .titleVinos h1 {
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-size: 26px;
   padding: 10px 5px;
@@ -537,8 +537,13 @@ section.seccionVinos .titleVinos h1 {
 section.seccionVinos .cartaVinoTinto, section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria, section.seccionVinos .cartaVinoRosado, section.seccionVinos .cartaVinoEfervescente {
   width: 90%;
   margin: 0 5%;
-  background-color: #e8e8e8;
+  color: white;
+  text-shadow: 5px 5px 3px black;
   border-radius: 5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondo4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 section.seccionVinos .cartaVinoTinto h2, section.seccionVinos .cartaVinoBlanco h2, section.seccionVinos .seccionBebidaCaliente h2, section.seccionVinos .seccionAgua h2, section.seccionVinos .seccionBebidaFria h2, section.seccionVinos .cartaVinoRosado h2, section.seccionVinos .cartaVinoEfervescente h2 {
   text-align: start;
@@ -558,7 +563,7 @@ section.seccionVinos .cartaVinoTinto .titleCard span, section.seccionVinos .cart
 }
 section.seccionVinos .cartaVinoTinto .titleCard div img, section.seccionVinos .cartaVinoBlanco .titleCard div img, section.seccionVinos .seccionBebidaCaliente .titleCard div img, section.seccionVinos .seccionAgua .titleCard div img, section.seccionVinos .seccionBebidaFria .titleCard div img, section.seccionVinos .cartaVinoRosado .titleCard div img, section.seccionVinos .cartaVinoEfervescente .titleCard div img {
   width: 40px;
-  transform: scale(1.2);
+  transform: scale(1.5);
   -o-object-fit: cover;
      object-fit: cover;
   padding: 0 10px;
@@ -598,6 +603,24 @@ section.seccionVinos .cartaVinoBlanco, section.seccionVinos .seccionBebidaCalien
   width: 90%;
   margin: 20px 5%;
   padding-bottom: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoBlanco.webp);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.seccionVinos .cartaVinoEfervescente {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoEfervescente.webp);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.seccionVinos .cartaVinoRosado {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoRosado.webp);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.seccionVinos .seccionBebidaCaliente, section.seccionVinos .seccionAgua, section.seccionVinos .seccionBebidaFria {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/cafeFondo.webp);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 section.seccionVinos .seccionBebidaCaliente div.titleCard, section.seccionVinos .seccionAgua div.titleCard, section.seccionVinos .seccionBebidaFria div.titleCard {
   width: 90%;
@@ -613,9 +636,18 @@ section.seccionVinos .seccionBebidaCaliente div.flexCard, section.seccionVinos .
   justify-content: space-between;
   align-items: center;
 }
+section.seccionVinos .seccionBebidaFria {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/jugoFrutas.jpeg);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 section.seccionVinos .seccionBebidaFria div.titleCard img {
-  width: 15px;
-  margin-right: 17px;
+  width: 40px;
+}
+section.seccionVinos .seccionAgua {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoAgua.webp);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 section.seccionVinos .seccionAgua div.titleCard img {
   width: 15px;
@@ -1213,6 +1245,10 @@ section.enviosContacto h3 {
   }
   section.seccionVinos .titleVinos span {
     width: 50%;
+    color: black;
+  }
+  section.seccionVinos .titleVinos h1 {
+    color: black;
   }
   section.seccionVinos section.cartaVinoTinto, section.seccionVinos section.cartaVinoBlanco, section.seccionVinos section.cartaVinoEfervescente, section.seccionVinos section.cartaVinoRosado, section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
     height: -moz-max-content;
@@ -1229,22 +1265,33 @@ section.enviosContacto h3 {
     grid-area: vinoB;
     height: -moz-max-content;
     height: max-content;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondo5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoBlanco.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   section.seccionVinos section.cartaVinoEfervescente {
     grid-area: vinoE;
     height: -moz-max-content;
     height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoEfervescente.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   section.seccionVinos section.cartaVinoRosado {
     grid-area: vinoR;
     height: -moz-max-content;
     height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoRosado.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
     grid-area: bCal;
     height: -moz-max-content;
     height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/cafeFondo.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   section.seccionVinos section.seccionBebidaCaliente div.titleCard, section.seccionVinos section.seccionBebidaFria div.titleCard, section.seccionVinos section.seccionAgua div.titleCard {
     width: 87%;
@@ -1253,11 +1300,17 @@ section.enviosContacto h3 {
     grid-area: bFria;
     height: -moz-max-content;
     height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/jugoFrutas.jpeg);
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   section.seccionVinos section.seccionAgua {
     grid-area: agua;
     height: -moz-max-content;
     height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoAgua.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /*-----------------------------seccion menu -------------------------------*/
   .seccionMenu {
@@ -1570,12 +1623,88 @@ section.enviosContacto h3 {
   }
   section.seccionVinos {
     width: 100%;
+    height: -moz-max-content;
+    height: max-content;
+    align-items: start;
+    justify-items: center;
+    background-color: #e8e8e8;
+  }
+  section.seccionVinos .titleVinos {
+    margin: 25px 0;
+    grid-area: title;
   }
   section.seccionVinos .titleVinos span {
     width: 50%;
+    color: black;
+    padding-left: 5px;
   }
-  section.seccionVinos .seccionBebidaCaliente div.titleCard, section.seccionVinos .seccionBebidaFria div.titleCard, section.seccionVinos .seccionAgua div.titleCard {
+  section.seccionVinos .titleVinos h1 {
+    color: black;
+    padding-left: 5px;
+  }
+  section.seccionVinos section.cartaVinoTinto, section.seccionVinos section.cartaVinoBlanco, section.seccionVinos section.cartaVinoEfervescente, section.seccionVinos section.cartaVinoRosado, section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
+    height: -moz-max-content;
+    height: max-content;
+    color: white;
+    text-shadow: 5px 5px 3px black;
+    grid-area: vinoT;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondo4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section.seccionVinos section.cartaVinoBlanco, section.seccionVinos section.cartaVinoEfervescente, section.seccionVinos section.cartaVinoRosado, section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
+    grid-area: vinoB;
+    height: -moz-max-content;
+    height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoBlanco.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section.seccionVinos section.cartaVinoEfervescente {
+    grid-area: vinoE;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  section.seccionVinos section.cartaVinoRosado {
+    grid-area: vinoR;
+    height: -moz-max-content;
+    height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoRosado.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section.seccionVinos section.cartaVinoEfervescente {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/vinoEfervescente.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
+    grid-area: bCal;
+    height: -moz-max-content;
+    height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/cafeFondo.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section.seccionVinos section.seccionBebidaCaliente div.titleCard, section.seccionVinos section.seccionBebidaFria div.titleCard, section.seccionVinos section.seccionAgua div.titleCard {
     width: 87%;
+  }
+  section.seccionVinos section.seccionBebidaFria {
+    grid-area: bFria;
+    height: -moz-max-content;
+    height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/jugoFrutas.jpeg);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section.seccionVinos section.seccionAgua {
+    grid-area: agua;
+    height: -moz-max-content;
+    height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoAgua.webp);
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /*------------------------------SECCION CONTACTOS --------------------*/
   section.horariosyForm {

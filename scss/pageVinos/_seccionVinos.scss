@@ -7,21 +7,20 @@
 }
 section.seccionVinos {
   width: 320px;
-  background-color: black;
+  background-color: $bgPrincipal;
   padding: 50px 0;
   .titleVinos {
     width: 90%;
     margin: 0 5%;
     span {
-      color: white;
+      color: black;
       width: 100%;
       padding: 7px 0;
       font-size: 22px;
       font-family: $fontSecundaria;
-      
     }
     h1 {
-      color: white;
+      color: black;
       text-transform: uppercase;
       font-size: 26px;
       padding: 10px 5px;
@@ -33,9 +32,15 @@ section.seccionVinos {
   .cartaVinoTinto {
     width: 90%;
     margin: 0 5%;
-    background-color: $bgPrincipal;
+    color: white;
+    text-shadow: 5px 5px 3px black;
     border-radius: 5px;
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/fondo4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
     h2 {
       text-align: start;
       font-size: 30px;
@@ -53,7 +58,7 @@ section.seccionVinos {
       }
       div img {
         width: 40px;
-        transform: scale(1.2);
+        transform: scale(1.5);
         object-fit: cover;
         padding: 0 10px;
       }
@@ -97,15 +102,27 @@ section.seccionVinos {
     width: 90%;
     margin: 20px 5%;
     padding-bottom: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/vinoBlanco.webp);
+    object-fit: cover;
   }
   .cartaVinoEfervescente {
     @extend .cartaVinoBlanco;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/vinoEfervescente.webp);
+    object-fit: cover;
   }
   .cartaVinoRosado {
     @extend .cartaVinoBlanco;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/vinoRosado.webp);
+    object-fit: cover;
   }
   .seccionBebidaCaliente {
     @extend .cartaVinoBlanco;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/cafeFondo.webp);
+    object-fit: cover;
     div.titleCard {
       width: 90%;
       img {
@@ -123,15 +140,20 @@ section.seccionVinos {
   }
   .seccionBebidaFria {
     @extend .seccionBebidaCaliente;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/jugoFrutas.jpeg);
+    object-fit: cover;
     div.titleCard {
       img {
-        width: 15px;
-        margin-right: 17px;
+        width: 40px;
       }
     }
   }
   .seccionAgua {
     @extend .seccionBebidaCaliente;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../assets/img/fondos/fondoAgua.webp);
+    object-fit: cover;
     div.titleCard {
       img {
         width: 15px;
