@@ -516,9 +516,14 @@ section.seccionVinos {
   /*-----------------------seccion vino tinto---------------------*/
   /*-----------------------seccion vino blanco y bebidas---------------------*/
 }
+section.seccionVinos .titleVinos {
+  width: 90%;
+  margin: 0 5%;
+}
 section.seccionVinos .titleVinos span {
   color: white;
-  padding: 7px 5px;
+  width: 100%;
+  padding: 7px 0;
   font-size: 22px;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -796,6 +801,7 @@ section.enviosContacto h3 {
   }
   header a {
     padding: 15px;
+    width: -moz-max-content;
     width: max-content;
     transition: all ease-in-out 1s;
   }
@@ -1190,6 +1196,7 @@ section.enviosContacto h3 {
     background-size: cover;
   }
   section.seccionVinos {
+    background-color: #e8e8e8;
     display: grid;
     grid-template-areas: "title ." "vinoT vinoB" "vinoE vinoR" "bFria bCal" "bFria agua";
     grid-row: 20px;
@@ -1210,12 +1217,19 @@ section.enviosContacto h3 {
   section.seccionVinos section.cartaVinoTinto, section.seccionVinos section.cartaVinoBlanco, section.seccionVinos section.cartaVinoEfervescente, section.seccionVinos section.cartaVinoRosado, section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
     height: -moz-max-content;
     height: max-content;
+    color: white;
+    text-shadow: 5px 5px 3px black;
     grid-area: vinoT;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondo4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   section.seccionVinos section.cartaVinoBlanco, section.seccionVinos section.cartaVinoEfervescente, section.seccionVinos section.cartaVinoRosado, section.seccionVinos section.seccionBebidaCaliente, section.seccionVinos section.seccionBebidaFria, section.seccionVinos section.seccionAgua {
     grid-area: vinoB;
     height: -moz-max-content;
     height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondo5.jpg);
   }
   section.seccionVinos section.cartaVinoEfervescente {
     grid-area: vinoE;

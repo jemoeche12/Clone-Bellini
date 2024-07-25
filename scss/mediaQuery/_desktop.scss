@@ -331,7 +331,6 @@
       }
       .burrata {
         grid-area: pizza9;
-       
       }
 
       .cardPizza {
@@ -454,6 +453,7 @@
     background-size: cover;
   }
   section.seccionVinos {
+    background-color: $bgPrincipal;
     display: grid;
     grid-template-areas:
       "title ."
@@ -477,11 +477,20 @@
     }
     section.cartaVinoTinto {
       height: max-content;
+      color: white;
+      text-shadow: 5px 5px 3px black;
       grid-area: vinoT;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../assets/img/fondos/fondo4.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
     section.cartaVinoBlanco {
       grid-area: vinoB;
       height: max-content;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../assets/img/fondos/fondo5.jpg);
     }
     section.cartaVinoEfervescente {
       grid-area: vinoE;
