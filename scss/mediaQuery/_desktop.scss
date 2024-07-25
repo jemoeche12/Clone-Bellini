@@ -418,11 +418,6 @@
         h3 {
           font-size: 20px;
         }
-        .iconsServicio {
-          img.iconFace {
-            width: 40px;
-          }
-        }
       }
     }
     .contacto {
@@ -501,7 +496,7 @@
       grid-area: vinoE;
       height: max-content;
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-       url(../assets/img/fondos/vinoEfervescente.webp);
+        url(../assets/img/fondos/vinoEfervescente.webp);
       object-fit: cover;
     }
     section.cartaVinoRosado {
@@ -515,7 +510,7 @@
       grid-area: bCal;
       height: max-content;
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-       url(../assets/img/fondos/cafeFondo.webp);
+        url(../assets/img/fondos/cafeFondo.webp);
       object-fit: cover;
       div.titleCard {
         width: 87%;
@@ -525,15 +520,15 @@
       grid-area: bFria;
       height: max-content;
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-       url(../assets/img/fondos/jugoFrutas.jpeg);
+        url(../assets/img/fondos/jugoFrutas.jpeg);
       object-fit: cover;
     }
     section.seccionAgua {
       grid-area: agua;
       height: max-content;
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../assets/img/fondos/fondoAgua.webp);
-     object-fit: cover;
+        url(../assets/img/fondos/fondoAgua.webp);
+      object-fit: cover;
     }
   }
   /*-----------------------------seccion menu -------------------------------*/

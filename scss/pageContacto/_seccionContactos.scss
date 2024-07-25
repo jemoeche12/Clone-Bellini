@@ -92,17 +92,7 @@ section.horariosyForm {
         color: white;
         text-align: center;
       }
-      .iconsServicio {
-        padding: 20px 0;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        .iconFace {
-          width: 20%;
-        }
-        button {
+      button {
           @include buttonUber;
           a {
             color: white;
@@ -111,7 +101,7 @@ section.horariosyForm {
       }
     }
   }
-}
+
 /*-----------------------seccion contacto---------------------*/
 
 .contacto {

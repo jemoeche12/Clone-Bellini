@@ -742,18 +742,7 @@ section.horariosyForm article.horarios section.horarioServicio h3 {
   color: white;
   text-align: center;
 }
-section.horariosyForm article.horarios section.horarioServicio .iconsServicio {
-  padding: 20px 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-section.horariosyForm article.horarios section.horarioServicio .iconsServicio .iconFace {
-  width: 20%;
-}
-section.horariosyForm article.horarios section.horarioServicio .iconsServicio button {
+section.horariosyForm article.horarios section.horarioServicio button {
   padding: 15px;
   width: 70%;
   margin: 20px 15%;
@@ -763,7 +752,7 @@ section.horariosyForm article.horarios section.horarioServicio .iconsServicio bu
   font-family: "Baskervville SC", serif;
   font-size: 16px;
 }
-section.horariosyForm article.horarios section.horarioServicio .iconsServicio button a {
+section.horariosyForm article.horarios section.horarioServicio button a {
   color: white;
 }
 
@@ -1200,9 +1189,6 @@ section.enviosContacto h3 {
   section.horarioContacto section.horariosyForm .horarios h2,
   section.horarioContacto section.horariosyForm .horarios h3 {
     font-size: 20px;
-  }
-  section.horarioContacto section.horariosyForm .horarios .iconsServicio img.iconFace {
-    width: 40px;
   }
   section.horarioContacto .contacto {
     width: 90%;
