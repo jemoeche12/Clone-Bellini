@@ -13,4 +13,4 @@ A pedido del tutor, he creado una carpeta style que contenga style.CSS, fuera de
 También me pidió que eliminara la que está dentro de esta, el problema es que la elimino, cierro el programa y se vuelve a crear.
 Hemos hablado con José que debe corresponder a que se utiliza una extensión para observar mediantes SCSS.
 
-
+Las imágenes fueron convertidas a formato webp, las que cuentan con otro formato es porque o bien la diferencia del peso del archivo antes y después de la conversión, no era significativo y se resignaba calidad en la imagen. Por eso las dejé en formato original.
