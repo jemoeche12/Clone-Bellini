@@ -1,23 +1,22 @@
-div.footer{
-    width: 320px;
-    background-color: black;
-    height: 70px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 15px 0;
-    justify-content: center;
-    align-items: center;
-    
-    span.copy{
-        width: 90%;
-        margin: 0px 5%;
-        font-size: 16px;
-    }
-    span.derechos{
-        width: 90%;
-        margin: 0 5%;
-        font-size: 16px;
-    }
+div.footer {
+  width: 320px;
+  background-color: black;
+  height: 70px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+  span.copy {
+    width: 90%;
+    margin: 0px 5%;
+    font-size: 16px;
+  }
+  span.derechos {
+    width: 90%;
+    margin: 0 5%;
+    font-size: 16px;
+  }
 }

@@ -3,16 +3,16 @@
 @import "./mixinsYvariables/mixins";
 @import "./components/header";
 @import "./components/footer";
+@import "./pageVinos/seccionVinos";
+@import "./mediaQuery/desktop";
+@import "./mediaQuery/tablet768";
 @import "./pagesIndex/home";
 @import "./pagesIndex/seccionRestaurante";
 @import "./pagesIndex/seccionEnvios";
 @import "./pagesIndex/seccionOpiniones";
 @import "./pagePizza/seccionPizzas";
 @import "./pageMenu/seccionMenu";
-@import "./pageVinos/seccionVinos";
 @import "./pageContacto/seccionContactos";
-@import "./mediaQuery/desktop";
-@import "./mediaQuery/tablet768";
 @import "./pagesIndex/seccionVideo";
 @import "./pagesIndex/seccionProductos";
 

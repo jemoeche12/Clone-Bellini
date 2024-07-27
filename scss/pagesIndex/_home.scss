@@ -29,40 +29,24 @@ article.home {
       animation-timing-function: ease;
       transform: scale(0);
       padding: 10px;
-        
-      }
-      @keyframes cambiarColor {
-        0%{
-          transform: scale(0);
-        }
-        50%{
-          transform: scale(0.8);
-          color: white;
-          animation-delay: 3s;
-        }
-        100%{
-          transform: scale(0.5);
-          color: black;
-        }
-      }
     }
-    p {
-      color: white;
-      font-family: $fontSecundaria;
-    }
-    button.btn-home {
-      @include buttonTrasparent;
-
-      a {
+    @keyframes cambiarColor {
+      0% {
+        transform: scale(0);
+      }
+      50% {
+        transform: scale(0.8);
         color: white;
-        transition: 0.5s;
-        &:hover {
-          background-color: white;
-          color: black;
-          padding: 5px;
-          border-radius: 5px;
-        }
+        animation-delay: 3s;
+      }
+      100% {
+        transform: scale(0.5);
+        color: black;
       }
     }
   }
-
+  p {
+    color: white;
+    font-family: $fontSecundaria;
+  }
+}

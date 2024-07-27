@@ -1,5 +1,6 @@
 @media (min-width: 769px) {
   /*---------------------------------INDEX DESKTOP ---------------------*/
+  
   header {
     width: 100%;
     background-color: black;
@@ -32,6 +33,7 @@
     }
   }
   /*-----------------------seccion home---------------------*/
+  
   article.home {
     width: 100%;
     height: 100vh;
@@ -262,6 +264,7 @@
     width: 100%;
   }
   /*-------------------------- seccion pizzas --------------------*/
+  
   .headerPizzas {
     width: 100%;
     .titleHeaderPizzas {
@@ -332,14 +335,13 @@
       .burrata {
         grid-area: pizza9;
       }
-
       .cardPizza {
         width: 310px;
         margin: 35px 5px;
       }
     }
     /*-----------------------seccion pizzas blancas---------------------*/
-
+    
     .pizzasBlancas {
       width: 100%;
       margin-top: 150px;
@@ -375,7 +377,7 @@
       }
     }
     /*-----------------------seccion panuzzos---------------------*/
-
+    
     .panuozzo {
       width: 100%;
       display: grid;
@@ -398,6 +400,7 @@
     }
   }
   /*---------------------seccion Contactos--------------*/
+  
   section.horarioContacto {
     display: flex;
     width: 100%;
@@ -441,6 +444,7 @@
     }
   }
   /*----------------------------seccion Vinos--------------------*/
+  
   header.headerVinos {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -532,6 +536,7 @@
     }
   }
   /*-----------------------------seccion menu -------------------------------*/
+  
   .seccionMenu {
     width: 100%;
   }

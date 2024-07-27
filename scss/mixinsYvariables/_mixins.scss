@@ -16,24 +16,12 @@
   border: 1px solid white;
   width: 80%;
   margin: 10px 10%;
-  transition: all 0.5s;
-  &:hover {
-    background-color: white;
-    color: black;
   }
-}
+
 @mixin buttonHeader {
   padding: 5px;
   background-color: transparent;
   border: 1px solid white;
   transition: 0.5s;
-  a.enlaceNav{
-    &:hover {
-      background-color: white;
-      color: black;
-      padding: 5px;
-      border-radius: 5px;
-    }
-  }
   }
   

@@ -18,7 +18,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
-    gap:20px;
+    gap: 20px;
   }
   a {
     color: white;
@@ -37,7 +37,6 @@ header {
     margin: 5px;
   }
   .btn-uber {
-   @include buttonHeader;
-   
+    @include buttonHeader;
   }
 }

@@ -65,12 +65,6 @@ header .btn-uber {
   border: 1px solid white;
   transition: 0.5s;
 }
-header .btn-uber a.enlaceNav:hover {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
-}
 
 div.footer {
   width: 320px;
@@ -93,412 +87,6 @@ div.footer span.derechos {
   width: 90%;
   margin: 0 5%;
   font-size: 16px;
-}
-
-article.home {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  padding: 100px 0;
-}
-article.home .img-home {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 400px;
-}
-article.home .home-parrafo {
-  padding-top: 50px;
-  padding-left: 7px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-article.home .home-parrafo span {
-  color: white;
-  font-size: 18px;
-}
-article.home .home-parrafo h2 {
-  color: white;
-  font-size: 30px;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  animation: cambiarColor 5s infinite;
-  animation-timing-function: ease;
-  transform: scale(0);
-  padding: 10px;
-}
-@keyframes cambiarColor {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(0.8);
-    color: white;
-    animation-delay: 3s;
-  }
-  100% {
-    transform: scale(0.5);
-    color: black;
-  }
-}
-article.home p {
-  color: white;
-  font-family: "Bebas Neue", sans-serif;
-}
-article.home button.btn-home {
-  font-family: "Baskervville SC", serif;
-  padding: 7px;
-  background-color: transparent;
-  color: white;
-  border: 1px solid white;
-  width: 80%;
-  margin: 10px 10%;
-  transition: all 0.5s;
-}
-article.home button.btn-home:hover {
-  background-color: white;
-  color: black;
-}
-article.home button.btn-home a {
-  color: white;
-  transition: 0.5s;
-}
-article.home button.btn-home a:hover {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-section.restaurante {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-section.restaurante div.p-restaurante {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-section.restaurante div.p-restaurante h2 {
-  font-family: "Baskervville SC", serif;
-  padding: 80px 0;
-  text-align: center;
-  font-size: 30px;
-}
-section.restaurante div.p-restaurante p {
-  text-align: center;
-  font-size: 20px;
-  padding-bottom: 20px;
-  font-family: "Baskervville SC", serif;
-}
-section.restaurante div.p-restaurante img {
-  width: 10%;
-  padding-bottom: 20px;
-}
-section.restaurante div.img-restaurante {
-  width: 320px;
-}
-section.restaurante div.img-restaurante img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 547px;
-}
-
-section.envios, section.enviosContacto {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  padding-bottom: 30px;
-}
-section.envios h2, section.enviosContacto h2 {
-  text-align: center;
-  padding-top: 40px;
-  font-size: 25px;
-  font-weight: 500;
-  color: white;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  width: 80%;
-  margin: 0 10%;
-}
-section.envios h3, section.enviosContacto h3 {
-  font-size: 30px;
-  font-weight: 600;
-  padding: 20px 0;
-  color: white;
-  font-family: "Bebas Neue", sans-serif;
-}
-section.envios p, section.enviosContacto p {
-  width: 90%;
-  margin: 0 5%;
-  font-size: 20px;
-  padding-bottom: 30px;
-  color: white;
-  font-family: "Baskervville SC", serif;
-}
-section.envios button, section.enviosContacto button {
-  padding: 15px;
-  width: 70%;
-  margin: 20px 15%;
-  text-transform: uppercase;
-  background-color: #5BC548;
-  color: white;
-  font-family: "Baskervville SC", serif;
-  font-size: 16px;
-}
-section.envios button a, section.enviosContacto button a {
-  color: white;
-}
-section.envios img, section.enviosContacto img {
-  padding: 50px 0;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 370px;
-}
-
-h2 {
-  font-family: "Bebas Neue", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  margin-top: 30px;
-}
-
-section.opinion {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  margin-bottom: 50px;
-}
-section.opinion section.opiniones {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-section.opinion section.opiniones div.card-opinion {
-  width: 80%;
-  border: 1px solid rgba(0, 0, 0, 0.7);
-  box-shadow: 0 0 4px black;
-  margin: 15px 0;
-}
-section.opinion section.opiniones div.card-opinion svg {
-  margin: 7px;
-  color: rgba(255, 255, 0, 0.8);
-}
-section.opinion section.opiniones div.card-opinion p {
-  width: 90%;
-  margin: 7px;
-}
-section.opinion section.opiniones div.card-opinion .google {
-  color: black;
-  margin-left: 90%;
-}
-section.opinion section.opiniones div.userName {
-  width: 70%;
-  margin: 5px 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-section.opinion section.opiniones div.userName .nameDate {
-  display: flex;
-  flex-direction: column;
-}
-
-.headerPizzas .titleHeaderPizzas span {
-  font-size: 20px;
-  padding: 10px 5px;
-}
-.headerPizzas .titleHeaderPizzas h1 {
-  font-size: 28px;
-}
-.headerPizzas .titleHeaderPizzas button {
-  padding: 15px;
-  width: 70%;
-  margin: 20px 15%;
-  text-transform: uppercase;
-  background-color: #5BC548;
-  color: white;
-  font-family: "Baskervville SC", serif;
-  font-size: 16px;
-}
-.headerPizzas .titleHeaderPizzas button a {
-  color: white;
-}
-
-section.variedadPizzas {
-  width: 320px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
-  width: 100%;
-}
-section.variedadPizzas .pizzasRosas .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaRosa, section.variedadPizzas .panuozzo .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
-  text-align: center;
-  background-color: rgb(166, 40, 40);
-  width: 100%;
-  color: black;
-}
-section.variedadPizzas .pizzasRosas .titlePizzaRosa h2, section.variedadPizzas .pizzasBlancas .titlePizzaRosa h2, section.variedadPizzas .panuozzo .titlePizzaRosa h2, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca h2, section.variedadPizzas .panuozzo .titlePizzaBlanca h2, section.variedadPizzas .panuozzo .titlePanuozzo h2 {
-  font-family: "Bebas Neue", sans-serif;
-}
-section.variedadPizzas .pizzasRosas .titlePizzaRosa p, section.variedadPizzas .pizzasBlancas .titlePizzaRosa p, section.variedadPizzas .panuozzo .titlePizzaRosa p, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca p, section.variedadPizzas .panuozzo .titlePizzaBlanca p, section.variedadPizzas .panuozzo .titlePanuozzo p {
-  width: 90%;
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  padding: 5px 0;
-  margin: 20px 5%;
-}
-section.variedadPizzas .pizzasRosas .cardPizza, section.variedadPizzas .pizzasBlancas .cardPizza, section.variedadPizzas .panuozzo .cardPizza {
-  width: 310px;
-  display: flex;
-  flex-direction: column;
-  margin: 15px 5px;
-  box-shadow: 0 0 4px black;
-  height: -moz-max-content;
-  height: max-content;
-}
-section.variedadPizzas .pizzasRosas .cardPizza img, section.variedadPizzas .pizzasBlancas .cardPizza img, section.variedadPizzas .panuozzo .cardPizza img {
-  width: 100%;
-  margin: 5px 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 210px;
-}
-section.variedadPizzas .pizzasRosas .cardPizza h3, section.variedadPizzas .pizzasBlancas .cardPizza h3, section.variedadPizzas .panuozzo .cardPizza h3 {
-  padding: 7px 5px;
-  height: 10%;
-}
-section.variedadPizzas .pizzasRosas .cardPizza span, section.variedadPizzas .pizzasBlancas .cardPizza span, section.variedadPizzas .panuozzo .cardPizza span {
-  padding: 7px 5px;
-  height: 10%;
-}
-section.variedadPizzas .pizzasRosas .cardPizza p, section.variedadPizzas .pizzasBlancas .cardPizza p, section.variedadPizzas .panuozzo .cardPizza p {
-  padding: 7px 5px;
-  height: 10%;
-}
-section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
-  background-color: black;
-  color: white;
-}
-.headerMenu, .headerContacto, .headerPizzas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoMenu.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.seccionMenu {
-  width: 320px;
-  font-family: "Bebas Neue", sans-serif;
-}
-.seccionMenu span {
-  margin: 20px 0;
-  font-size: 25px;
-  padding-left: 5px;
-}
-.seccionMenu h1 {
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 30px;
-  margin-bottom: 40px;
-  padding-left: 5px;
-  width: 100%;
-}
-
-/*-----------------------seccion tarjeta restaurante---------------------*/
-section.tarjetasMenu {
-  display: flex;
-  flex-direction: column;
-  width: 310px;
-  margin: 0 5px;
-  font-family: "Lora", serif;
-  font-style: normal;
-}
-section.tarjetasMenu .menu1, section.tarjetasMenu .menuNiño, section.tarjetasMenu .menu4, section.tarjetasMenu .postres, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
-  background-color: #e8e8e8;
-  padding: 5px;
-}
-section.tarjetasMenu .menu1 h2, section.tarjetasMenu .menuNiño h2, section.tarjetasMenu .menu4 h2, section.tarjetasMenu .postres h2, section.tarjetasMenu .menu2 h2, section.tarjetasMenu .menu3 h2 {
-  padding: 5px;
-  margin-bottom: 30px;
-}
-section.tarjetasMenu .menu1 div h3, section.tarjetasMenu .menuNiño div h3, section.tarjetasMenu .menu4 div h3, section.tarjetasMenu .postres div h3, section.tarjetasMenu .menu2 div h3, section.tarjetasMenu .menu3 div h3 {
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 7px 5px;
-}
-section.tarjetasMenu .menu1 div span, section.tarjetasMenu .menuNiño div span, section.tarjetasMenu .menu4 div span, section.tarjetasMenu .postres div span, section.tarjetasMenu .menu2 div span, section.tarjetasMenu .menu3 div span {
-  padding: 7px 5px;
-  font-size: 18px;
-}
-section.tarjetasMenu .menu1 div p, section.tarjetasMenu .menuNiño div p, section.tarjetasMenu .menu4 div p, section.tarjetasMenu .postres div p, section.tarjetasMenu .menu2 div p, section.tarjetasMenu .menu3 div p {
-  padding: 7px 5px;
-  font-size: 18px;
-}
-section.tarjetasMenu .menu1 div.separador, section.tarjetasMenu .menuNiño div.separador, section.tarjetasMenu .menu4 div.separador, section.tarjetasMenu .postres div.separador, section.tarjetasMenu .menu2 div.separador, section.tarjetasMenu .menu3 div.separador {
-  width: 90%;
-  margin: 20px 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-section.tarjetasMenu .menu1 div.separador img, section.tarjetasMenu .menuNiño div.separador img, section.tarjetasMenu .menu4 div.separador img, section.tarjetasMenu .postres div.separador img, section.tarjetasMenu .menu2 div.separador img, section.tarjetasMenu .menu3 div.separador img {
-  width: 35px;
-  background: transparent;
-}
-section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/burrata-fondo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: white;
-  text-shadow: 1 1 3px white;
-  margin-bottom: 20px;
-}
-section.tarjetasMenu .menu3 {
-  margin-top: 15px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/tataki.jpg);
-  margin-bottom: 0;
-}
-section.tarjetasMenu .menu4 div.sinGluten, section.tarjetasMenu .postres div.sinGluten {
-  text-align: center;
-  padding: 30px 0;
-}
-section.tarjetasMenu .menuNiño {
-  padding-bottom: 20px;
-}
-section.tarjetasMenu .menuNiño h3 {
-  text-transform: uppercase;
-  padding-left: 5px;
-}
-section.tarjetasMenu .postres {
-  margin: 25px 0;
 }
 
 .headerVinos {
@@ -652,151 +240,6 @@ section.seccionVinos .seccionAgua {
 section.seccionVinos .seccionAgua div.titleCard img {
   width: 15px;
   margin-right: 17px;
-}
-
-.headerContacto section.titleHeader, .headerPizzas section.titleHeader, .headerPizzas section.titleHeaderPizzas {
-  color: white;
-  padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-.headerContacto section.titleHeader span.reservarPedir, .headerPizzas section.titleHeader span.reservarPedir, .headerPizzas section.titleHeaderPizzas span.reservarPedir {
-  font-size: 20px;
-  padding-left: 5px;
-  font-family: "Lora", serif;
-}
-.headerContacto section.titleHeader h1, .headerPizzas section.titleHeader h1, .headerPizzas section.titleHeaderPizzas h1 {
-  font-size: 30px;
-  padding-left: 5px;
-  font-family: "Lora", serif;
-}
-
-/*-----------------------seccion tarjeta horarios Formulario---------------------*/
-section.horariosyForm {
-  width: 320px;
-}
-section.horariosyForm article.horarios {
-  width: 90%;
-  margin: 10px 5%;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-section.horariosyForm article.horarios img {
-  width: 90%;
-  padding: 10px 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-section.horariosyForm article.horarios h2 {
-  color: white;
-}
-section.horariosyForm article.horarios div.separador {
-  width: 100%;
-  margin: 10px 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-section.horariosyForm article.horarios div.separador span {
-  color: white;
-}
-section.horariosyForm article.horarios div.separador img {
-  width: 35px;
-  background: transparent;
-}
-section.horariosyForm article.horarios section.horarioServicio {
-  width: 90%;
-  margin: 7px 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-section.horariosyForm article.horarios section.horarioServicio .servicioMediodia, section.horariosyForm article.horarios section.horarioServicio .servicioTarde, section.horariosyForm article.horarios section.horarioServicio .servicioPizza {
-  width: 100%;
-  margin: 7px 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-section.horariosyForm article.horarios section.horarioServicio .servicioMediodia h3, section.horariosyForm article.horarios section.horarioServicio .servicioTarde h3, section.horariosyForm article.horarios section.horarioServicio .servicioPizza h3 {
-  text-transform: uppercase;
-  color: white;
-}
-section.horariosyForm article.horarios section.horarioServicio .servicioMediodia p, section.horariosyForm article.horarios section.horarioServicio .servicioTarde p, section.horariosyForm article.horarios section.horarioServicio .servicioPizza p {
-  width: 80%;
-  font-size: 18px;
-  text-align: center;
-  padding: 10px 0;
-}
-section.horariosyForm article.horarios section.horarioServicio h3 {
-  padding: 20px 0;
-  width: 90%;
-  color: white;
-  text-align: center;
-}
-section.horariosyForm article.horarios section.horarioServicio button {
-  padding: 15px;
-  width: 70%;
-  margin: 20px 15%;
-  text-transform: uppercase;
-  background-color: #5BC548;
-  color: white;
-  font-family: "Baskervville SC", serif;
-  font-size: 16px;
-}
-section.horariosyForm article.horarios section.horarioServicio button a {
-  color: white;
-}
-
-/*-----------------------seccion contacto---------------------*/
-.contacto {
-  width: 310px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 18px;
-  font-weight: 500;
-}
-.contacto .bg-input {
-  background-color: #e8e8e8;
-}
-.contacto .area {
-  resize: none;
-  width: 100%;
-  background-color: #e8e8e8;
-}
-.contacto button {
-  width: 30%;
-  padding: 7px;
-  color: black;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 0 3px #e8e8e8;
-  transition: ease-in-out 1s;
-}
-.contacto button:hover {
-  background-color: black;
-  color: white;
-  transform: scale(1.1);
-}
-.contacto .numero-direccion {
-  padding: 20px 0;
-}
-
-section.enviosContacto h3 {
-  padding: 10px 0;
 }
 
 @media (min-width: 769px) {
@@ -1309,7 +752,7 @@ section.enviosContacto h3 {
     grid-template-columns: 50% 50%;
     grid-template-areas: "menu1 menu2" "menu3 menu4" "menu3 menuNiño" "postres postres";
   }
-  section.tarjetasMenu .menu1, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3, section.tarjetasMenu .menu4, section.tarjetasMenu .menuNiño, section.tarjetasMenu .postres {
+  section.tarjetasMenu .menu1, section.tarjetasMenu .menuNiño, section.tarjetasMenu .menu4, section.tarjetasMenu .postres, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
     grid-area: menu1;
     padding-bottom: 0;
   }
@@ -1569,36 +1012,36 @@ section.enviosContacto h3 {
     width: 90%;
     margin: 0 5%;
   }
-  section.tarjetasMenu .menu1, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3, section.tarjetasMenu .menu4, section.tarjetasMenu .menuNiño, section.tarjetasMenu .postres {
+  section.tarjetasMenu .menu1, section.tarjetasMenu .menuNiño, section.tarjetasMenu .menu4, section.tarjetasMenu .postres, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
     background-color: #e8e8e8;
     padding: 5px;
     width: 100%;
   }
-  section.tarjetasMenu .menu1 h2, section.tarjetasMenu .menu2 h2, section.tarjetasMenu .menu3 h2, section.tarjetasMenu .menu4 h2, section.tarjetasMenu .menuNiño h2, section.tarjetasMenu .postres h2 {
+  section.tarjetasMenu .menu1 h2, section.tarjetasMenu .menuNiño h2, section.tarjetasMenu .menu4 h2, section.tarjetasMenu .postres h2, section.tarjetasMenu .menu2 h2, section.tarjetasMenu .menu3 h2 {
     padding: 5px;
     margin-bottom: 30px;
   }
-  section.tarjetasMenu .menu1 div h3, section.tarjetasMenu .menu2 div h3, section.tarjetasMenu .menu3 div h3, section.tarjetasMenu .menu4 div h3, section.tarjetasMenu .menuNiño div h3, section.tarjetasMenu .postres div h3 {
+  section.tarjetasMenu .menu1 div h3, section.tarjetasMenu .menuNiño div h3, section.tarjetasMenu .menu4 div h3, section.tarjetasMenu .postres div h3, section.tarjetasMenu .menu2 div h3, section.tarjetasMenu .menu3 div h3 {
     font-size: 20px;
     text-transform: uppercase;
     padding: 7px 5px;
   }
-  section.tarjetasMenu .menu1 div span, section.tarjetasMenu .menu2 div span, section.tarjetasMenu .menu3 div span, section.tarjetasMenu .menu4 div span, section.tarjetasMenu .menuNiño div span, section.tarjetasMenu .postres div span {
+  section.tarjetasMenu .menu1 div span, section.tarjetasMenu .menuNiño div span, section.tarjetasMenu .menu4 div span, section.tarjetasMenu .postres div span, section.tarjetasMenu .menu2 div span, section.tarjetasMenu .menu3 div span {
     padding: 7px 5px;
     font-size: 18px;
   }
-  section.tarjetasMenu .menu1 div p, section.tarjetasMenu .menu2 div p, section.tarjetasMenu .menu3 div p, section.tarjetasMenu .menu4 div p, section.tarjetasMenu .menuNiño div p, section.tarjetasMenu .postres div p {
+  section.tarjetasMenu .menu1 div p, section.tarjetasMenu .menuNiño div p, section.tarjetasMenu .menu4 div p, section.tarjetasMenu .postres div p, section.tarjetasMenu .menu2 div p, section.tarjetasMenu .menu3 div p {
     padding: 7px 5px;
     font-size: 18px;
   }
-  section.tarjetasMenu .menu1 div.separador, section.tarjetasMenu .menu2 div.separador, section.tarjetasMenu .menu3 div.separador, section.tarjetasMenu .menu4 div.separador, section.tarjetasMenu .menuNiño div.separador, section.tarjetasMenu .postres div.separador {
+  section.tarjetasMenu .menu1 div.separador, section.tarjetasMenu .menuNiño div.separador, section.tarjetasMenu .menu4 div.separador, section.tarjetasMenu .postres div.separador, section.tarjetasMenu .menu2 div.separador, section.tarjetasMenu .menu3 div.separador {
     width: 90%;
     margin: 20px 5%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  section.tarjetasMenu .menu1 div.separador img, section.tarjetasMenu .menu2 div.separador img, section.tarjetasMenu .menu3 div.separador img, section.tarjetasMenu .menu4 div.separador img, section.tarjetasMenu .menuNiño div.separador img, section.tarjetasMenu .postres div.separador img {
+  section.tarjetasMenu .menu1 div.separador img, section.tarjetasMenu .menuNiño div.separador img, section.tarjetasMenu .menu4 div.separador img, section.tarjetasMenu .postres div.separador img, section.tarjetasMenu .menu2 div.separador img, section.tarjetasMenu .menu3 div.separador img {
     width: 35px;
     background: transparent;
   }
@@ -1709,6 +1152,533 @@ section.enviosContacto h3 {
     margin: 20px 5%;
   }
 }
+article.home {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 100px 0;
+}
+article.home .img-home {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+}
+article.home .home-parrafo {
+  padding-top: 50px;
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+article.home .home-parrafo span {
+  color: white;
+  font-size: 18px;
+}
+article.home .home-parrafo h2 {
+  color: white;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  animation: cambiarColor 5s infinite;
+  animation-timing-function: ease;
+  transform: scale(0);
+  padding: 10px;
+}
+@keyframes cambiarColor {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0.8);
+    color: white;
+    animation-delay: 3s;
+  }
+  100% {
+    transform: scale(0.5);
+    color: black;
+  }
+}
+article.home p {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+section.restaurante {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.restaurante div.p-restaurante {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.restaurante div.p-restaurante h2 {
+  font-family: "Baskervville SC", serif;
+  padding: 80px 0;
+  text-align: center;
+  font-size: 30px;
+}
+section.restaurante div.p-restaurante p {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-family: "Baskervville SC", serif;
+}
+section.restaurante div.p-restaurante img {
+  width: 10%;
+  padding-bottom: 20px;
+}
+section.restaurante div.img-restaurante {
+  width: 320px;
+}
+section.restaurante div.img-restaurante img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 547px;
+}
+
+section.envios, section.enviosContacto {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 30px;
+}
+section.envios h2, section.enviosContacto h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  width: 80%;
+  margin: 0 10%;
+}
+section.envios h3, section.enviosContacto h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px 0;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+}
+section.envios p, section.enviosContacto p {
+  width: 90%;
+  margin: 0 5%;
+  font-size: 20px;
+  padding-bottom: 30px;
+  color: white;
+  font-family: "Baskervville SC", serif;
+}
+section.envios button, section.enviosContacto button {
+  padding: 15px;
+  width: 70%;
+  margin: 20px 15%;
+  text-transform: uppercase;
+  background-color: #5bc548;
+  color: white;
+  font-family: "Baskervville SC", serif;
+  font-size: 16px;
+}
+section.envios button a, section.enviosContacto button a {
+  color: white;
+}
+section.envios img, section.enviosContacto img {
+  padding: 50px 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 370px;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+section.opinion {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+section.opinion section.opiniones {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.opinion section.opiniones div.card-opinion {
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 4px black;
+  margin: 15px 0;
+}
+section.opinion section.opiniones div.card-opinion svg {
+  margin: 7px;
+  color: rgba(255, 255, 0, 0.8);
+}
+section.opinion section.opiniones div.card-opinion p {
+  width: 90%;
+  margin: 7px;
+}
+section.opinion section.opiniones div.card-opinion .google {
+  color: black;
+  margin-left: 90%;
+}
+section.opinion section.opiniones div.userName {
+  width: 70%;
+  margin: 5px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.opinion section.opiniones div.userName .nameDate {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerPizzas .titleHeaderPizzas span {
+  font-size: 20px;
+  padding: 10px 5px;
+}
+.headerPizzas .titleHeaderPizzas h1 {
+  font-size: 28px;
+}
+.headerPizzas .titleHeaderPizzas button {
+  padding: 15px;
+  width: 70%;
+  margin: 20px 15%;
+  text-transform: uppercase;
+  background-color: #5bc548;
+  color: white;
+  font-family: "Baskervville SC", serif;
+  font-size: 16px;
+}
+.headerPizzas .titleHeaderPizzas button a {
+  color: white;
+}
+
+section.variedadPizzas {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
+  width: 100%;
+}
+section.variedadPizzas .pizzasRosas .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaRosa, section.variedadPizzas .panuozzo .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
+  text-align: center;
+  background-color: rgb(166, 40, 40);
+  width: 100%;
+  color: black;
+}
+section.variedadPizzas .pizzasRosas .titlePizzaRosa h2, section.variedadPizzas .pizzasBlancas .titlePizzaRosa h2, section.variedadPizzas .panuozzo .titlePizzaRosa h2, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca h2, section.variedadPizzas .panuozzo .titlePizzaBlanca h2, section.variedadPizzas .panuozzo .titlePanuozzo h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+section.variedadPizzas .pizzasRosas .titlePizzaRosa p, section.variedadPizzas .pizzasBlancas .titlePizzaRosa p, section.variedadPizzas .panuozzo .titlePizzaRosa p, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca p, section.variedadPizzas .panuozzo .titlePizzaBlanca p, section.variedadPizzas .panuozzo .titlePanuozzo p {
+  width: 90%;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 5px 0;
+  margin: 20px 5%;
+}
+section.variedadPizzas .pizzasRosas .cardPizza, section.variedadPizzas .pizzasBlancas .cardPizza, section.variedadPizzas .panuozzo .cardPizza {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 5px;
+  box-shadow: 0 0 4px black;
+  height: -moz-max-content;
+  height: max-content;
+}
+section.variedadPizzas .pizzasRosas .cardPizza img, section.variedadPizzas .pizzasBlancas .cardPizza img, section.variedadPizzas .panuozzo .cardPizza img {
+  width: 100%;
+  margin: 5px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 210px;
+}
+section.variedadPizzas .pizzasRosas .cardPizza h3, section.variedadPizzas .pizzasBlancas .cardPizza h3, section.variedadPizzas .panuozzo .cardPizza h3 {
+  padding: 7px 5px;
+  height: 10%;
+}
+section.variedadPizzas .pizzasRosas .cardPizza span, section.variedadPizzas .pizzasBlancas .cardPizza span, section.variedadPizzas .panuozzo .cardPizza span {
+  padding: 7px 5px;
+  height: 10%;
+}
+section.variedadPizzas .pizzasRosas .cardPizza p, section.variedadPizzas .pizzasBlancas .cardPizza p, section.variedadPizzas .panuozzo .cardPizza p {
+  padding: 7px 5px;
+  height: 10%;
+}
+section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
+  background-color: black;
+  color: white;
+}
+.headerMenu, .headerContacto, .headerPizzas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/fondoMenu.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.seccionMenu {
+  width: 320px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.seccionMenu span {
+  margin: 20px 0;
+  font-size: 25px;
+  padding-left: 5px;
+}
+.seccionMenu h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 40px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+/*-----------------------seccion tarjeta restaurante---------------------*/
+section.tarjetasMenu {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  margin: 0 5px;
+  font-family: "Lora", serif;
+  font-style: normal;
+}
+section.tarjetasMenu .menu1, section.tarjetasMenu .menuNiño, section.tarjetasMenu .menu4, section.tarjetasMenu .postres, section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
+  background-color: #e8e8e8;
+  padding: 5px;
+}
+section.tarjetasMenu .menu1 h2, section.tarjetasMenu .menuNiño h2, section.tarjetasMenu .menu4 h2, section.tarjetasMenu .postres h2, section.tarjetasMenu .menu2 h2, section.tarjetasMenu .menu3 h2 {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+section.tarjetasMenu .menu1 div h3, section.tarjetasMenu .menuNiño div h3, section.tarjetasMenu .menu4 div h3, section.tarjetasMenu .postres div h3, section.tarjetasMenu .menu2 div h3, section.tarjetasMenu .menu3 div h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 7px 5px;
+}
+section.tarjetasMenu .menu1 div span, section.tarjetasMenu .menuNiño div span, section.tarjetasMenu .menu4 div span, section.tarjetasMenu .postres div span, section.tarjetasMenu .menu2 div span, section.tarjetasMenu .menu3 div span {
+  padding: 7px 5px;
+  font-size: 18px;
+}
+section.tarjetasMenu .menu1 div p, section.tarjetasMenu .menuNiño div p, section.tarjetasMenu .menu4 div p, section.tarjetasMenu .postres div p, section.tarjetasMenu .menu2 div p, section.tarjetasMenu .menu3 div p {
+  padding: 7px 5px;
+  font-size: 18px;
+}
+section.tarjetasMenu .menu1 div.separador, section.tarjetasMenu .menuNiño div.separador, section.tarjetasMenu .menu4 div.separador, section.tarjetasMenu .postres div.separador, section.tarjetasMenu .menu2 div.separador, section.tarjetasMenu .menu3 div.separador {
+  width: 90%;
+  margin: 20px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.tarjetasMenu .menu1 div.separador img, section.tarjetasMenu .menuNiño div.separador img, section.tarjetasMenu .menu4 div.separador img, section.tarjetasMenu .postres div.separador img, section.tarjetasMenu .menu2 div.separador img, section.tarjetasMenu .menu3 div.separador img {
+  width: 35px;
+  background: transparent;
+}
+section.tarjetasMenu .menu2, section.tarjetasMenu .menu3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/burrata-fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 1 1 3px white;
+  margin-bottom: 20px;
+}
+section.tarjetasMenu .menu3 {
+  margin-top: 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondos/tataki.jpg);
+  margin-bottom: 0;
+}
+section.tarjetasMenu .menu4 div.sinGluten, section.tarjetasMenu .postres div.sinGluten {
+  text-align: center;
+  padding: 30px 0;
+}
+section.tarjetasMenu .menuNiño {
+  padding-bottom: 20px;
+}
+section.tarjetasMenu .menuNiño h3 {
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+section.tarjetasMenu .postres {
+  margin: 25px 0;
+}
+
+.headerContacto section.titleHeader, .headerPizzas section.titleHeader, .headerPizzas section.titleHeaderPizzas {
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.headerContacto section.titleHeader span.reservarPedir, .headerPizzas section.titleHeader span.reservarPedir, .headerPizzas section.titleHeaderPizzas span.reservarPedir {
+  font-size: 20px;
+  padding-left: 5px;
+  font-family: "Lora", serif;
+}
+.headerContacto section.titleHeader h1, .headerPizzas section.titleHeader h1, .headerPizzas section.titleHeaderPizzas h1 {
+  font-size: 30px;
+  padding-left: 5px;
+  font-family: "Lora", serif;
+}
+
+/*-----------------------seccion tarjeta horarios Formulario---------------------*/
+section.horariosyForm {
+  width: 320px;
+}
+section.horariosyForm article.horarios {
+  width: 90%;
+  margin: 10px 5%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.horariosyForm article.horarios img {
+  width: 90%;
+  padding: 10px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.horariosyForm article.horarios h2 {
+  color: white;
+}
+section.horariosyForm article.horarios div.separador {
+  width: 100%;
+  margin: 10px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+section.horariosyForm article.horarios div.separador span {
+  color: white;
+}
+section.horariosyForm article.horarios div.separador img {
+  width: 35px;
+  background: transparent;
+}
+section.horariosyForm article.horarios section.horarioServicio {
+  width: 90%;
+  margin: 7px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia, section.horariosyForm article.horarios section.horarioServicio .servicioTarde, section.horariosyForm article.horarios section.horarioServicio .servicioPizza {
+  width: 100%;
+  margin: 7px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia h3, section.horariosyForm article.horarios section.horarioServicio .servicioTarde h3, section.horariosyForm article.horarios section.horarioServicio .servicioPizza h3 {
+  text-transform: uppercase;
+  color: white;
+}
+section.horariosyForm article.horarios section.horarioServicio .servicioMediodia p, section.horariosyForm article.horarios section.horarioServicio .servicioTarde p, section.horariosyForm article.horarios section.horarioServicio .servicioPizza p {
+  width: 80%;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+}
+section.horariosyForm article.horarios section.horarioServicio h3 {
+  padding: 20px 0;
+  width: 90%;
+  color: white;
+  text-align: center;
+}
+section.horariosyForm article.horarios section.horarioServicio button {
+  padding: 15px;
+  width: 70%;
+  margin: 20px 15%;
+  text-transform: uppercase;
+  background-color: #5bc548;
+  color: white;
+  font-family: "Baskervville SC", serif;
+  font-size: 16px;
+}
+section.horariosyForm article.horarios section.horarioServicio button a {
+  color: white;
+}
+
+/*-----------------------seccion contacto---------------------*/
+.contacto {
+  width: 310px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contacto .bg-input {
+  background-color: #e8e8e8;
+}
+.contacto .area {
+  resize: none;
+  width: 100%;
+  background-color: #e8e8e8;
+}
+.contacto button {
+  width: 30%;
+  padding: 7px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #e8e8e8;
+  transition: ease-in-out 1s;
+}
+.contacto button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+.contacto .numero-direccion {
+  padding: 20px 0;
+}
+
+section.enviosContacto h3 {
+  padding: 10px 0;
+}
+
 .seccionVideo {
   width: 320px;
 }
@@ -1772,19 +1742,4 @@ section.enviosContacto h3 {
   border: 1px solid white;
   width: 80%;
   margin: 10px 10%;
-  transition: all 0.5s;
-}
-.nuestrosProductos button.btn-home:hover {
-  background-color: white;
-  color: black;
-}
-.nuestrosProductos button.btn-home a {
-  color: white;
-  transition: 0.5s;
-}
-.nuestrosProductos button.btn-home a:hover {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */

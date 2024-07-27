@@ -1,25 +1,23 @@
-.seccionVideo{
-    width: 320px;
-
-    h1{
-        font-family: $fontPrincipal;
-        padding: 25px 5px;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 700;
-        font-style: normal;
-    }
-    p{
-        font-family: $fontPrincipal;
-        width: 92%;
-        margin: 15px 0;
-        margin-left: 5%;
-        margin-right: 3%;
-        font-size: 22px;
-    }
-    video{
-        width: 310px;
-        margin: 20px 5px;
-    }
-    
+.seccionVideo {
+  width: 320px;
+  h1 {
+    font-family: $fontPrincipal;
+    padding: 25px 5px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  p {
+    font-family: $fontPrincipal;
+    width: 92%;
+    margin: 15px 0;
+    margin-left: 5%;
+    margin-right: 3%;
+    font-size: 22px;
+  }
+  video {
+    width: 310px;
+    margin: 20px 5px;
+  }
 }

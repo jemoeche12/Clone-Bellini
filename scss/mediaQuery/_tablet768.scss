@@ -1,5 +1,6 @@
 @media (min-width: 321px) and (max-width: 768px) {
   /* --------------------------- SECCION INDEX -------------------*/
+  
   header {
     width: 100%;
     padding-top: 15px;
@@ -25,7 +26,6 @@
       flex-wrap: wrap;
       width: 100%;
       gap: 10px;
-      
     }
     a {
       text-align: center;
@@ -36,7 +36,6 @@
         color: black;
         padding: 5px;
         border-radius: 5px;
-        
       }
     }
   }
@@ -182,6 +181,7 @@
   }
 
   /*-------------------- SECCION PIZZAS -----------------*/
+  
   .headerPizzas {
     .titleHeaderPizzas {
       button {
@@ -229,6 +229,7 @@
     }
   }
   /*---------------------------SECCION MENU TABLET -------------*/
+  
   section.seccionMenu {
     width: 90%;
     text-align: center;
@@ -241,7 +242,6 @@
       background-color: $bgPrincipal;
       padding: 5px;
       width: 100%;
-
       h2 {
         padding: 5px;
         margin-bottom: 30px;
@@ -273,11 +273,11 @@
     }
   }
   /*----------------------------------- SECCION VINOS -------------------------*/
+  
   .headerVinos {
     width: 100%;
     background-size: cover;
   }
-  
   section.seccionVinos {
     width: 100%;
     height: max-content;
@@ -357,6 +357,7 @@
     }
   }
   /*------------------------------SECCION CONTACTOS --------------------*/
+  
   section.horariosyForm {
     width: 100%;
     .horarios {
