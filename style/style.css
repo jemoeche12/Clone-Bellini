@@ -350,6 +350,10 @@ section.opinion section.opiniones div.userName .nameDate {
 .headerPizzas .titleHeaderPizzas button a {
   color: white;
 }
+.headerPizzas .titleHeaderPizzas button a:hover {
+  color: white;
+  background-color: transparent;
+}
 
 section.variedadPizzas {
   width: 320px;
