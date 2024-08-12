@@ -1062,6 +1062,7 @@ section.enviosContacto h3 {
   section.variedadPizzas .pizzasRosas, section.variedadPizzas .pizzasBlancas, section.variedadPizzas .panuozzo {
     width: 100%;
     display: grid;
+    padding: 0 10%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 15% 1fr 1fr 1fr;
     justify-items: center;
@@ -1070,6 +1071,7 @@ section.enviosContacto h3 {
   }
   section.variedadPizzas .pizzasRosas .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaRosa, section.variedadPizzas .panuozzo .titlePizzaRosa, section.variedadPizzas .pizzasBlancas .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePizzaBlanca, section.variedadPizzas .panuozzo .titlePanuozzo {
     width: 100%;
+    
     grid-area: title;
   }
   section.variedadPizzas .pizzasRosas .margarita, section.variedadPizzas .pizzasBlancas .margarita, section.variedadPizzas .panuozzo .margarita {
