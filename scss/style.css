@@ -1742,4 +1742,105 @@ section.enviosContacto h3 {
   border: 1px solid white;
   width: 80%;
   margin: 10px 10%;
+}
+
+body {
+  background-image: url(/assets/img/fondos/burrata-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  width: 360px;
+}
+body .container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 30px;
+  color: white;
+  margin: 50px auto;
+}
+body .container #fecha {
+  padding: 7px 0;
+  margin-bottom: 7px;
+  color: white;
+}
+body .container .agregar-tareas {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 40px;
+  background-color: white;
+  height: 50px;
+  border-radius: 15px;
+}
+body .container .agregar-tareas input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+}
+body .container .agregar-tareas input::-moz-placeholder {
+  font-size: 1.2em;
+  color: black;
+  font-weight: 600;
+}
+body .container .agregar-tareas input::placeholder {
+  font-size: 1.2em;
+  color: black;
+  font-weight: 600;
+}
+body .container .agregar-tareas i {
+  font-size: 30px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  padding: 5px;
+  transition: ease-in 0.2s;
+}
+body .container .agregar-tareas i:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+body .container .seccion-tarea {
+  width: 100%;
+}
+body .container .seccion-tarea h3 {
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+body .container .seccion-tarea ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  padding: 15px 12px;
+  border-radius: 10px;
+  margin: 7px 0;
+}
+body .container .seccion-tarea ul li p {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0 5px;
+}
+body .container .seccion-tarea ul li i {
+  font-size: 20px;
+  transition: all 0.2s;
+}
+body .container .seccion-tarea ul li i:hover {
+  color: cyan;
+  cursor: pointer;
+}
+body .container .seccion-tarea ul li .realizadas {
+  text-decoration: line-through;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
